@@ -1,5 +1,42 @@
-.info {
-    font-size: large;
-    font-weight: bold;
-    color: black;
+.my-introduction {
+    background-color: bisque;
+    min-height: 400px;
+}
+
+.grid-picture {
+    display: inline-grid;
+    // background-color: greenyellow;
+
+    &__my-pic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.grid-info-about-me {
+    display: inline-grid;
+    // background-color: violet;
+
+    &__paragraph {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+
+        font-size: large;
+        font-weight: bold;
+        color: black;
+    }
+}
+
+.grid-links {
+    display: inline-grid;
+    // background-color: blue;
+
+    &__important {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
