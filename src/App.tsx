@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import './App.css';
 import MyIntroduction from './components/myIntroduction/MyIntroduction';
 import Projects from './components/projects/Projects';
+import ContactMe from './components/contactMe/ContactMe';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </Grid>
           <Grid item xs={12}>
             <Projects/>
+          </Grid>
+          <Grid item xs={12}>
+            <ContactMe/>
           </Grid>
         </Grid>
       </Container>
