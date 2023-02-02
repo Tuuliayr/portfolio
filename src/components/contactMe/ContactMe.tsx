@@ -47,7 +47,7 @@ const ContactMe: React.FC = () => {
             <TextField required fullWidth id="your-message" label="Message" variant="filled" multiline minRows={5} margin="normal" sx={{width: "50%"}}/>
         </div>
         <div>
-            <Button variant="contained" onClick={handleSubmit}> Contact </Button>
+            <Button type="submit" variant="contained"> Contact </Button>
         </div>
     </Box>
   );
