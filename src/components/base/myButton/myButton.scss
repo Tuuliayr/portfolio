@@ -1,0 +1,30 @@
+.default {
+    width: 8rem;
+    height: 3.5rem;
+    background-color: rgb(201, 45, 45) !important;
+    font-weight: bold !important;
+}
+
+.default:hover {
+    // background-color: rgb(17, 167, 204) !important;
+    background-color: rgb(243, 67, 67) !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.secondary {
+    width: 4rem;
+    height: 2.5rem;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    font-weight: bold !important;
+}
+
+.link {
+    color: whitesmoke !important;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: rgb(243, 67, 67) !important;
+    text-decoration: underline !important;
+}
