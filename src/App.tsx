@@ -11,7 +11,7 @@ function App() {
   return (
       <Container maxWidth="xl" className="app">
         <Grid container rowSpacing={20} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <Grid item xs={12}>
+          <Grid item xs={12} className="top">
             <LanguageSelector/>
             <MyIntroduction/>
           </Grid>
