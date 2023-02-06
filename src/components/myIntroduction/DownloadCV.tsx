@@ -1,10 +1,11 @@
 import React from 'react';
-import Button from '@mui/material/Button';
 import cv from "../../static/pdf/cv.pdf";
+import DownloadIcon from '@mui/icons-material/Download';
+import MyButton from '../base/myButton/MyButton';
 
 const DownloadCV: React.FC = () => {
 
-    const buttonClicked = () => {
+    const handleClick = () => {
         
         fetch(cv).then(response => {
             response.blob().then(blob => {
@@ -15,10 +16,17 @@ const DownloadCV: React.FC = () => {
                 alink.click();
             })
         })
-        
     }
 
-    return <Button variant="contained" onClick={buttonClicked}>CV.pdf</Button>
+    return (
+        <MyButton
+            variant="contained"
+            label="CV.PDF"
+            onClick={handleClick}
+            icon={<DownloadIcon/>}
+            size="large"
+        ></MyButton>
+    );
 
 }
 
