@@ -5,6 +5,9 @@ import Button from '@mui/material/Button';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { useTranslation } from 'react-i18next';
 import './contactMe.scss';
+import '../base/myTextField/myTextField.scss';
+import MyButton from '../base/myButton/MyButton';
+import MyTextfield from '../base/myTextField/MyTextField';
 
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
@@ -37,26 +40,47 @@ const ContactMe: React.FC = () => {
             target="_blank"
             className="contact-me"
         >
-            <h2 className="contact-title">
+            <h2 className="contact-me__title">
                 {t("contactMe.title")}
             </h2>
             <div>
-                <ArrowDownwardIcon className="arrow-downward"/>
+                <ArrowDownwardIcon className="contact-me__arrow-down"/>
             </div>
             <div>
-                <TextField required id="your-name" label={t("contactMe.name")} type="text" variant="filled" margin="normal" sx={{width: "50%"}} />
+                <MyTextfield
+                    id="your-name"
+                    className="text-field"
+                    label={t("contactMe.name")}
+                    type="text"
+                />
             </div>
             <div>
-                <TextField required id="your-email" label={t("contactMe.email")} type="email" variant="filled" margin="normal" sx={{width: "50%"}}/>
+                <MyTextfield
+                    id="your-email"
+                    className="text-field"
+                    label={t("contactMe.email")}
+                    type="email"
+                />
             </div>
             <div>
-                <TextField required id="your-subject" label={t("contactMe.subject")} type="text" variant="filled" margin="normal" sx={{width: "50%"}}/>
+                <MyTextfield
+                    id="your-subject"
+                    className="text-field"
+                    label={t("contactMe.subject")}
+                    type="text"
+                />
             </div>
             <div>
-                <TextField required fullWidth id="your-message" label={t("contactMe.message")} variant="filled" multiline minRows={5} margin="normal" sx={{width: "50%"}}/>
+                <MyTextfield
+                    id="your-message"
+                    className="text-field-multi"
+                    label={t("contactMe.message")}
+                    multiline
+                    minRows={5}
+                />
             </div>
-            <div>
-                <Button type="submit" variant="contained">{t("contactMe.submit")}</Button>
+            <div className="submit">
+                <MyButton submit variant="contained" label="contactMe.submit" size="large"></MyButton>
             </div>
         </Box>
     );

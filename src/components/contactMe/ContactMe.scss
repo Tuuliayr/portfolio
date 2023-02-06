@@ -1,3 +1,12 @@
 .contact-me {
-    
+    &__title {
+        color: whitesmoke;
+    // font-size: $font-17;
+    }
+
+    &__arrow-down {
+        font-size: 12rem !important;
+        color: rgb(201, 45, 45);
+        padding: 20px;
+    }
 }
