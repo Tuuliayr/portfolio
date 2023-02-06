@@ -11,7 +11,7 @@ i18n
             en: { translation: en },
         },
         lng: i18n.language,
-        fallbackLng: "fi",
+        fallbackLng: "en",
 
         interpolation: {
             escapeValue: false,
@@ -20,7 +20,7 @@ i18n
             loadPath: "/locales/{{lng}}.json",
         },
         react: {
-            bindI18n: "loaded languageChanges",
+            bindI18n: "loaded languageChanged",
             bindI18nStore: "added",
             useSuspense: true,
         },
