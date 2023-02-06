@@ -1,1 +1,14 @@
-{}
+{
+    "myIntroduction": {
+        "aboutMe": "Moi, mä oon Tuuli."
+    },
+
+    "contactMe": {
+        "title": "Jubaillaanko? Ota yhteyttä",
+        "name": "Nimesi",
+        "email": "Sähköpostisi",
+        "subject": "Aihe",
+        "message": "Viesti",
+        "submit": "Lähetä"
+    }
+}

@@ -1,1 +1,14 @@
-{}
+{
+    "myIntroduction": {
+        "aboutMe": "Hi, I'm Tuuli."
+    },
+
+    "contactMe": {
+        "title": "Contact me",
+        "name": "Your name",
+        "email": "Your email",
+        "subject": "Subject",
+        "message": "Message",
+        "submit": "Send"
+    }
+}
