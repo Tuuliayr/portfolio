@@ -1,4 +1,11 @@
 .app {
   text-align: center;
-  background-color: lightgray;
+  padding-bottom: 70px;
+  /* background-color: #2E2D29; */
+  /* 272320, 34302D */
+  /* background-image: url("./static/images/zinc.jpg"); */
 }
+
+/* .top { */
+  /* background-color: antiquewhite; */
+/* } */
