@@ -1,0 +1,35 @@
+.text-field {
+    width: 50%;
+
+    .MuiInputLabel-root {
+        color: whitesmoke !important;
+    }
+
+    input {
+        color: whitesmoke;
+    }
+
+    .css-15mnzpi-MuiInputBase-root-MuiFilledInput-root:before {
+        border-bottom: 1px solid rgb(201, 45, 45);
+    }
+
+    .css-15mnzpi-MuiInputBase-root-MuiFilledInput-root:after {
+        border-bottom: 1px solid whitesmoke;
+    }
+}
+
+.text-field-multi {
+    width: 50%;
+
+    .MuiInputLabel-root {
+        color: whitesmoke !important;
+    }
+
+    .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:before {
+        border-bottom: 1px solid rgb(201, 45, 45);
+    }
+
+    .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:after {
+        border-bottom: 1px solid whitesmoke;
+    }
+}
