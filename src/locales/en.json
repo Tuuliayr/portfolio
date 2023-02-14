@@ -4,11 +4,15 @@
     },
 
     "contactMe": {
-        "title": "Contact me",
+        "title": "Let's chat? Contact me",
         "name": "Your name",
         "email": "Your email",
         "subject": "Subject",
         "message": "Message",
         "submit": "Send"
+    },
+
+    "projects": {
+        "title": "Projects"
     }
 }

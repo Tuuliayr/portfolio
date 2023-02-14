@@ -10,5 +10,9 @@
         "subject": "Aihe",
         "message": "Viesti",
         "submit": "Lähetä"
+    },
+
+    "projects": {
+        "title": "Projektit"
     }
 }
