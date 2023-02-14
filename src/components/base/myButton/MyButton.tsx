@@ -4,7 +4,7 @@ import './myButton.scss';
 import { useTranslation } from 'react-i18next';
 
 interface Props {
-    type?: "default" | "link" | "secondary";
+    type?: "default" | "link" | "unselected" | "selected";
     variant: "contained" | "text" | "outlined";
     label: string;
     onClick?: () => void;

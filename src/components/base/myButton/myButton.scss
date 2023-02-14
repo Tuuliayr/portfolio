@@ -11,11 +11,25 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.secondary {
+.unselected {
     width: 4rem;
     height: 2.5rem;
-    color: whitesmoke;
-    border: 1px solid whitesmoke;
+    color: whitesmoke !important;
+    border: 1px solid whitesmoke !important;
+    font-weight: bold !important;
+}
+
+.unselected:hover {
+    color:rgb(243, 67, 67) !important;
+    border: 1px solid rgb(243, 67, 67) !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.selected {
+    width: 4rem;
+    height: 2.5rem;
+    background-color: whitesmoke !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
