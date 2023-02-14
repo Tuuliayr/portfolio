@@ -3,11 +3,17 @@ import Card from '@mui/material/Card';
 import { CardContent, CardMedia, Typography } from '@mui/material';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
-import myImage from "../../static/images/cat.jpg";
+import myImage from "../../static/images/myboxes.jpg";
+import './projectCard.scss';
 
 const ProjectCard: React.FC = () => {
     return (
         <Card>
+            <CardMedia
+                image={myImage}
+                title="pic"
+                className="card-pic"
+            />
             <CardContent>
                 <Typography gutterBottom variant="h5">
                     Title
@@ -26,10 +32,6 @@ const ProjectCard: React.FC = () => {
             <CardActions>
                 <Button size="small">Read more</Button>
             </CardActions>
-            <CardMedia 
-                sx={{ height: 400 }}
-                image={myImage}
-                title="pic"/>
         </Card>
     );
 }
