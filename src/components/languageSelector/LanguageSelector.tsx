@@ -23,10 +23,20 @@ const LanguageSelector: React.FC = () => {
         <Box className="language-selector">
             <Grid container direction="row" columnSpacing={2}>
                 <Grid item>
-                    <MyButton variant={selection === "en" ? "contained" : "outlined"} type={selection === "en" ? "selected" : "unselected"} label="EN" onClick={() => handleClick('en')}></MyButton>
+                    <MyButton 
+                        variant={selection === "en" ? "contained" : "outlined"}
+                        type={selection === "en" ? "selected" : "unselected"}
+                        label="EN"
+                        onClick={() => handleClick('en')}
+                    />
                 </Grid>
                 <Grid item>
-                    <MyButton variant={selection === "fi" ? "contained" : "outlined"} type={selection === "fi" ? "selected" : "unselected"} label="FI" onClick={() => handleClick('fi')}></MyButton>
+                    <MyButton
+                        variant={selection === "fi" ? "contained" : "outlined"}
+                        type={selection === "fi" ? "selected" : "unselected"}
+                        label="FI"
+                        onClick={() => handleClick('fi')}
+                    />
                 </Grid>
             </Grid>
         </Box>
