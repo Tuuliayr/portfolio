@@ -13,6 +13,27 @@
     },
 
     "projects": {
-        "title": "Projects"
+        "title": "Projects",
+        "thesis": {
+            "title": "UX and UI design of a Voting App (Thesis)",
+            "date": "Fall 2022",
+            "role": "My role: UX/UI designer",
+            "tech": "Technologies: Figma",
+            "desc": "Here is desc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        "farmers": {
+            "title": "Web application for farmers",
+            "date": "Spring 2021",
+            "role": "Developer",
+            "tech": "React, AWS",
+            "desc": "Here is description."
+        },
+        "mobileGame": {
+            "title": "Project Baltic: Save Baltic Sea the mobile game",
+            "date": "Kevät 2020",
+            "role": "Peligraafikko",
+            "tech": "Krita",
+            "desc": "Tässä on kuvaus."
+        }
     }
 }

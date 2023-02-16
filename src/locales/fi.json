@@ -13,6 +13,28 @@
     },
 
     "projects": {
-        "title": "Projektit"
+        "title": "Projektit",
+        "thesis": {
+            "title": "Äänestyssovelluksen UX- ja UI-suunnittelu (Opinnäytetyö)",
+            "date": "Syksy 2022",
+            "role": "Roolini: UX/UI-suunnittelija",
+            "tech": "Teknologiat: Figma",
+            "desc": "Tässä on kuvaus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        "farmersApp": {
+            "title": "Verkkosovellus maanviljelijöille",
+            "date": "Kevät 2020",
+            "role": "Ohjelmoija",
+            "tech": "React, AWS",
+            "desc": "Tässä on kuvaus."
+        },
+        "mobileGame": {
+            "title": "Project Baltic: Pelasta Itämeri mobiilipelillä",
+            "date": "Kevät 2020",
+            "role": "Peligraafikko",
+            "tech": "Krita",
+            "desc": "Tässä on kuvaus."
+        }
+
     }
 }
