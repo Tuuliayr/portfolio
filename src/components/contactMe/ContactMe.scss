@@ -1,3 +1,12 @@
+@keyframes bounce {
+    from { 
+        transform: translate3d(0, 0, 0);
+    }
+    to { 
+        transform: translate3d(0, 30px, 0);
+    }
+    }
+
 .contact-me {
     &__title {
         color: whitesmoke;
@@ -5,8 +14,14 @@
     }
 
     &__arrow-down {
-        font-size: 12rem !important;
-        color: rgb(201, 45, 45);
+        background-image: url("../../static/images/arrow-down.svg");
+        background-size: 12rem 12rem;
+        background-repeat: no-repeat;
+        background-position: center center;
         padding: 20px;
+
+        animation: bounce 0.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
     }
 }
