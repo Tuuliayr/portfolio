@@ -3,10 +3,14 @@ import Card from '@mui/material/Card';
 import { CardContent, CardMedia, Typography } from '@mui/material';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
-import myImage from "../../static/images/myboxes.jpg";
+import { useTranslation } from 'react-i18next';
+import myImage from "../../static/images/votingroom2.png";
 import './projectCard.scss';
 
 const ProjectCard: React.FC = () => {
+
+    const {t} = useTranslation();
+
     return (
         <Card>
             <CardMedia
@@ -16,17 +20,16 @@ const ProjectCard: React.FC = () => {
             />
             <CardContent>
                 <Typography gutterBottom variant="h5">
-                    Title
+                    {t("projects.thesis.title")}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    My role: Lorem ipsum dolor sit amet
+                    {t("projects.thesis.role")}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Technologies: Lorem ipsum dolor sit amet
+                    {t("projects.thesis.tech")}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                {t("projects.thesis.desc")}
                 </Typography>
             </CardContent>
             <CardActions>
