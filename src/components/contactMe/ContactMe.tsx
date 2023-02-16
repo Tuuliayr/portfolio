@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { useTranslation } from 'react-i18next';
 import './contactMe.scss';
 import '../base/myTextField/myTextField.scss';
@@ -43,9 +40,7 @@ const ContactMe: React.FC = () => {
             <h2 className="contact-me__title">
                 {t("contactMe.title")}
             </h2>
-            <div>
-                <ArrowDownwardIcon className="contact-me__arrow-down"/>
-            </div>
+            <svg className="contact-me__arrow-down"/>
             <div>
                 <MyTextfield
                     id="your-name"
