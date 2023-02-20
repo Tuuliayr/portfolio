@@ -22,7 +22,7 @@ const ProjectCard: React.FC = () => {
 		        <p> {t("projects.thesis.desc")} </p>
 		        <MyButton
                     variant="contained"
-                    label={t("projects.readMore")}
+                    label={t("buttons.readMore")}
                 />
 	        </figcaption>
         </figure>
