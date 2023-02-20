@@ -1,6 +1,7 @@
 {
     "buttons": {
-        "readMore": "Read more"
+        "readMore": "Read more",
+        "submit": "Send"
     },
     
     "myIntroduction": {
@@ -12,8 +13,7 @@
         "name": "Your name",
         "email": "Your email",
         "subject": "Subject",
-        "message": "Message",
-        "submit": "Send"
+        "message": "Message"
     },
 
     "projects": {

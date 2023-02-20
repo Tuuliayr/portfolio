@@ -1,6 +1,7 @@
 {
     "buttons": {
-        "readMore": "Lue lisää"
+        "readMore": "Lue lisää",
+        "submit": "Lähetä"
     },
 
     "myIntroduction": {
@@ -12,8 +13,7 @@
         "name": "Nimesi",
         "email": "Sähköpostisi",
         "subject": "Aihe",
-        "message": "Viesti",
-        "submit": "Lähetä"
+        "message": "Viesti"
     },
 
     "projects": {
