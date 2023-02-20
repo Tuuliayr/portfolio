@@ -6,6 +6,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import myImage from "../../static/images/votingroom.png";
 import './projectCard.scss';
+import MyButton from '../base/myButton/MyButton';
 
 const ProjectCard: React.FC = () => {
 
@@ -18,10 +19,11 @@ const ProjectCard: React.FC = () => {
 		        <h3>
                     {t("projects.thesis.title")}
 		        </h3>
-		        <p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-		        <button>
-			        Read more
-		        </button>
+		        <p> {t("projects.thesis.desc")} </p>
+		        <MyButton
+                    variant="contained"
+                    label={t("projects.readMore")}
+                />
 	        </figcaption>
         </figure>
 
