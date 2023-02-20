@@ -75,7 +75,7 @@ const ContactMe: React.FC = () => {
                 />
             </div>
             <div className="submit">
-                <MyButton submit variant="contained" label="contactMe.submit" size="large"></MyButton>
+                <MyButton submit variant="contained" label="buttons.submit" size="large"></MyButton>
             </div>
         </Box>
     );
