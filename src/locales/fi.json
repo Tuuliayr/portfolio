@@ -1,4 +1,8 @@
 {
+    "buttons": {
+        "readMore": "Lue lisää"
+    },
+
     "myIntroduction": {
         "aboutMe": "Moi, mä oon Tuuli."
     },
