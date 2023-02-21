@@ -1,8 +1,4 @@
 import React from 'react';
-// import Card from '@mui/material/Card';
-// import { CardContent, CardMedia, Typography } from '@mui/material';
-// import CardActions from '@mui/material/CardActions';
-// import Button from '@mui/material/Button';
 import { useTranslation } from 'react-i18next';
 import myImage from "../../static/images/votingroom.png";
 import './projectCard.scss';
@@ -19,38 +15,24 @@ const ProjectCard: React.FC = () => {
 		        <h3>
                     {t("projects.thesis.title")}
 		        </h3>
-		        <p> {t("projects.thesis.desc")} </p>
+                <p>
+                    {t("projects.thesis.date")}
+                </p>
+                <p>
+                    {t("projects.thesis.role")}
+                </p>
+                <p>
+                    {t("projects.thesis.tech")}
+                </p>
+		        <p>
+                    {t("projects.thesis.desc")}
+                </p>
 		        <MyButton
                     variant="contained"
                     label={t("buttons.readMore")}
                 />
 	        </figcaption>
         </figure>
-
-        // <Card>
-        //     <CardMedia
-        //         image={myImage}
-        //         title="pic"
-        //         className="card-pic"
-        //     />
-        //     <CardContent>
-        //         <Typography gutterBottom variant="h5">
-        //             {t("projects.thesis.title")}
-        //         </Typography>
-        //         <Typography variant="body2" color="text.secondary">
-        //             {t("projects.thesis.role")}
-        //         </Typography>
-        //         <Typography variant="body2" color="text.secondary">
-        //             {t("projects.thesis.tech")}
-        //         </Typography>
-        //         <Typography variant="body2" color="text.secondary">
-        //         {t("projects.thesis.desc")}
-        //         </Typography>
-        //     </CardContent>
-        //     <CardActions>
-        //         <Button size="small">Read more</Button>
-        //     </CardActions>
-        // </Card>
     );
 }
 
