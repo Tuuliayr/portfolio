@@ -73,7 +73,7 @@ const ContactMe: React.FC = () => {
                         minRows={5}
                     />
                 </div>
-                <div className="submit">
+                <div className="btn-align">
                     <MyButton submit variant="contained" label="buttons.submit" size="large"></MyButton>
                 </div>
             </form>
