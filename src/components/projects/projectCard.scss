@@ -51,15 +51,24 @@ figure {
 	overflow: hidden;
 	&:hover {
 		box-shadow: 
-			0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
+			// 0 14px 28px rgba(0,0,0,0.25), 
+			// 0 10px 10px rgba(0,0,0,0.22);
+			
+			// 0 14px 28px rgb(201, 45, 45),
+			// 0 10px 10px rgb(201, 45, 45);
+
+			// 0 14px 28px rgb(23, 72, 51),
+			// 0 10px 10px rgb(23, 72, 51);
+
+			0 14px 28px whitesmoke,
+			0 10px 10px rgb(23, 72, 51);
 		// h1 {
 		// 	opacity: 0;
 		// 	transform: scale(0.7);
 		// }
-		img {
-			transform: scale(1.25);
-		}
+		// img {
+		// 	transform: scale(1.25);
+		// }
 		figcaption {
 			bottom: 0;
 		}
