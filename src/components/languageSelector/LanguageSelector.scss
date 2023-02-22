@@ -1,11 +1,8 @@
 .languages-container {
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    // float: right;
-
-    // padding: 20px;
-    // margin: 10px;
 }
 
 .language-en {
@@ -16,5 +13,3 @@
 .language-fi {
     order: 2;
 }
-
-
