@@ -10,8 +10,8 @@ const MyIntroduction: React.FC = () => {
     return (
         <div className="my-intro-container">
             <div className="my-pic">
-                 <MyPicture/>
-             </div>
+                <MyPicture/>
+            </div>
             <div className="about-me">
                 <p className="about-me__p">
                     {t("myIntroduction.aboutMe")}
