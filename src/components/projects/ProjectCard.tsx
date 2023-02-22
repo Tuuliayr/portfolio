@@ -27,10 +27,12 @@ const ProjectCard: React.FC = () => {
 		        <p>
                     {t("projects.thesis.desc")}
                 </p>
-		        <MyButton
-                    variant="contained"
-                    label={t("buttons.readMore")}
-                />
+                <div className="btn-align">
+                    <MyButton
+                        variant="contained"
+                        label={t("buttons.readMore")}
+                    />
+                </div>
 	        </figcaption>
         </figure>
     );
