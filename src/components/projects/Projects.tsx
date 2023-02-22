@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
 
     return (
         <div className="projects">
-            <h2>{t("projects.title")}</h2>
+            <h2 className="projects__title">{t("projects.title")}</h2>
             <div className="project-cards-container">
                 <ProjectCard/>
                 <ProjectCard/>
