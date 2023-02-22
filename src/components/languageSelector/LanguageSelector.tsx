@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
+// import Box from '@mui/material/Box';
+// import Grid from '@mui/material/Grid';
 import './languageSelector.scss';
 import MyButton from '../base/myButton/MyButton';
 import { useTranslation } from 'react-i18next';
@@ -20,26 +20,47 @@ const LanguageSelector: React.FC = () => {
     }
 
     return (
-        <Box className="language-selector">
-            <Grid container direction="row" columnSpacing={2}>
-                <Grid item>
+        // <div className="language-selector">
+        //     <Grid container direction="row" columnSpacing={2}>
+        //         <Grid item>
+        //             <MyButton 
+        //                 variant={selection === "en" ? "contained" : "outlined"}
+        //                 type={selection === "en" ? "selected" : "unselected"}
+        //                 label="EN"
+        //                 onClick={() => handleClick('en')}
+        //             />
+        //         </Grid>
+        //         <Grid item>
+        //             <MyButton
+        //                 variant={selection === "fi" ? "contained" : "outlined"}
+        //                 type={selection === "fi" ? "selected" : "unselected"}
+        //                 label="FI"
+        //                 onClick={() => handleClick('fi')}
+        //             />
+        //         </Grid>
+        //     </Grid>
+        // </div>
+
+        <div className="languages-container">
+                <div className="language-en">
                     <MyButton 
                         variant={selection === "en" ? "contained" : "outlined"}
                         type={selection === "en" ? "selected" : "unselected"}
                         label="EN"
                         onClick={() => handleClick('en')}
                     />
-                </Grid>
-                <Grid item>
+                </div>
+                <div className="language-fi">
                     <MyButton
                         variant={selection === "fi" ? "contained" : "outlined"}
                         type={selection === "fi" ? "selected" : "unselected"}
                         label="FI"
                         onClick={() => handleClick('fi')}
                     />
-                </Grid>
-            </Grid>
-        </Box>
+                </div>
+        </div>
+
+
     );
 }
 

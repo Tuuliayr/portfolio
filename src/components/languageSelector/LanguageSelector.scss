@@ -1,5 +1,20 @@
-.language-selector {
-    float: right;
+.languages-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    // float: right;
+
     // padding: 20px;
     // margin: 10px;
 }
+
+.language-en {
+    order: 1;
+    margin-right: 10px;
+}
+
+.language-fi {
+    order: 2;
+}
+
+
