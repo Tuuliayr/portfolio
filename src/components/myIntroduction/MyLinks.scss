@@ -1,3 +1,16 @@
-// .my-links {
-//     // background-color: orange;
-// }
+.links-container {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.links-linkedin {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.links-github {
+    margin-bottom: 24px;
+    text-align: center;
+}
