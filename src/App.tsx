@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.scss';
 import LanguageSelector from './components/languageSelector/LanguageSelector';
 import MyIntroduction from './components/myIntroduction/MyIntroduction';
 import Projects from './components/projects/Projects';
