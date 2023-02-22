@@ -1,5 +1,4 @@
 import React from 'react';
-import Grid from '@mui/material/Grid';
 import MyPicture from './MyPicture';
 import MyLinks from './MyLinks';
 import './myIntroduction.scss';
@@ -9,25 +8,18 @@ const MyIntroduction: React.FC = () => {
     const {t} = useTranslation();
 
     return (
-        <div>
-            <Grid container direction="row" className="my-introduction">
-                <Grid item xs={3} className="grid-picture">
-                    <div className="grid-picture__my-pic">
-                        <MyPicture/>
-                    </div>
-                </Grid>
-                <Grid item xs={7} className="grid-about-me">
-                    <p className="grid-about-me__paragraph">
-                        {t("myIntroduction.aboutMe")}
-                    </p>
-                </Grid>
-                <Grid item xs={2} className="grid-links">
-                    <div className="grid-links__important">
-                        <MyLinks/>
-                    </div>
-                </Grid>
-                
-            </Grid>
+        <div className="my-intro-container">
+            <div className="my-pic">
+                 <MyPicture/>
+             </div>
+            <div className="about-me">
+                <p className="about-me__p">
+                    {t("myIntroduction.aboutMe")}
+                </p>
+            </div>
+            <div className="my-links">
+                <MyLinks/>
+            </div>
         </div>
     );
 }
