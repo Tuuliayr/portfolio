@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Box from '@mui/material/Box';
 import { useTranslation } from 'react-i18next';
 import './contactMe.scss';
 import '../base/myTextField/myTextField.scss';
@@ -29,56 +28,57 @@ const ContactMe: React.FC = () => {
     }
 
     return (
-        <Box
-            component="form"
-            action={FORM_ENDPOINT}
-            onSubmit={handleSubmit}
-            method="POST"
-            target="_blank"
-            className="contact-me"
-        >
+        <div className="contact-me">
             <h2 className="contact-me__title">
                 {t("contactMe.title")}
             </h2>
-            <svg className="contact-me__arrow-down"/>
-            <div>
-                <MyTextfield
-                    id="your-name"
-                    className="text-field"
-                    label={t("contactMe.name")}
-                    type="text"
-                />
-            </div>
-            <div>
-                <MyTextfield
-                    id="your-email"
-                    className="text-field"
-                    label={t("contactMe.email")}
-                    type="email"
-                />
-            </div>
-            <div>
-                <MyTextfield
-                    id="your-subject"
-                    className="text-field"
-                    label={t("contactMe.subject")}
-                    type="text"
-                />
-            </div>
-            <div>
-                <MyTextfield
-                    id="your-message"
-                    className="text-field-multi"
-                    label={t("contactMe.message")}
-                    multiline
-                    minRows={5}
-                />
-            </div>
-            <div className="submit">
-                <MyButton submit variant="contained" label="buttons.submit" size="large"></MyButton>
-            </div>
-        </Box>
+            <svg className="arrow-down"/>
+            <form
+                action={FORM_ENDPOINT}
+                onSubmit={handleSubmit}
+                method="POST"
+                target="_blank"
+                className="contact-me__form"
+            >
+                <div>
+                    <MyTextfield
+                        id="your-name"
+                        className="text-field"
+                        label={t("contactMe.name")}
+                        type="text"
+                    />
+                </div>
+                <div>
+                    <MyTextfield
+                        id="your-email"
+                        className="text-field"
+                        label={t("contactMe.email")}
+                        type="email"
+                    />
+                </div>
+                <div>
+                    <MyTextfield
+                        id="your-subject"
+                        className="text-field"
+                        label={t("contactMe.subject")}
+                        type="text"
+                    />
+                </div>
+                <div>
+                    <MyTextfield
+                        id="your-message"
+                        className="text-field-multi"
+                        label={t("contactMe.message")}
+                        multiline
+                        minRows={5}
+                    />
+                </div>
+                <div className="submit">
+                    <MyButton submit variant="contained" label="buttons.submit" size="large"></MyButton>
+                </div>
+            </form>
+        </div>
     );
-    };
+};
 
 export default ContactMe;
