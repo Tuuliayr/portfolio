@@ -23,7 +23,7 @@ const DownloadCV: React.FC = () => {
             variant="contained"
             label="CV.PDF"
             onClick={handleClick}
-            icon={<DownloadIcon/>}
+            startIcon={<DownloadIcon/>}
             size="large"
         ></MyButton>
     );
