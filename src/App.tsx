@@ -3,6 +3,7 @@ import LanguageSelector from './components/languageSelector/LanguageSelector';
 import MyIntroduction from './components/myIntroduction/MyIntroduction';
 import Projects from './components/projects/Projects';
 import ContactMe from './components/contactMe/ContactMe';
+import Footer from './components/footer/Footer';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <MyIntroduction/>
             <Projects/>
             <ContactMe/>
+            <Footer/>
         </>
     );
 }
