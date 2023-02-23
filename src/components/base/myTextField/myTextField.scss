@@ -5,6 +5,14 @@
         color: whitesmoke !important;
     }
 
+    .MuiInputBase-input {
+        background-color: rgba(0,0,0,0.35);
+    }
+
+    .MuiInputBase-input:hover {
+        background-color: rgba(0,0,0,0.25);
+    }
+
     input {
         color: whitesmoke;
     }
@@ -23,6 +31,18 @@
 
     .MuiInputLabel-root {
         color: whitesmoke !important;
+    }
+
+    .MuiFilledInput-root {
+        background-color: rgba(0,0,0,0.35);
+    }
+
+    .MuiFilledInput-root.Mui-focused {
+        background-color: rgba(0,0,0,0.35);
+    }
+
+    .MuiFilledInput-root:hover {
+        background-color: rgba(0,0,0,0.25);
     }
 
     .css-7209ej-MuiInputBase-input-MuiFilledInput-input {
