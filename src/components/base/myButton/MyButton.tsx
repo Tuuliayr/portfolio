@@ -9,12 +9,13 @@ interface Props {
     label: string;
     onClick?: () => void;
     submit?: boolean;
-    icon?: React.ReactNode;
+    startIcon?: React.ReactNode;
+    endIcon?: React.ReactNode; 
     link?: string;
     size?: "small" | "medium" | "large";
 } 
 
-const MyButton: React.FC<Props> = ({ type = "default", variant, label, onClick, submit, icon, link, size="medium"}) => {
+const MyButton: React.FC<Props> = ({ type = "default", variant, label, onClick, submit, startIcon, endIcon, link, size="medium"}) => {
     const {t} = useTranslation();
 
     return (
@@ -23,7 +24,8 @@ const MyButton: React.FC<Props> = ({ type = "default", variant, label, onClick, 
             className={type}
             onClick={onClick}
             type={submit ? "submit" : "button"}
-            startIcon={icon}
+            startIcon={startIcon}
+            endIcon={endIcon}
             href={link}
             size={size}
         >
