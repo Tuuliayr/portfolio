@@ -28,7 +28,7 @@ const ContactMe: React.FC = () => {
     }
 
     return (
-        <div className="contact-me">
+        <div className="contact-me" id="contactMe">
             <h2 className="contact-me__title">
                 {t("contactMe.title")}
             </h2>
