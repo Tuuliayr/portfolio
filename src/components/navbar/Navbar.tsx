@@ -9,32 +9,9 @@ const Navbar: React.FC = () => {
 
     const {t} = useTranslation();
 
-    const [scrolled, setScrolled] = React.useState(false);
-
-    const handleScroll=() => {
-        const offset=window.scrollY;
-        
-        if (offset > 100 )  {
-            setScrolled(true);
-        }
-        else {
-            setScrolled(false);
-        }
-    }
-
-    useEffect(() => {
-        window.addEventListener('scroll',handleScroll)
-    })
-
-    let navbar = ['navbar'];
-
-    if (scrolled) {
-        navbar.push('scrolled');
-    }
-
     return (
         <BrowserRouter>
-            <div className={navbar.join(" ")}>
+            <div className="navbar">
                 <div className="nav-links">
                     <Link to ="#myIntro" smooth>
                         {t("navigation.about")}
