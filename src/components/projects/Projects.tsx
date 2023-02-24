@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
     const {t} = useTranslation();
 
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <h2 className="projects__title">{t("projects.title")}</h2>
             <div className="project-cards-container">
                 <ProjectCard/>
