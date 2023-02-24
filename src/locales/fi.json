@@ -4,6 +4,12 @@
         "submit": "Lähetä"
     },
 
+    "navigation": {
+        "about": "Minä",
+        "work": "Projektit",
+        "contact": "Ota yhteyttä"
+    },
+
     "myIntroduction": {
         "aboutMe": "Moi, mä oon Tuuli."
     },

@@ -3,6 +3,12 @@
         "readMore": "Read more",
         "submit": "Send"
     },
+
+    "navigation": {
+        "about": "About me",
+        "work": "Projects",
+        "contact": "Contact me"
+    },
     
     "myIntroduction": {
         "aboutMe": "Hi, I'm Tuuli."
