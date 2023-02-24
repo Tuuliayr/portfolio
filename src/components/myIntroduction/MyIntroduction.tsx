@@ -8,7 +8,7 @@ const MyIntroduction: React.FC = () => {
     const {t} = useTranslation();
 
     return (
-        <div className="my-intro-container">
+        <div className="my-intro-container" id="myIntro">
             <div className="my-pic">
                 <MyPicture/>
             </div>
