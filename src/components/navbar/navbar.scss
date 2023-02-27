@@ -23,11 +23,11 @@
     white-space: nowrap;
 }
 
-.navbar a:hover {
+.navbar a:hover, .pointer{
     color: rgb(243, 67, 67);
     font-weight: bolder;
     text-shadow: 0 1px 0 rgb(243, 67, 67);
-    // font-weight: bold;
+    cursor: pointer;
 }
 
 .nav-links {
