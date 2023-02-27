@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 import "./navbar.scss";
 import LanguageSelector from '../languageSelector/LanguageSelector';
@@ -13,20 +13,32 @@ const Navbar: React.FC = () => {
             <div className="navbar">
                 <div className="nav-links">
                     <Link
-                        to="#aboutMe"
-                        smooth
+                        activeClass="active"
+                        to="aboutMe"
+                        smooth={true}
+                        spy={true}
+                        offset={-108}
+                        duration={500}
                     >
                         {t("navigation.about")}
                     </Link>
                     <Link
-                        to="#projects"
-                        smooth
+                        activeClass="active"
+                        to="projects"
+                        smooth={true}
+                        spy={true}
+                        offset={-30}
+                        duration={500}
                     >
                         {t("navigation.work")}
                     </Link>
                     <Link
-                        to="#contactMe"
-                        smooth
+                        activeClass="active"
+                        to="contactMe"
+                        smooth={true}
+                        spy={true}
+                        offset={-80}
+                        duration={500}
                     >
                         {t("navigation.contact")}
                     </Link>
