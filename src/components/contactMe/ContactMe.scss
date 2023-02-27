@@ -3,7 +3,7 @@
         transform: translate3d(0, 0, 0);
     }
     to { 
-        transform: translate3d(0, 30px, 0);
+        transform: translate3d(0, 24px, 0);
     }
 }
 
@@ -27,7 +27,7 @@
 
 .arrow-down {
     background-image: url("../../static/images/arrow-down.svg");
-    background-size: 12rem 12rem;
+    background-size: 8rem 8rem;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px;
