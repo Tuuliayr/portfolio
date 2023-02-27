@@ -6,20 +6,28 @@ import "./navbar.scss";
 import LanguageSelector from '../languageSelector/LanguageSelector';
 
 const Navbar: React.FC = () => {
-
     const {t} = useTranslation();
 
     return (
         <BrowserRouter>
             <div className="navbar">
                 <div className="nav-links">
-                    <Link to ="#myIntro" smooth>
+                    <Link
+                        to="#aboutMe"
+                        smooth
+                    >
                         {t("navigation.about")}
                     </Link>
-                    <Link to ="#projects" smooth>
+                    <Link
+                        to="#projects"
+                        smooth
+                    >
                         {t("navigation.work")}
                     </Link>
-                    <Link to ="#contactMe" smooth>
+                    <Link
+                        to="#contactMe"
+                        smooth
+                    >
                         {t("navigation.contact")}
                     </Link>
                 </div>
