@@ -5,9 +5,9 @@
     },
 
     "navigation": {
-        "about": "About me",
+        "about": "About",
         "work": "Projects",
-        "contact": "Contact me"
+        "contact": "Contact"
     },
     
     "myIntroduction": {
