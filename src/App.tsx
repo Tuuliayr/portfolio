@@ -7,7 +7,7 @@ import Footer from './components/footer/Footer';
 
 function App() {
     return (
-        <div className="app" id="aboutMe">
+        <div className="app">
             <MyIntroduction/>
             <Projects/>
             <ContactMe/>
