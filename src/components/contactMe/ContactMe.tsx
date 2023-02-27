@@ -70,7 +70,7 @@ const ContactMe: React.FC = () => {
                         className="text-field-multi"
                         label={t("contactMe.message")}
                         multiline
-                        minRows={5}
+                        minRows={6}
                     />
                 </div>
                 <div className="btn-align">
