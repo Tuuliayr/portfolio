@@ -14,18 +14,30 @@
     z-index: 999;
 }
 
-a {
+.navbar a {
     color: whitesmoke;
     font-weight: bolder;
     text-decoration: none;
     margin-right: 32px;
+    text-align: center;
+    white-space: nowrap;
 }
 
-a:hover {
+.navbar a:hover {
     color: rgb(243, 67, 67);
     font-weight: bolder;
+    text-shadow: 0 1px 0 rgb(243, 67, 67);
+    // font-weight: bold;
 }
 
 .nav-links {
-    margin-right: 32px;
+    margin-right: 16px;
 }
+
+// .link-inactive {
+
+// }
+
+// .link-active {
+    
+// }
