@@ -7,7 +7,6 @@
 }
 
 .default:hover {
-    // background-color: rgb(17, 167, 204) !important;
     background-color: rgb(243, 67, 67) !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -35,11 +34,14 @@
 }
 
 .link {
+    font-size: 1.12rem !important;
     color: whitesmoke !important;
+    text-transform: capitalize !important;
 }
 
 .link:hover {
-    color: rgb(243, 67, 67) !important;
+    color: whitesmoke !important;
+    text-shadow: 2px 2px 5px whitesmoke;
     text-decoration: underline !important;
 }
 
