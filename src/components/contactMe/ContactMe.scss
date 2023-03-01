@@ -20,6 +20,18 @@
         width: 50%;
         text-align: center;
     }
+
+    &__p {
+        padding-top: 16px;
+    }
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(243, 67, 67);
 }
 
 .arrow-down {
