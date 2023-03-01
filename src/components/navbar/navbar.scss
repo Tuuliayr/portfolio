@@ -14,21 +14,33 @@
     z-index: 999;
 }
 
-.navbar a {
+.nav-links a {
+    height: 100%;
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+
     color: whitesmoke;
     font-weight: bolder;
     text-decoration: none;
-    margin-right: 32px;
+    // margin-right: 16px;
     text-align: center;
     white-space: nowrap;
 }
 
-.navbar a:hover, .pointer{
+.nav-links a:hover, .pointer {
     cursor: pointer;
+    background-color: rgb(26, 26, 26);
 }
 
 .nav-links {
-    margin-right: 16px;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 32px;
+    gap: 16px;
 }
 
 .nav-links > .active {
