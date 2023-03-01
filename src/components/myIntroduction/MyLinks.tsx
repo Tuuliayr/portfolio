@@ -29,7 +29,7 @@ const MyLinks: React.FC = () => {
                 <MyButton
                     variant="text"
                     type="link"
-                    label="Github"
+                    label="GitHub"
                     size="large"
                     startIcon={<GitHubIcon/>}
                     endIcon={<OpenInNewIcon/>}
