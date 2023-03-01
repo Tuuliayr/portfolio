@@ -22,7 +22,7 @@ const MyLinks: React.FC = () => {
                     size="large"
                     startIcon={<LinkedInIcon/>}
                     endIcon={<OpenInNewIcon/>}
-                    onClick={() => handleClick("https://www.linkedin.com/")}
+                    onClick={() => handleClick("http://www.linkedin.com/in/tuuli-ayravainen")}
                 />
             </div>
             <div className="links-github">
