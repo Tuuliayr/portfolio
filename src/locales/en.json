@@ -15,7 +15,9 @@
     },
 
     "contactMe": {
-        "title": "Let's chat? Contact me",
+        "title": "Contact me",
+        "desc": "Fill out the form below or send me a message on ",
+        "linkedin": "Linkedin.",
         "name": "Your name",
         "email": "Your email",
         "subject": "Subject",

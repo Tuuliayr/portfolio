@@ -15,7 +15,9 @@
     },
 
     "contactMe": {
-        "title": "Jubaillaanko? Ota yhteyttä",
+        "title": "Ota yhteyttä",
+        "desc": "Täytä alla oleva lomake tai lähetä minulle viesti ",
+        "linkedin": "LinkedInissä.",
         "name": "Nimesi",
         "email": "Sähköpostisi",
         "subject": "Aihe",
