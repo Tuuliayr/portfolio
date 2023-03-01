@@ -29,7 +29,7 @@ const ContactMe: React.FC = () => {
 
     return (
         <div className="contact-me" id="contactMe">
-            <h2 className="contact-me__title">
+            <h2>
                 {t("contactMe.title")}
             </h2>
             <svg className="arrow-down"/>
