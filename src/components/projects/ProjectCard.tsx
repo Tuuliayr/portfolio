@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import myImage from "../../static/images/votingroom.png";
+import myImage from "../../static/images/bakery-app-home.png";
 import './projectCard.scss';
 import MyButton from '../base/myButton/MyButton';
 
