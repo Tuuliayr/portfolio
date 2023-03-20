@@ -1,31 +1,40 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import myImage from "../../static/images/bakery-app-home.png";
 import './projectCard.scss';
 import MyButton from '../base/myButton/MyButton';
 
-const ProjectCard: React.FC = () => {
+interface Props {
+    title: string;
+    date: string;
+    role: string;
+    tech: string;
+    desc: string;
+    myImg: string;
+    myImgAlt: string;
+}
+
+const ProjectCard: React.FC<Props> = ({title, date, role, tech, desc, myImg, myImgAlt}) => {
 
     const {t} = useTranslation();
 
     return (
         <figure className="image-block">
-            <img src={myImage} alt="" />
+            <img src={myImg} alt={myImgAlt} />
 	        <figcaption>
 		        <h3>
-                    {t("projects.thesis.title")}
+                    {t(title)}
 		        </h3>
                 <p>
-                    {t("projects.thesis.date")}
+                    {t(date)}
                 </p>
                 <p>
-                    {t("projects.thesis.role")}
+                    {t(role)}
                 </p>
                 <p>
-                    {t("projects.thesis.tech")}
+                    {t(tech)}
                 </p>
 		        <p>
-                    {t("projects.thesis.desc")}
+                    {t(desc)}
                 </p>
                 <div className="btn-align">
                     <MyButton
