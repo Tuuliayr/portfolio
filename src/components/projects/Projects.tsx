@@ -11,9 +11,9 @@ const Projects: React.FC = () => {
 
     return (
         <div className="projects" id="projects">
-            <h2 className="projects__title">
+            <h1 className="projects__title">
                 {t("projects.title")}
-            </h2>
+            </h1>
             <div className="project-cards-container">
                 <ProjectCard 
                     title={t("projects.bakeryApp.title")}
