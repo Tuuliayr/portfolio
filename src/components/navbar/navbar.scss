@@ -32,6 +32,7 @@
 .nav-links a:hover, .pointer {
     cursor: pointer;
     background-color: $navbar-links-hover;
+    color: $font-color-primary;
 }
 
 .nav-links {
