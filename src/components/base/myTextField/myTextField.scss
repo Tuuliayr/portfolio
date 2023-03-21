@@ -1,6 +1,25 @@
-.text-field {
-    width: 60%;
+@media (min-width: $xs) {
+    .text-field {
+        width: 80%;
+    }
 
+    .text-field-multi {
+        width: 80%;
+    }
+}
+
+@media (min-width: $xl) {
+    .text-field {
+        width: 60%;
+    }
+
+    .text-field-multi {
+        width: 60%;
+    }
+}
+
+
+.text-field {
     .MuiInputLabel-root {
         color: $font-color-primary !important;
     }
@@ -27,8 +46,6 @@
 }
 
 .text-field-multi {
-    width: 60%;
-
     .MuiInputLabel-root {
         color: $font-color-primary !important;
     }

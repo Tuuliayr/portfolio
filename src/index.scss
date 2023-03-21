@@ -24,12 +24,29 @@ body {
     justify-content: center;
 }
 
-h1 {
-    font-size: $h1-font-size-desktop;
-    color: $font-color-primary;
+@media (min-width: $xs) {
+    h1 {
+        font-size: $h1-font-size;
+        color: $font-color-primary;
+    }
+
+    p {
+        font-size: $body-font-size;
+    }
+}
+
+@media (min-width: $xl) {
+    h1 {
+        font-size: $h1-font-size-desktop;
+        color: $font-color-primary;
+    }
+
+    p {
+        font-size: $body-font-size-desktop;
+    }
 }
 
 p {
-    font-size: $body-font-size;
     color: $font-color-primary;
+    text-align: center;
 }

@@ -1,3 +1,23 @@
+@media (min-width: $xs) {
+    .language-en {
+        margin-right: 8px;
+    }
+    
+    .language-fi {
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: $xl) {
+    .language-en {
+        margin-right: 16px;
+    }
+    
+    .language-fi {
+        margin-right: 72px;
+    }
+}
+
 .languages-container {
     width: 100%;
     display: flex;
@@ -7,10 +27,8 @@
 
 .language-en {
     order: 1;
-    margin-right: 16px;
 }
 
 .language-fi {
     order: 2;
-    margin-right: 72px;
 }
