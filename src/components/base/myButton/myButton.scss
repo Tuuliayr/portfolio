@@ -1,19 +1,13 @@
 .default {
     width: 8rem;
     height: 3.5rem;
-    // background-color: rgb(201, 45, 45) !important;
-    // background-color: rgb(59, 255, 213) !important;
-    background-color: #72d4a3 !important;
-    // #421529
-    // #5A0124
-    // #b62579
+    background-color: #66daa0 !important;
     color: black !important;
     font-weight: bold !important;
 }
 
 .default:hover {
-    // background-color: rgb(243, 67, 67) !important;
-    background-color: #91d8b5 !important;
+    background-color: #43ffa1 !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -26,8 +20,8 @@
 }
 
 .unselected:hover {
-    color:#72d4a3 !important;
-    border: 1px solid #72d4a3 !important;
+    color:#66daa0 !important;
+    border: 1px solid #66daa0 !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -46,8 +40,7 @@
 }
 
 .link:hover {
-    color: whitesmoke !important;
-    text-shadow: 2px 2px 5px #72d4a3;
+    color: #43ffa1 !important;
     text-decoration: underline !important;
 }
 
