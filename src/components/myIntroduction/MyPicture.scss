@@ -1,0 +1,13 @@
+@media (min-width: $xs) {
+    .my-pic {
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+
+@media (min-width: $xl) {
+    .my-pic {
+        width: 300px !important;
+        height: 300px !important;
+    }
+}

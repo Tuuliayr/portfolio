@@ -1,12 +1,59 @@
+@media (min-width: $xs) {
+    .my-intro-container {
+        flex-flow: column wrap;
+        min-height: 832px;
+        margin-top: 16px;
+    }
+
+    .greeting {
+        width: 80%;
+    
+        &__p {
+            font-size: $font-24;
+        }
+    }
+    
+    .about-me {
+        width: 80%;
+    
+        &__p {
+            padding-top: 16px;
+            font-size: $font-16;
+        }
+    }
+}
+
+@media (min-width: $xl) {
+    .my-intro-container {
+        flex-flow: row wrap;
+        min-height: 832px;
+        margin-top: 24px;
+    }
+
+    .greeting {
+        &__p {
+            font-size: $font-24;
+        }
+    }
+    
+    .about-me {
+        width: 33%;
+    
+        &__p {
+            padding: 30px;
+            font-size: $font-32;
+        }
+    }
+}
+
+// For all screen sizes
+
 .my-intro-container {
     width: 100%;
-    min-height: 832px;
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    margin-top: 24px;
 }
 
 .my-intro-container:before {
@@ -24,12 +71,10 @@
 
 .my-pic {
     order: 1;
-
 }
 
-.about-me {
+.greeting {
     order: 2;
-    width: 600px;
     height: 100%;
     z-index: 999;
 
@@ -37,8 +82,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 30px;
-        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+.about-me {
+    order: 3;
+    height: 100%;
+    z-index: 99;
+
+    &__p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 16px;
+        font-size: $font-16;
     }
 }
 
@@ -48,6 +106,9 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
 
 
 
