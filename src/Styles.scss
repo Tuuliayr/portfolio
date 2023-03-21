@@ -1,0 +1,34 @@
+// Base
+@import "components/base/colors.scss";
+@import "components/base/variables.scss";
+@import "components/base/breakpoints.scss";
+
+@import "components/base/myButton/myButton.scss";
+@import "components/base/myTextField/myTextField.scss";
+
+// Navbar
+@import "components/navBar/navbar.scss";
+
+// Languages
+@import "components/languageSelector/languageSelector.scss";
+
+// About
+@import "components/myIntroduction/myIntroduction.scss";
+@import "components/myIntroduction/myLinks.scss";
+@import "components/myIntroduction/myPicture.scss";
+
+// Projects
+@import "components/projects/projects.scss";
+@import "components/projects/projectCard.scss";
+
+// Contact me
+@import "components/contactMe/contactMe.scss";
+
+// Footer
+@import "components/footer/footer.scss";
+
+// Root styles
+@import "App.scss";
+@import "index.scss";
+
+
