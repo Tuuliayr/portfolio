@@ -24,11 +24,12 @@ body {
     justify-content: center;
 }
 
-h2 {
-    font-size: 3rem;
-    color: whitesmoke;
+h1 {
+    font-size: $h1-font-size-desktop;
+    color: $font-color-primary;
 }
 
 p {
-    color: whitesmoke;
+    font-size: $body-font-size;
+    color: $font-color-primary;
 }
