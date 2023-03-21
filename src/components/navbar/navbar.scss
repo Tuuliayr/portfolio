@@ -22,7 +22,7 @@
     padding: 16px;
     align-items: center;
 
-    color: whitesmoke;
+    color: $font-color-primary;
     font-weight: bolder;
     text-decoration: none;
     text-align: center;
@@ -43,6 +43,6 @@
 }
 
 .nav-links > .active {
-    color: #66daa0;
-    text-shadow: 0 1px 0 #66daa0;
+    color: $color-secondary;
+    text-shadow: 0 1px 0 $color-secondary;
 }

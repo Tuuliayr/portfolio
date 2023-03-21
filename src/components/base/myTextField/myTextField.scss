@@ -2,7 +2,7 @@
     width: 60%;
 
     .MuiInputLabel-root {
-        color: whitesmoke !important;
+        color: $font-color-primary !important;
     }
 
     .MuiInputBase-input {
@@ -14,15 +14,15 @@
     }
 
     input {
-        color: whitesmoke;
+        color: $font-color-primary;
     }
 
     .css-15mnzpi-MuiInputBase-root-MuiFilledInput-root:before {
-        border-bottom: 1px solid whitesmoke;
+        border-bottom: 1px solid $color-primary;
     }
 
     .css-15mnzpi-MuiInputBase-root-MuiFilledInput-root:after {
-        border-bottom: 1px solid #72d4a3;
+        border-bottom: 1px solid $color-highlight;
     }
 }
 
@@ -30,7 +30,7 @@
     width: 60%;
 
     .MuiInputLabel-root {
-        color: whitesmoke !important;
+        color: $font-color-primary !important;
     }
 
     .MuiFilledInput-root {
@@ -42,18 +42,18 @@
     }
 
     .MuiFilledInput-root:hover {
-        background-color: rgba(0,0,0,0.25);
+        background-color: rgba(0,0,0,0.35);
     }
 
     .css-7209ej-MuiInputBase-input-MuiFilledInput-input {
-        color: whitesmoke;
+        color: $font-color-primary;
     }
 
     .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:before {
-        border-bottom: 1px solid whitesmoke;
+        border-bottom: 1px solid $font-color-primary;
     }
 
     .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:after {
-        border-bottom: 1px solid #72d4a3;
+        border-bottom: 1px solid $color-highlight;
     }
 }

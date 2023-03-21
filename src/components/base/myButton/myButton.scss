@@ -1,46 +1,46 @@
 .default {
     width: 8rem;
     height: 3.5rem;
-    background-color: #66daa0 !important;
-    color: black !important;
+    background-color: $color-secondary !important;
+    color: $font-color-secondary !important;
     font-weight: bold !important;
 }
 
 .default:hover {
-    background-color: #43ffa1 !important;
+    background-color: $color-highlight !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .unselected {
     width: 4rem;
     height: 2.5rem;
-    color: whitesmoke !important;
-    border: 1px solid whitesmoke !important;
+    color: $color-primary !important;
+    border: 1px solid $color-primary !important;
     font-weight: bold !important;
 }
 
 .unselected:hover {
-    color:#66daa0 !important;
-    border: 1px solid #66daa0 !important;
+    color: $color-secondary !important;
+    border: 1px solid $color-secondary !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .selected {
     width: 4rem;
     height: 2.5rem;
-    background-color: whitesmoke !important;
-    color: black !important;
+    background-color: $color-primary !important;
+    color: $font-color-secondary !important;
     font-weight: bold !important;
 }
 
 .link {
     font-size: 1.12rem !important;
-    color: whitesmoke !important;
+    color: $font-color-primary !important;
     text-transform: capitalize !important;
 }
 
 .link:hover {
-    color: #43ffa1 !important;
+    color: $color-highlight !important;
     text-decoration: underline !important;
 }
 
