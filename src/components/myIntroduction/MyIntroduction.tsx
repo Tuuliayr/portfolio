@@ -12,6 +12,9 @@ const MyIntroduction: React.FC = () => {
                 <MyPicture/>
             </div>
             <div className="about-me">
+                <p className="greeting__p">
+                    {t("myIntroduction.greeting")}
+                </p>
                 <p className="about-me__p">
                     {t("myIntroduction.aboutMe")}
                 </p>
