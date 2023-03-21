@@ -27,12 +27,12 @@
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
-}
 
-.nav-links a:hover, .pointer {
-    cursor: pointer;
-    background-color: $navbar-links-hover;
-    color: $font-color-primary;
+    &:hover, .pointer {
+        cursor: pointer;
+        background-color: $navbar-links-hover;
+        color: $color-primary;
+    }
 }
 
 .nav-links {
@@ -46,4 +46,8 @@
 .nav-links > .active {
     color: $color-secondary;
     text-shadow: 0 1px 0 $color-secondary;
+
+    &:hover {
+        color: $color-secondary;
+    }
 }
