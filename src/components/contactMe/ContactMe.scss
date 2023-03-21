@@ -14,7 +14,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(black,0.35);
+    background-color: $color-section-bg;
     padding: 32px 0px 64px 0px;
 
     &__form {
@@ -28,11 +28,11 @@
 }
 
 a {
-    color: whitesmoke;
+    color: $font-color-primary;
 }
 
 a:hover {
-    color: #43ffa1;
+    color: $color-highlight;
 }
 
 .arrow-down {
@@ -40,7 +40,7 @@ a:hover {
     background-size: 8rem 8rem;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 20px;
+    padding: 24px;
 
     animation: bounce 0.5s;
     animation-direction: alternate;
