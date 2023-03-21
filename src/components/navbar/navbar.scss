@@ -7,7 +7,7 @@
     flex-flow: row wrap;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgba(black,0.85);
+    background-color: $navbar-color;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@
 
 .nav-links a:hover, .pointer {
     cursor: pointer;
-    background-color: rgb(26, 26, 26);
+    background-color: $navbar-links-hover;
 }
 
 .nav-links {
