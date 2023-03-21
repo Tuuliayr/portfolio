@@ -4,7 +4,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import MyButton from '../base/myButton/MyButton';
-import './myLinks.scss';
 
 const MyLinks: React.FC = () => {
 

@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import './languageSelector.scss';
 import MyButton from '../base/myButton/MyButton';
 import { useTranslation } from 'react-i18next';
 

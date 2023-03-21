@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import './contactMe.scss';
-import '../base/myTextField/myTextField.scss';
 import MyButton from '../base/myButton/MyButton';
 import MyTextfield from '../base/myTextField/MyTextField';
 

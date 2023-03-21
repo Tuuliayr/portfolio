@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
-import "./navbar.scss";
 import LanguageSelector from '../languageSelector/LanguageSelector';
 
 const Navbar: React.FC = () => {

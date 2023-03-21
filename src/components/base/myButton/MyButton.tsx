@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import './myButton.scss';
 import { useTranslation } from 'react-i18next';
 
 interface Props {

@@ -1,7 +1,6 @@
 import React from 'react';
 import MyPicture from './MyPicture';
 import MyLinks from './MyLinks';
-import './myIntroduction.scss';
 import { useTranslation } from 'react-i18next';
 
 const MyIntroduction: React.FC = () => {

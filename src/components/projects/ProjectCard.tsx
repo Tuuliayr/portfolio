@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import './projectCard.scss';
 import MyButton from '../base/myButton/MyButton';
 
 interface Props {
