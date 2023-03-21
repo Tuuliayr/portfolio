@@ -11,7 +11,8 @@
     },
 
     "myIntroduction": {
-        "aboutMe": "Moi, mä oon Tuuli."
+        "greeting": "Moi, mä oon Tuuli.",
+        "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 
     "contactMe": {
