@@ -27,9 +27,9 @@ const ContactMe: React.FC = () => {
 
     return (
         <div className="contact-me" id="contactMe">
-            <h2>
+            <h1>
                 {t("contactMe.title")}
-            </h2>
+            </h1>
             <p className="contact-me__p">
                 {t("contactMe.desc")} <a target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/tuuli-ayravainen"> {t("contactMe.linkedin")}</a>
             </p>
