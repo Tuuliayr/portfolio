@@ -13,10 +13,42 @@
     z-index: 999;
 }
 
+.nav-about {
+    background-image: url("../../static/images/about.svg");
+    background-size: $font-32;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .active {
+        border-bottom: 2px solid $color-secondary;
+    }
+}
+
+.nav-projects {
+    background-image: url("../../static/images/projects.svg");
+    background-size: $font-32;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .active {
+        border-bottom: 2px solid $color-secondary;
+    }
+}
+
+.nav-contact {
+    background-image: url("../../static/images/contact.svg");
+    background-size: $font-32;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .active {
+        border-bottom: 2px solid $color-secondary;
+    }
+}
+
 .nav-links-mobile a {
     height: 100%;
     width: fit-content;
-    border-radius: 5px;
     display: flex;
     padding: 16px;
     align-items: center;
@@ -26,14 +58,7 @@
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    text-align: center;
     white-space: nowrap;
-
-    &:hover, .pointer {
-        cursor: pointer;
-        background-color: $navbar-links-hover;
-        color: $color-primary;
-    }
 }
 
 .nav-links-mobile {
@@ -41,14 +66,15 @@
     display: flex;
     flex-flow: row nowrap;
     // margin-right: 24px;
-    gap: 16px;
+    gap: 72px;
 }
 
-.nav-links-mobile > .active {
-    color: $color-secondary;
-    text-shadow: 0 1px 0 $color-secondary;
+// .nav-links-mobile > .active {
+//     color: $color-secondary;
+//     text-shadow: 0 1px 0 $color-secondary;
+//     // border-bottom: 2px solid $color-secondary;
 
-    &:hover {
-        color: $color-secondary;
-    }
-}
+//     &:hover {
+//         color: $color-secondary;
+//     }
+// }
