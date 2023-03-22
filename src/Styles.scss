@@ -7,7 +7,9 @@
 @import "components/base/myTextField/myTextField.scss";
 
 // Navbar
-@import "components/navBar/navbar.scss";
+@import "components/navbar/navbar.scss";
+@import "components/navbar/navbarMobile.scss";
+@import "components/navbar/topBarMobile.scss";
 
 // Languages
 @import "components/languageSelector/languageSelector.scss";
