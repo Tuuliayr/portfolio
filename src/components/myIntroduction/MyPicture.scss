@@ -5,6 +5,20 @@
     }
 }
 
+@media (min-width: $medium) {
+    .my-pic {
+        width: 232px !important;
+        height: 232px !important;
+    }
+}
+
+@media (min-width: $large) {
+    .my-pic {
+        width: 232px !important;
+        height: 232px !important;
+    }
+}
+
 @media (min-width: $xl) {
     .my-pic {
         width: 300px !important;

@@ -23,7 +23,30 @@
     }
 }
 
-@media (min-width: $xl) {
+// @media (min-width: $medium) {
+//     .my-intro-container {
+//         flex-flow: row wrap;
+//         min-height: 832px;
+//         margin-top: 24px;
+//     }
+
+//     .greeting {
+//         &__p {
+//             font-size: $font-24;
+//         }
+//     }
+    
+//     .about-me {
+//         width: 33%;
+    
+//         &__p {
+//             padding: 30px;
+//             font-size: $font-32;
+//         }
+//     }
+// }
+
+@media (min-width: $large) {
     .my-intro-container {
         flex-flow: row wrap;
         min-height: 832px;
