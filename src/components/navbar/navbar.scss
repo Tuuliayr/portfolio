@@ -51,15 +51,15 @@
 .nav-links a {
     height: 100%;
     width: fit-content;
-    border-radius: 5px;
+    // border-radius: 5px;
     display: flex;
     padding: 16px;
     align-items: center;
 
     color: $font-color-primary;
     font-size: $body-font-size-desktop;
-    // text-transform: uppercase;
-    font-weight: bolder;
+    text-transform: uppercase;
+    font-weight: bold;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
@@ -82,6 +82,7 @@
 .nav-links > .active {
     color: $color-secondary;
     text-shadow: 0 1px 0 $color-secondary;
+    border-bottom: 2px solid $color-secondary;
 
     &:hover {
         color: $color-secondary;
