@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Link } from 'react-scroll';
-import { useTranslation } from 'react-i18next';
+import MoodIcon from '@mui/icons-material/Mood';
+import StickyNoteIcon from '@mui/icons-material/StickyNote2Outlined';
+import EmailIcon from '@mui/icons-material/AlternateEmailOutlined';
 
 const NavbarMobile: React.FC = () => {
-    const {t} = useTranslation();
-
     return (
         <BrowserRouter>
             <div className="navbar-mobile">
@@ -19,7 +19,7 @@ const NavbarMobile: React.FC = () => {
                             offset={-108}
                             duration={500}
                         >
-                            {/* {t("navigation.about")} */}
+                            <MoodIcon className="about-icon"/>
                         </Link>
                     </div>
                     <div className="nav-projects">
@@ -31,7 +31,7 @@ const NavbarMobile: React.FC = () => {
                             offset={-48}
                             duration={500}
                         >
-                            {/* {t("navigation.work")} */}
+                            <StickyNoteIcon className="proj-icon"/>
                         </Link>
                     </div>
                     <div className="nav-contact">
@@ -43,7 +43,7 @@ const NavbarMobile: React.FC = () => {
                             offset={-48}
                             duration={500}
                         >
-                            {/* {t("navigation.contact")} */}
+                            <EmailIcon className="contact-icon"/>
                         </Link>
                     </div>
                 </div>
