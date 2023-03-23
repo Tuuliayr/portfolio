@@ -1,4 +1,5 @@
 import React from 'react';
+import MediaQuery from 'react-responsive';
 import MyPicture from './MyPicture';
 import MyLinks from './MyLinks';
 import { useTranslation } from 'react-i18next';
@@ -8,9 +9,11 @@ const MyIntroduction: React.FC = () => {
 
     return (
         <div className="my-intro-container" id="aboutMe">
-            <div className="my-pic">
-                <MyPicture/>
-            </div>
+            <MediaQuery minWidth={320}>
+                <div className="my-pic">
+                    <MyPicture/>
+                </div>
+            </MediaQuery>
             <div className="about-me">
                 <p className="greeting__p">
                     {t("myIntroduction.greeting")}

@@ -1,9 +1,8 @@
 import React from 'react';
-import Avatar from '@mui/material/Avatar';
 import image from "../../static/images/me.jpg";
 
 const MyPicture: React.FC = () => {
-    return <Avatar alt="Tuuli" src={image} className="my-pic"/>
+    return <img src={image} alt="Tuuli Äyräväinen" className="my-pic outline-border"/>
 }
 
 export default MyPicture;

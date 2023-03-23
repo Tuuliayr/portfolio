@@ -1,5 +1,16 @@
+.my-pic::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(-45deg, $color-highlight, $color-blue);
+    content: '';
+    z-index: -1;
+    border-radius: 50%;
+}
+
 @media (min-width: $xs) {
     .my-pic {
+        position: relative;
         width: 200px !important;
         height: 200px !important;
     }
@@ -24,4 +35,10 @@
         width: 300px !important;
         height: 300px !important;
     }
+}
+
+.my-pic {
+    vertical-align: middle;
+    border-radius: 50%;
+    z-index: 99;
 }
