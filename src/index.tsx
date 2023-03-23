@@ -11,14 +11,14 @@ const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <MediaQuery maxWidth={991}>
-        <TopBarMobile/>
-        <NavbarMobile/>
-    </MediaQuery>
-    <MediaQuery minWidth={992}>
-        <Navbar/>
-    </MediaQuery>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <MediaQuery maxWidth={991}>
+            <TopBarMobile/>
+            <NavbarMobile/>
+        </MediaQuery>
+        <MediaQuery minWidth={992}>
+            <Navbar/>
+        </MediaQuery>
+        <App />
+    </React.StrictMode>
 );
