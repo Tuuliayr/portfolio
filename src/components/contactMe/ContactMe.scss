@@ -40,10 +40,10 @@
     
     .arrow-down {
         background-image: url("../../static/images/arrow-down.svg");
-        background-size: 8rem 8rem;
+        background-size: 6rem 6rem;
         background-repeat: no-repeat;
         background-position: center center;
-        padding: 8px;
+        // padding: 8px;
     
         animation: bounce 0.5s;
         animation-direction: alternate;
@@ -70,25 +70,25 @@
     &__p {
         padding-top: 16px;
     }
-}
+    }
 
-a {
-    color: $font-color-primary;
-}
+    a {
+        color: $font-color-primary;
+    }
 
-a:hover {
-    color: $color-highlight;
-}
+    a:hover {
+        color: $color-highlight;
+    }
 
-.arrow-down {
-    background-image: url("../../static/images/arrow-down.svg");
-    background-size: 8rem 8rem;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 16px;
+    .arrow-down {
+        background-image: url("../../static/images/arrow-down.svg");
+        background-size: 8rem 8rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 16px;
 
-    animation: bounce 0.5s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
+        animation: bounce 0.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
 }
