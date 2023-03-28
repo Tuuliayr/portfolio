@@ -24,10 +24,24 @@ body {
     justify-content: center;
 }
 
+h3 {
+    color: $font-color-primary;
+}
+
+p {
+    color: $font-color-primary;
+    text-align: center;
+}
+
 @media (min-width: $xs) {
     h1 {
         font-size: $h1-font-size;
         color: $font-color-primary;
+    }
+
+    h3 {
+        font-size: $font-14;
+        font-weight: $font-weight-semi-bold;
     }
 
     p {
@@ -41,12 +55,11 @@ body {
         color: $font-color-primary;
     }
 
+    h3 {
+        font-size: $font-16;
+    }
+
     p {
         font-size: $body-font-size-desktop;
     }
-}
-
-p {
-    color: $font-color-primary;
-    text-align: center;
 }
