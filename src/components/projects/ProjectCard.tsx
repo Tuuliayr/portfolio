@@ -35,7 +35,7 @@ const ProjectCard: React.FC<Props> = ({title, date, role, tech, desc, myImg, myI
                         <h3>{t(title)}</h3>
                     </div>
                     <div className="card__info-icon">
-                        <IconButton className="icon-btn" onClick={handleOpen}>
+                        <IconButton className={open ? "icon-btn icon-btn__rotate" : "icon-btn"} onClick={handleOpen}>
                             <ArrowDownIcon fontSize="large"/>
                         </IconButton>
                     </div>

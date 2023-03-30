@@ -62,6 +62,10 @@
 			&:hover {
 				color: $color-highlight !important;
 			}
+
+			&__rotate {
+				transform: rotate(180deg);
+			}
 		}
 	}
 
