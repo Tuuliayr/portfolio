@@ -41,7 +41,7 @@ const ProjectCard: React.FC<Props> = ({title, date, role, tech, desc, myImg, myI
                     </div>
                 </div>
                 {open ? (
-                    <div className="card__info-content">
+                    <div className="card__info-collapsible">
                         <div className="">
                             <p>
                                 {t(date)}
