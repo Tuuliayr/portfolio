@@ -4,6 +4,12 @@
     }
 }
 
+@media (min-width: $large) {
+    .app {
+        padding: 72px 32px 24px 32px;
+    }
+}
+
 @media (min-width: $xl) {
     .app {
         padding: 80px 64px 24px 64px;
