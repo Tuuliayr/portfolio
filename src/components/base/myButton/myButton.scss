@@ -46,5 +46,12 @@
 
 .btn-align {
     padding-top: 24px;
-    text-align: right;
+
+    &__right {
+        text-align: right;   
+    }
+
+    &__center {
+        text-align: center;
+    }
 }
