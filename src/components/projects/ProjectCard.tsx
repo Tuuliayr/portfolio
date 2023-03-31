@@ -29,8 +29,8 @@ const ProjectCard: React.FC<Props> = ({title, date, role, tech, desc, myImg, myI
             <div className="card__image">
                 <img src={myImg} alt={myImgAlt}/>
             </div>
-            <div className="card__info">
-                <div className="card__info-joku">
+            <div className="card__info-container">
+                <div className="card__info">
                     <div className="card__info-title">
                         <h3>{t(title)}</h3>
                     </div>
@@ -41,7 +41,7 @@ const ProjectCard: React.FC<Props> = ({title, date, role, tech, desc, myImg, myI
                     </div>
                 </div>
                 {open ? (
-                    <div className="card__info-collapsible">
+                    <div className={`card__info-collapsible ${open ? "open" : "close"}`}>
                         <div className="">
                             <p>
                                 {t(date)}
@@ -56,7 +56,7 @@ const ProjectCard: React.FC<Props> = ({title, date, role, tech, desc, myImg, myI
                             <p>
                                 {t(desc)}
                             </p>
-                        <div className="btn-align">
+                        <div className="btn-align btn-align__right">
                             <MyButton
                                 variant="contained"
                                 label={t("buttons.readMore")}
