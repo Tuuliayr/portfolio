@@ -1,6 +1,6 @@
 .card {
 	border-radius: 10px 10px 10px 10px;
-	margin-bottom: 80px;
+	// margin-bottom: 80px;
 	transition: transform 250ms, opacity 400ms;
 	background-color: $color-section-bg;
 	max-width: 600px;
@@ -10,7 +10,7 @@
 	}
 
 	&__image {
-		height: 376px;
+		// height: 376px;
 		position: relative;
 		display: flex;
 		align-items: center;
@@ -33,8 +33,8 @@
 	}
 
 	&__info-joku {
-		width: 600px;
-		height: 64px;
+		// width: 600px;
+		// height: 64px;
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: space-around;
@@ -47,7 +47,7 @@
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
-		padding-left: 40px;
+		// padding-left: 40px;
 	}
 
 	&__info-icon {
@@ -58,6 +58,7 @@
 
 		.icon-btn {
 			color: $font-color-primary !important;
+			// transition: transform 250ms, opacity 400ms;
 
 			&:hover {
 				color: $color-highlight !important;
@@ -70,8 +71,8 @@
 	}
 
 	&__info-collapsible {
-		width: 520px;
-		padding: 24px 40px 24px 40px;
+		// width: 520px;
+		// padding: 24px 40px 24px 40px;
 
 		p {
 			text-align: left;
@@ -81,18 +82,30 @@
 }
 
 
-// @media (min-width: $xs) {
-// 	.card {
-// 		width: 280px;
-// 		height: 88px;
-// 		margin-bottom: 56px;
-// 		padding: 32px 32px 148px 32px;
+@media (min-width: $xs) {
+	.card {
+		width: 344px;
+		margin-bottom: 56px;
 
-// 		&__info-title {
-// 			padding-left: 24px;
-// 		}
-// 	}
-// }
+		&__image {
+			height: 320px;
+		}
+
+		&__info-joku {
+			width: 344px;
+			height: 64px;
+		}
+
+		&__info-title {
+			padding-left: 24px;
+		}
+
+		&__info-collapsible {
+			width: 296px;
+			padding: 8px 24px 24px 24px;
+		}
+	}
+}
 
 // // @media (min-width: $small) {
 // // 	.card {
@@ -103,21 +116,27 @@
 // // 	}
 // // }
 
-// @media (min-width: $xl) {
-// 	.card {
-// 		width: 600px;
-// 		// height: fit-content;
-// 		// overflow: hidden;
-// 		margin-bottom: 196px;
-// 		padding: 32px 32px 148px 32px;
+@media (min-width: $large) {
+	.card {
+		width: 600px;
+		margin-bottom: 80px;
 
-// 		&__info-title {
-// 			padding-left: 40px;
-// 		}
+		&__image {
+			height: 376px;
+		}
 
-// 		&__image {
-// 			width: 100%;
-// 			height: 376px;
-// 		}
-// 	}
-// }
+		&__info-joku {
+			width: 600px;
+			height: 64px;
+		}
+
+		&__info-title {
+			padding-left: 40px;
+		}
+
+		&__info-collapsible {
+			width: 520px;
+			padding: 24px 40px 24px 40px;
+		}
+	}
+}
