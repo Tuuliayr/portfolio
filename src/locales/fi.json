@@ -27,12 +27,17 @@
 
     "projects": {
         "title": "Projektit",
+        "techs": {
+            "FIGMA": "Figma",
+            "REACT": "React",
+            "AWS": "AWS",
+            "KRITA": "Krita"
+        },
         "bakeryApp": {
             "imgAlt": "Kuva sovelluksen kotisivusta.",
             "title": "Leipomon mobiilisovelluksen käyttöliittymä",
             "date": "Kevät 2023 | UX/UI-suunnittelu",
             "role": "Roolini: UX/UI-suunnittelija",
-            "tech": "Figma",
             "desc": "Tässä on kuvaus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "thesis": {
@@ -40,7 +45,6 @@
             "title": "Äänestyssovelluksen UX- ja UI-suunnittelu (Opinnäytetyö)",
             "date": "Syksy 2022 | UX/UI-suunnittelu",
             "role": "Roolini: UX/UI-suunnittelija",
-            "tech": "Figma",
             "desc": "Tässä on kuvaus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "farmersApp": {
@@ -48,14 +52,12 @@
             "title": "Verkkosovellus maanviljelijöille",
             "date": "Kevät 2020 | Web-ohjelmointi",
             "role": "Roolini: ohjelmoija",
-            "tech": "React, AWS",
             "desc": "Tässä on kuvaus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "mobileGame": {
             "title": "Project Baltic: Pelasta Itämeri mobiilipelillä",
             "date": "Kevät 2020",
             "role": "Peligraafikko",
-            "tech": "Krita",
             "desc": "Tässä on kuvaus."
         }
 

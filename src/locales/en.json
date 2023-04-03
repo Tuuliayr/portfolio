@@ -27,12 +27,17 @@
 
     "projects": {
         "title": "Projects",
+        "techs": {
+            "FIGMA": "Figma",
+            "REACT": "React",
+            "AWS": "AWS",
+            "KRITA": "Krita"
+        },
         "bakeryApp": {
             "imgAlt": "Picture of the home page of the app.",
             "title": "Bakery Mobile Ordering App Design",
             "date": "Spring 2023 | UX/UI Design",
             "role": "My role: UX/UI designer",
-            "tech": "Figma",
             "desc": "Here is desc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "thesis": {
@@ -40,7 +45,6 @@
             "title": "UX and UI design of a Voting App (Thesis)",
             "date": "Fall 2022 | UX/UI Design",
             "role": "My role: UX/UI designer",
-            "tech": "Figma",
             "desc": "Here is desc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "farmersApp": {
@@ -48,14 +52,12 @@
             "title": "Web App for Farmers",
             "date": "Spring 2021 | Web Development",
             "role": "My role: developer",
-            "tech": "React, AWS",
             "desc": "Here is desc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "mobileGame": {
             "title": "Project Baltic: Save Baltic Sea the mobile game",
             "date": "Spring 2020",
             "role": "Graphics",
-            "tech": "Krita",
             "desc": "Here is description."
         }
     }
