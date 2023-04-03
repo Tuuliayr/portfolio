@@ -46,7 +46,7 @@ const ProjectCard: React.FC<Props> = ({title, date, role, techs, desc, myImg, my
                             <p>
                                 {t(date)}
                             </p>
-                            <div className="tags-container">
+                            <div className="tags-wrapper">
                                 {techs.map(tech => (
                                     <MyTag label={t(`projects.techs.${tech}`)} />
                                 ))}
