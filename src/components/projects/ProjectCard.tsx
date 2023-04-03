@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import IconButton from '@mui/material/IconButton';
 import ArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import MyTag from '../base/myTag/MyTag';
 
 import MyButton from '../base/myButton/MyButton';
 
@@ -46,12 +47,7 @@ const ProjectCard: React.FC<Props> = ({title, date, role, tech, desc, myImg, myI
                             <p>
                                 {t(date)}
                             </p>
-                            <p>
-                                {t(role)}
-                            </p>
-                            <p>
-                                {t(tech)}
-                            </p>
+                            <MyTag label={t(tech)} />
                         </div>
                             <p>
                                 {t(desc)}
