@@ -30,25 +30,25 @@
         "bakeryApp": {
             "imgAlt": "Kuva sovelluksen kotisivusta.",
             "title": "Leipomon mobiilisovelluksen käyttöliittymä",
-            "date": "Kevät 2023",
+            "date": "Kevät 2023 | UX/UI-suunnittelu",
             "role": "Roolini: UX/UI-suunnittelija",
-            "tech": "Teknologiat: Figma",
+            "tech": "Figma",
             "desc": "Tässä on kuvaus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "thesis": {
             "imgAlt": "Kuva sovelluksen äänestyshuoneesta.",
             "title": "Äänestyssovelluksen UX- ja UI-suunnittelu (Opinnäytetyö)",
-            "date": "Syksy 2022",
+            "date": "Syksy 2022 | UX/UI-suunnittelu",
             "role": "Roolini: UX/UI-suunnittelija",
-            "tech": "Teknologiat: Figma",
+            "tech": "Figma",
             "desc": "Tässä on kuvaus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "farmersApp": {
             "imgAlt": "Kuva My boxes -sivusta.",
             "title": "Verkkosovellus maanviljelijöille",
-            "date": "Kevät 2020",
+            "date": "Kevät 2020 | Web-ohjelmointi",
             "role": "Roolini: ohjelmoija",
-            "tech": "Teknologiat: React, AWS",
+            "tech": "React, AWS",
             "desc": "Tässä on kuvaus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "mobileGame": {

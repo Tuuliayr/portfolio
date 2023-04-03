@@ -30,25 +30,25 @@
         "bakeryApp": {
             "imgAlt": "Picture of the home page of the app.",
             "title": "Bakery Mobile Ordering App Design",
-            "date": "Spring 2023",
+            "date": "Spring 2023 | UX/UI Design",
             "role": "My role: UX/UI designer",
-            "tech": "Technologies: Figma",
+            "tech": "Figma",
             "desc": "Here is desc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "thesis": {
             "imgAlt": "Picture of the voting room page.",
             "title": "UX and UI design of a Voting App (Thesis)",
-            "date": "Fall 2022",
+            "date": "Fall 2022 | UX/UI Design",
             "role": "My role: UX/UI designer",
-            "tech": "Technologies: Figma",
+            "tech": "Figma",
             "desc": "Here is desc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "farmersApp": {
             "imgAlt": "Picture of the 'My boxes' page.",
             "title": "Web App for Farmers",
-            "date": "Spring 2021",
+            "date": "Spring 2021 | Web Development",
             "role": "My role: developer",
-            "tech": "Technologies: React, AWS",
+            "tech": "React, AWS",
             "desc": "Here is desc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "mobileGame": {
