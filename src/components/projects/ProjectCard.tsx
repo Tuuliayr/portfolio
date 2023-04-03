@@ -3,20 +3,19 @@ import { useTranslation } from 'react-i18next';
 import IconButton from '@mui/material/IconButton';
 import ArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import MyTag from '../base/myTag/MyTag';
-
 import MyButton from '../base/myButton/MyButton';
 
 interface Props {
     title: string;
     date: string;
     role: string;
-    tech: string;
+    techs: string[];
     desc: string;
     myImg: string;
     myImgAlt: string;
 }
 
-const ProjectCard: React.FC<Props> = ({title, date, role, tech, desc, myImg, myImgAlt}) => {
+const ProjectCard: React.FC<Props> = ({title, date, role, techs, desc, myImg, myImgAlt}) => {
 
     const {t} = useTranslation();
     const [open, setOpen] = React.useState(false);
@@ -43,11 +42,15 @@ const ProjectCard: React.FC<Props> = ({title, date, role, tech, desc, myImg, myI
                 </div>
                 {open ? (
                     <div className={`card__info-collapsible ${open ? "open" : "close"}`}>
-                        <div className="">
+                        <div>
                             <p>
                                 {t(date)}
                             </p>
-                            <MyTag label={t(tech)} />
+                            <div className="tags-container">
+                                {techs.map(tech => (
+                                    <MyTag label={t(`projects.techs.${tech}`)} />
+                                ))}
+                            </div>
                         </div>
                             <p>
                                 {t(desc)}
