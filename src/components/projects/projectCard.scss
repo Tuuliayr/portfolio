@@ -74,6 +74,11 @@
 			text-align: left;
 			color: $font-color-gray;
 		}
+
+		.tags-wrapper {
+			display: flex;
+			flex-flow: row nowrap;
+		}
 	}
 }
 
