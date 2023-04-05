@@ -1,8 +1,10 @@
 @media (min-width: $xs) {
     .projects {
         margin: 56px 0px 56px 0px;
-        &__title {
-            padding-bottom: 32px;
+
+        &__p {
+            padding: 16px 24px 56px 24px;
+            opacity: 0.75;
         }
     }
 }
@@ -10,14 +12,15 @@
 @media (min-width: $medium) {
     .projects {
         margin: 120px 0px 136px 0px;
-        &__title {
-            padding-bottom: 64px;
+
+        &__p {
+            padding: 16px 0px 72px 0px;
+            opacity: 0.75;
         }
     }
 }
 
 .projects {
-    // min-height: 872px;
     width: 100%;
     background-color: $color-section-bg;
     margin: 120px 0px 136px 0px;

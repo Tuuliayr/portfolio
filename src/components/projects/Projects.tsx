@@ -15,6 +15,9 @@ const Projects: React.FC = () => {
             <h1 className="projects__title">
                 {t("projects.title")}
             </h1>
+            <p className="projects__p">
+                {t("projects.desc")}
+            </p>
             <div className="project-cards-container">
                 <ProjectCard 
                     title={t("projects.bakeryApp.title")}
