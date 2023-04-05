@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
                         to="projects"
                         smooth={true}
                         spy={true}
-                        offset={-80}
+                        offset={-60}
                         duration={500}
                     >
                         {t("navigation.work")}
@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
                         to="contactMe"
                         smooth={true}
                         spy={true}
-                        offset={-80}
+                        offset={-20}
                         duration={500}
                     >
                         {t("navigation.contact")}
