@@ -25,23 +25,17 @@
     order: 1;
 }
 
-.greeting {
-    order: 2;
+.about-me {
+    order: 3;
     height: 100%;
-    z-index: 999;
+    z-index: 99;
 
-    &__p {
+    &__greeting {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-}
-
-.about-me {
-    order: 3;
-    height: 100%;
-    z-index: 99;
 
     &__p {
         display: flex;
@@ -66,14 +60,6 @@
         min-height: 832px;
         margin-top: 16px;
     }
-
-    // .greeting {
-    //     width: 80%;
-    
-    //     &__p {
-    //         // font-size: $font-24;
-    //     }
-    // }
     
     .about-me {
         width: 80%;
@@ -91,12 +77,6 @@
         min-height: 832px;
         margin-top: 24px;
     }
-
-    // .greeting {
-    //     &__p {
-    //         // font-size: $font-32;
-    //     }
-    // }
     
     .about-me {
         width: 40%;
