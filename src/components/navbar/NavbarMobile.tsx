@@ -40,7 +40,7 @@ const NavbarMobile: React.FC = () => {
                             to="contactMe"
                             smooth={true}
                             spy={true}
-                            offset={-32}
+                            offset={-48}
                             duration={500}
                         >
                             <EmailIcon className="contact-icon"/>
