@@ -11,7 +11,7 @@
     },
     
     "myIntroduction": {
-        "greeting": "Hi, I'm Tuuli.",
+        "greeting": "Hi! I'm Tuuli.",
         "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 
@@ -27,6 +27,7 @@
 
     "projects": {
         "title": "Projects",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "techs": {
             "FIGMA": "Figma",
             "REACT": "React",

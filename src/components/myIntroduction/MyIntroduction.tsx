@@ -15,9 +15,9 @@ const MyIntroduction: React.FC = () => {
                 </div>
             </MediaQuery>
             <div className="about-me">
-                <p className="greeting__p">
+                <h1 className="greeting__p">
                     {t("myIntroduction.greeting")}
-                </p>
+                </h1>
                 <p className="about-me__p">
                     {t("myIntroduction.aboutMe")}
                 </p>

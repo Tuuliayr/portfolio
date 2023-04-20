@@ -14,20 +14,30 @@
         margin: 120px 0px 136px 0px;
 
         &__p {
+            width: 50%;
             padding: 16px 0px 72px 0px;
             opacity: 0.75;
+            font-size: $font-18;
         }
     }
 }
 
 .projects {
     width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     background-color: $color-section-bg;
     margin: 120px 0px 136px 0px;
     padding: 32px 0px 64px 0px;
 
     &__title {
         text-align: center;
+    }
+
+    &__p {
+        line-height: 1.5;
     }
 }
 
