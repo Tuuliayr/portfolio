@@ -8,6 +8,7 @@
 
     &__p {
         // font-size: $font-14;
+        line-height: $line-height;
         padding: 16px 24px 0px 24px;
         opacity: 0.75;
     }
@@ -35,8 +36,11 @@
 
 @media (min-width: $xs) {
     .contact-me {
-        min-height: 800px;
         padding: 32px 0px 32px 0px;
+
+        &__p {
+            font-size: $font-16;
+        }
     
         &__form {
             width: 100%;
@@ -57,7 +61,6 @@
 
         &__p {
             width: 40%;
-            line-height: 1.5;
         }
 
         &__form {
