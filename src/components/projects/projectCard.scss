@@ -95,7 +95,7 @@
 
 		&__info {
 			width: 344px;
-			height: 64px;
+			height: 80px;
 		}
 
 		&__info-title {
@@ -105,6 +105,10 @@
 		&__info-collapsible {
 			width: 296px;
 			padding: 8px 24px 24px 24px;
+
+			.project-date {
+				font-size: $font-14;
+			}
 		}
 	}
 }
@@ -120,7 +124,7 @@
 
 		&__info {
 			width: 600px;
-			height: 64px;
+			height: 72px;
 		}
 
 		&__info-title {

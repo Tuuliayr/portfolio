@@ -43,7 +43,7 @@ const ProjectCard: React.FC<Props> = ({title, date, role, techs, desc, myImg, my
                 {open ? (
                     <div className={`card__info-collapsible ${open ? "open" : "close"}`}>
                         <div>
-                            <p>
+                            <p className="project-date">
                                 {t(date)}
                             </p>
                             <div className="tags-wrapper">
