@@ -28,12 +28,13 @@
     order: 3;
     height: 100%;
     z-index: 99;
+    // background-color: aqua;
 
     &__greeting {
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        // text-align: center;
     }
 
     &__p {
@@ -83,10 +84,16 @@
     
     .about-me {
         width: 40%;
+
+        &__greeting {
+            justify-content: flex-start;
+            text-align: left;
+        }
     
         &__p {
             padding: 30px;
-            font-size: $font-22;
+            font-size: $font-24;
+            text-align: left;
         }
     }
 }
