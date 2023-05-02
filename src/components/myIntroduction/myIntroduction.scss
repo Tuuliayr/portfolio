@@ -12,6 +12,7 @@
     display: block;
     opacity: 0.65;
     position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -59,13 +60,14 @@
     .my-intro-container {
         flex-flow: column wrap;
         justify-content: center;
-        min-height: 672px;
-        padding-top: 56px;
+        padding-top: 88px;
+        padding-bottom: 80px;
     }
     
     .about-me {
         width: 98%;
-        padding: 24px 0px 24px 0px;
+        height: 200px;
+        padding: 24px 0px 32px 0px;
     
         &__p {
             padding-top: 16px;

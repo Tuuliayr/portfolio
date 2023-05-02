@@ -14,17 +14,19 @@
     &__p {
         line-height: $line-height;
     }
+
+    .project-cards-container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
 }
 
-.project-cards-container {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-}
+
 
 @media (min-width: $xs) {
     .projects {
-        margin: 56px 0px 56px 0px;
+        margin: 32px 0px 32px 0px;
 
         &__p {
             padding: 16px 24px 56px 24px;
