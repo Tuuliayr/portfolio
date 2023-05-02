@@ -12,7 +12,7 @@
     
     "myIntroduction": {
         "greeting": "Hi! I'm Tuuli.",
-        "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "aboutMe": "I am looking forward to completing my degree in Business Information Systems. Meanwhile, I am looking for my place in the field and a trainee position. I am particularly interested in frontend and UX/UI design but open to learn all kinds of new things."
     },
 
     "contactMe": {
@@ -53,7 +53,7 @@
             "title": "Web App for Farmers",
             "date": "Spring 2021 | Web Development",
             "role": "My role: developer",
-            "desc": "An international customer project where a web app prototype was desinged and developed. The app is a refill management solution for farmers who want to sell their products with salesboxes. With the app the farmer can see real-time stock level data of the products that have been added to the database and also delete and edit the products."
+            "desc": "An international customer project where a web app prototype was designed and developed. The app is a refill management solution for farmers who want to sell their products with salesboxes. With the app the farmer can see real-time stock level data of the products that have been added to the database and also delete and edit the products."
         },
         "mobileGame": {
             "title": "Project Baltic: Save Baltic Sea the mobile game",
