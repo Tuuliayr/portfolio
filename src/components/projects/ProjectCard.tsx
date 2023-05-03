@@ -52,7 +52,7 @@ const ProjectCard: React.FC<Props> = ({title, date, role, techs, desc, myImg, my
                                 ))}
                             </div>
                         </div>
-                            <p>
+                            <p className="project-desc">
                                 {t(desc)}
                             </p>
                         <div className="btn-align btn-align__right">

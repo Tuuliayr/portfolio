@@ -73,7 +73,6 @@
 
 		p {
 			text-align: left;
-			// color: $font-color-gray;
 			opacity: 0.85;
 			line-height: $line-height;
 		}
@@ -82,6 +81,14 @@
 			display: flex;
 			flex-flow: row nowrap;
 		}
+
+		.project-date {
+			padding-bottom: 8px;
+		}
+
+		.project-desc {
+			padding-top: 8px;
+		}
 	}
 }
 
@@ -89,7 +96,7 @@
 @media (min-width: $xs) {
 	.card {
 		width: 344px;
-		margin-bottom: 56px;
+		margin-bottom: 72px;
 
 		&__image {
 			height: 320px;

@@ -22,14 +22,12 @@
     }
 }
 
-
-
 @media (min-width: $xs) {
     .projects {
         margin: 32px 0px 32px 0px;
 
         &__p {
-            padding: 16px 24px 56px 24px;
+            padding: 32px 24px 72px 24px;
             opacity: 0.75;
         }
     }

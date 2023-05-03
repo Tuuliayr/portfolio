@@ -66,12 +66,22 @@
     
     .about-me {
         width: 98%;
-        height: 200px;
-        padding: 24px 0px 40px 0px;
+        // height: 200px;
+        padding: 24px 0px 32px 0px;
     
         &__p {
             padding-top: 16px;
             font-size: $font-18;
+        }
+    }
+}
+
+@media (min-width: $small) {
+    .about-me {
+        width: 80%;
+
+        &__p {
+            font-size: $font-21;
         }
     }
 }
