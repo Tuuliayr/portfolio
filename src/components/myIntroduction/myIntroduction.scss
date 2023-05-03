@@ -10,7 +10,7 @@
 .my-intro-container:before {
     content: ' ';
     display: block;
-    opacity: 0.65;
+    opacity: 0.6;
     position: absolute;
     top: 0;
     left: 0;
@@ -33,15 +33,16 @@
 
     &__greeting {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         // text-align: center;
     }
 
     &__p {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        text-align: left;
         padding-top: 16px;
         line-height: $line-height;
         // font-size: $font-16;
@@ -51,8 +52,8 @@
 .my-links {
     order: 3;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
 }
 
 
@@ -65,10 +66,14 @@
     }
     
     .about-me {
-        width: 98%;
+        // width: 98%;
         // height: 200px;
-        padding: 24px 0px 32px 0px;
+        padding: 24px 16px 32px 16px;
     
+        &__greeting {
+            padding-top: 8px;
+        }
+
         &__p {
             padding-top: 16px;
             font-size: $font-18;
