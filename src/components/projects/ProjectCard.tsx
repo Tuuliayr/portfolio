@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import IconButton from '@mui/material/IconButton';
 import ArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
@@ -6,6 +7,7 @@ import MyTag from '../base/myTag/MyTag';
 import MyButton from '../base/myButton/MyButton';
 
 interface Props {
+    url: string;
     title: string;
     date: string;
     role: string;
@@ -15,8 +17,9 @@ interface Props {
     myImgAlt: string;
 }
 
-const ProjectCard: React.FC<Props> = ({title, date, role, techs, desc, myImg, myImgAlt}) => {
+const ProjectCard: React.FC<Props> = ({url, title, date, role, techs, desc, myImg, myImgAlt}) => {
 
+    const navigate = useNavigate();
     const {t} = useTranslation();
     const [open, setOpen] = React.useState(false);
 
@@ -35,7 +38,10 @@ const ProjectCard: React.FC<Props> = ({title, date, role, techs, desc, myImg, my
                         <h3>{t(title)}</h3>
                     </div>
                     <div className="card__info-icon">
-                        <IconButton className={open ? "icon-btn icon-btn__rotate" : "icon-btn"} onClick={handleOpen}>
+                        <IconButton 
+                            className={open ? "icon-btn icon-btn__rotate" : "icon-btn"} 
+                            onClick={handleOpen}
+                        >
                             <ArrowDownIcon fontSize="large"/>
                         </IconButton>
                     </div>
@@ -59,6 +65,7 @@ const ProjectCard: React.FC<Props> = ({title, date, role, techs, desc, myImg, my
                             <MyButton
                                 variant="contained"
                                 label={t("buttons.readMore")}
+                                onClick={() => navigate(url)}
                             />
                         </div>
                     </div>
