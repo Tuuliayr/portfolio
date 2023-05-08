@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import { Link } from 'react-scroll';
 import MoodIcon from '@mui/icons-material/Mood';
 import StickyNoteIcon from '@mui/icons-material/StickyNote2Outlined';
