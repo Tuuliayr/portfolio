@@ -1,9 +1,9 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import { useTranslation } from 'react-i18next';
-import imgBakery from "../../static/images/bakery-app-home1.png";
-import imgVoting from "../../static/images/voting-app-voting1.png";
-import imgFarmer from "../../static/images/farmer-app-myboxes1.png";
+import imgBakery from '../../static/images/bakery-app-home1.png';
+import imgVoting from '../../static/images/voting-app-voting1.png';
+import imgFarmer from '../../static/images/farmer-app-myboxes1.png';
 import TechTags from '../../models/TechTags';
 
 const Projects: React.FC = () => {
@@ -20,6 +20,7 @@ const Projects: React.FC = () => {
             </p>
             <div className="project-cards-container">
                 <ProjectCard 
+                    url="/bakery-app"
                     title={t("projects.bakeryApp.title")}
                     date={t("projects.bakeryApp.date")}
                     role={t("projects.bakeryApp.role")}
@@ -29,15 +30,17 @@ const Projects: React.FC = () => {
                     myImgAlt={"projects.bakeryApp.imgAlt"}
                 />
                 <ProjectCard
-                    title={t("projects.thesis.title")}
-                    date={t("projects.thesis.date")}
-                    role={t("projects.thesis.role")}
+                    url="/dance-vote"
+                    title={t("projects.danceVote.title")}
+                    date={t("projects.danceVote.date")}
+                    role={t("projects.danceVote.role")}
                     techs={[TechTags.FIGMA]}
-                    desc={t("projects.thesis.desc")}
+                    desc={t("projects.danceVote.desc")}
                     myImg={imgVoting}
-                    myImgAlt={"projects.thesis.imgAlt"}
+                    myImgAlt={"projects.danceVote.imgAlt"}
                 />
                 <ProjectCard
+                    url="/farmers-app"
                     title={t("projects.farmersApp.title")}
                     date={t("projects.farmersApp.date")}
                     role={t("projects.farmersApp.role")}
