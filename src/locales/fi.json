@@ -27,7 +27,7 @@
 
     "projects": {
         "title": "Projektit",
-        "desc": "Opintojeni aikana minulle on kertynyt arvokasta kokemusta erilaisista projekteista ja rooleista. Projektit ovat opettaneet minulle paljon tiimissä työskentelystä, kehittäneet hard ja soft skillsejäni ja kasvattaneet intoani olla mukana merkityksellisissä projekteissa.",
+        "desc": "Opintojeni aikana minulle on kertynyt arvokasta kokemusta erilaisista projekteista ja rooleista. Olen oppinut paljon projekteista tiimissä työskentelystä, kehittäneet hard ja soft skillsejäni ja kasvattaneet intoani olla mukana merkityksellisissä projekteissa.",
         "techs": {
             "FIGMA": "Figma",
             "REACT": "React",
@@ -41,7 +41,7 @@
             "role": "Roolini: UX/UI-suunnittelija",
             "desc": "Tässä on kuvaus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
-        "thesis": {
+        "danceVote": {
             "imgAlt": "Kuva sovelluksen äänestyshuoneesta.",
             "title": "Äänestyssovelluksen UX- ja UI-suunnittelu (Opinnäytetyö)",
             "date": "Syksy 2022 | UX/UI-suunnittelu",
