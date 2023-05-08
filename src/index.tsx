@@ -1,24 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import MediaQuery from 'react-responsive';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App';
+import BakeryApp from './components/projects/projectPages/bakeryApp/BakeryApp';
+import DanceVote from './components/projects/projectPages/danceVote/DanceVote';
+import FarmersApp from './components/projects/projectPages/farmersApp/FarmersApp';
 import "./i18n";
-import Navbar from './components/navbar/Navbar';
-import NavbarMobile from './components/navbar/NavbarMobile';
-import TopBarMobile from './components/navbar/TopBarMobile';
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 root.render(
     <React.StrictMode>
-        <MediaQuery maxWidth={991}>
-            <TopBarMobile/>
-            <NavbarMobile/>
-        </MediaQuery>
-        <MediaQuery minWidth={992}>
-            <Navbar/>
-        </MediaQuery>
-        <App />
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<App/>}/>
+                <Route path="/bakery-app" element={<BakeryApp/>}/>
+                <Route path="/dance-vote" element={<DanceVote/>}/>
+                <Route path="/farmers-app" element={<FarmersApp/>}/>
+                {/* <Route path="/*" element={<NoPage/>}/> */}
+            </Routes>
+        </BrowserRouter>
     </React.StrictMode>
 );
