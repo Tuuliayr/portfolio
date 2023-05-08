@@ -7,7 +7,6 @@ import EmailIcon from '@mui/icons-material/AlternateEmailOutlined';
 
 const NavbarMobile: React.FC = () => {
     return (
-        <BrowserRouter>
             <div className="navbar-mobile">
                 <div className="nav-links-mobile">
                     <div className="nav-about">
@@ -48,7 +47,6 @@ const NavbarMobile: React.FC = () => {
                     </div>
                 </div>
             </div>
-        </BrowserRouter>
     );
 }
 

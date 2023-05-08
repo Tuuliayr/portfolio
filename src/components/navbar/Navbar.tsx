@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from '../languageSelector/LanguageSelector';
@@ -8,7 +7,6 @@ const Navbar: React.FC = () => {
     const {t} = useTranslation();
 
     return (
-        <BrowserRouter>
             <div className="navbar">
                 <div className="nav-links">
                     <Link
@@ -46,7 +44,6 @@ const Navbar: React.FC = () => {
                     <LanguageSelector/>
                 </div>
             </div>
-        </BrowserRouter>
     );
 }
 
