@@ -75,7 +75,12 @@ const ContactMe: React.FC = () => {
                     />
                 </div>
                 <div className="btn-align btn-align__center">
-                    <MyButton submit variant="contained" label="buttons.submit" size="large"></MyButton>
+                    <MyButton 
+                        submit
+                        variant="contained"
+                        label="buttons.submit"
+                        size="large"
+                    />
                 </div>
             </form>
         </div>
