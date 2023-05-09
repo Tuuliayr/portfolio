@@ -54,7 +54,7 @@ const ProjectCard: React.FC<Props> = ({url, title, date, role, techs, desc, myIm
                             </p>
                             <div className="tags-wrapper">
                                 {techs.map(tech => (
-                                    <MyTag label={t(`projects.techs.${tech}`)} />
+                                    <MyTag label={t(`projects.techs.${tech}`)}/>
                                 ))}
                             </div>
                         </div>
