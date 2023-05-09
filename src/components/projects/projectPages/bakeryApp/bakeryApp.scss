@@ -1,0 +1,70 @@
+.project-page {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .cover {
+        padding: 80px 0px 80px 56px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-black;
+
+        &__text-wrapper {
+            width: 36%;
+            padding-left: 80px;
+            // background-color: lightblue;
+
+            h1, p {
+                text-align: left;
+                padding-bottom: 24px;
+            }
+
+            p {
+                font-size: $font-20;
+                line-height: $line-height;
+            }
+        }
+    }
+
+    .overview {
+        width: 100%;
+        padding: 80px 0px 80px 0px;
+        display: flex;
+        flex-flow: column nowrap;
+        // justify-content: center;
+        align-items: center;
+        background-color: $color-section-bg;
+
+        .problem-icon, .goal-icon {
+            padding: 40px;
+            color: $color-secondary;
+            font-size: $font-60;
+        }
+
+        p, h1 {
+            padding-bottom: 40px;
+        }
+
+        h3 {
+            padding-bottom: 16px;
+        }
+
+    }
+
+    .understanding {
+        width: 100%;
+        padding: 80px 0px 80px 0px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        background-color: $color-black;
+
+        p, h1 {
+            padding-bottom: 40px;
+        }
+    }
+}
