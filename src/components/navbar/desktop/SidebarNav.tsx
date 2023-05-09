@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
-import LanguageSelector from '../languageSelector/LanguageSelector';
 
-const Navbar: React.FC = () => {
+const SidebarNav: React.FC = () => {
     const {t} = useTranslation();
-
+    
     return (
-            <div className="navbar">
-                <div className="nav-links">
+        <div className="sidebar">
+                {/* <div className="sidebar-links">
                     <Link
                         activeClass="active"
                         to="aboutMe"
@@ -17,7 +16,7 @@ const Navbar: React.FC = () => {
                         offset={-108}
                         duration={500}
                     >
-                        {t("navigation.about")}
+                        {t("navigation.sidebar.overview")}
                     </Link>
                     <Link
                         activeClass="active"
@@ -27,7 +26,7 @@ const Navbar: React.FC = () => {
                         offset={-60}
                         duration={500}
                     >
-                        {t("navigation.work")}
+                        {t("navigation.sidebar.understanding")}
                     </Link>
                     <Link
                         activeClass="active"
@@ -37,14 +36,12 @@ const Navbar: React.FC = () => {
                         offset={-30}
                         duration={500}
                     >
-                        {t("navigation.contact")}
+                        {t("navigation.sidebar.process")}
                     </Link>
-                </div>
-                <div>
-                    <LanguageSelector/>
-                </div>
+                </div> */}
+                
             </div>
-    );
+    )
 }
 
-export default Navbar;
+export default SidebarNav;

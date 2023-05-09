@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar';
-import NavbarMobile from '../navbar/NavbarMobile';
-import TopBarMobile from '../navbar/TopBarMobile';
+import Navbar from './desktop/Navbar';
+import NavbarMobile from './mobile/NavbarMobile';
+import TopBarMobile from './mobile/TopBarMobile';
 import { useMediaQuery } from '@mui/material';
 
 const NavbarSelector: React.FC = () => {

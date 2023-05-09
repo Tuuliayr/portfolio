@@ -37,7 +37,7 @@
         align-items: center;
         
         color: $font-color-primary;
-        font-size: $body-font-size-desktop;
+        font-size: $font-16;
         text-transform: uppercase;
         font-weight: bold;
         text-decoration: none;
@@ -47,7 +47,7 @@
         &:hover, .pointer {
             cursor: pointer;
             background-color: $navbar-links-hover;
-           color: $color-primary;
+            color: $color-primary;
         }
     }
 }
