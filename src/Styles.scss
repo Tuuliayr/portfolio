@@ -8,9 +8,10 @@
 @import "components/base/myTag/myTag.scss";
 
 // Navbar
-@import "components/navbar/navbar.scss";
-@import "components/navbar/navbarMobile.scss";
-@import "components/navbar/topBarMobile.scss";
+@import "components/navbar/desktop/navbar.scss";
+@import "components/navbar/mobile/navbarMobile.scss";
+@import "components/navbar/mobile/topBarMobile.scss";
+@import "components/navbar/desktop/sidebarNav.scss";
 
 // Languages
 @import "components/languageSelector/languageSelector.scss";
