@@ -7,6 +7,9 @@ import imgPersona from '../../../../static/images/persona-manu.jpg';
 import imgUserJourney from '../../../../static/images/user-journey-map-manu.jpg';
 import imgPaperWireframe from '../../../../static/images/paper-wireframe.jpg';
 import imgPaperWireframeRefined from '../../../../static/images/paper-wireframe-refined.jpg';
+import imgDigitalWireframes from '../../../../static/images/digital-wirefames.jpg';
+import imgMockupBefore from '../../../../static/images/mockup-before.jpg';
+import imgMockupAfter from '../../../../static/images/mockup-after.jpg';
 // import LanguageSelector from '../../../languageSelector/LanguageSelector';
 // import SidebarNav from '../../../navbar/desktop/SidebarNav';
 import MyTag from '../../../base/myTag/MyTag';
@@ -59,14 +62,42 @@ const BakeryApp: React.FC = () => {
                     <span className="highlighted-text"> help the users make more confident choices</span>.</p>
                 </div>
             </div>
-            <div className="design">
-                <div className="understanding__text-wrapper">
-                    <h1>Design</h1>
+            <div className="design-start">
+                {/* <div className="design__text-wrapper"> */}
+                    <h1>Starting the design</h1>
                     <p>Pälä pälä design process?</p>
+                    <h3>Paper wireframes</h3>
                     <p>Wireframing on paper enabled quick iteration and trying out different layouts for the home page before moving on to digital wireframing.</p>
                     <img src={imgPaperWireframe} alt="Five different paper wireframe versions of the home page." height={400} className="img"></img>
+                    <p>I ideatiated five different versions of the home page.</p>
                     <img src={imgPaperWireframeRefined} alt="Refined version of the home page." height={400} className="img"></img>
+                    <p>After assessing the best features of the differend wirefames I built a refined version of the home screen.</p>
+                    <h3>Digital wireframes</h3>
+                    <img src={imgDigitalWireframes} alt="Digital wireframes." height={500} className="img"></img>
+                    <p>As the initial design phase continued, I made sure to base screen designs on findings from the user research.</p>
+                    <h3>Low-fidelity prototype</h3>
+                    <p>I connected the digital wireframe screens in order to create the primary user flow, which presents the process of ordering bakery goods.</p>
+                    <p>View bakery mobile app's <a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?
+                    node-id=3%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2&show-proto-sidebar=1"> low-fidelity prototype</a>.</p>
+                    <h3>Usability study findings</h3>
+                    <p>From testing the low-fidelity prototype on five users, I could determine that the following changes were needed:</p>
+                    <div className="design-start__text-wrapper">
+                        <p><span className="highlighted-text">1.</span> Back button was missing from the profile page.</p>
+                        <p><span className="highlighted-text">2.</span> Users felt that reading ingredient lists is tiring and there should be quicker way to find out, if the product is suitable for their dietary needs.</p>
+                        <p><span className="highlighted-text">3.</span> Users needed a clearer way to access orders.</p>
+                    </div>
+                {/* </div> */}
+            </div>
+            <div className="design-refine">
+                <div className="understanding__text-wrapper">
+                    <h1>Refining the design</h1>
+                    <h3>Mockups</h3>
+                    <img src={imgMockupBefore} alt="Product page wireframe." height={600} className="img"></img>
+                    <img src={imgMockupAfter} alt="Product page mockup." height={600} className="img"></img>
+                    <h3>High-fidelity prototype</h3>
+                    <h3>Accessibility</h3>
                 </div>
+
             </div>
         </div>
     )

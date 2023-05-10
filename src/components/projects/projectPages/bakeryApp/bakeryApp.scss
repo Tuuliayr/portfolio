@@ -5,6 +5,14 @@
     justify-content: center;
     align-items: center;
 
+    a {
+        color: $color-highlight;
+    }
+
+    a:hover {
+        color: $font-color-primary;
+    }
+
     .highlighted-text {
         color: $color-highlight;
         font-weight: $font-weight-bold;
@@ -62,7 +70,7 @@
 
     }
 
-    .understanding {
+    .understanding, .design-refine {
         width: 100%;
         padding: 80px 0px 80px 0px;
         display: flex;
@@ -84,4 +92,35 @@
             }
         }
     }
+
+    .design-start {
+        width: 100%;
+        padding: 80px 0px 80px 0px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        background-color: $color-section-bg;
+
+        &__text-wrapper {
+            width: 30%;
+
+            p {
+                text-align: left;
+            }
+        }
+
+        h1, p {
+            padding: 24px 0px 24px 0px;
+            // text-align: center;
+        }
+    
+        h3 {
+            padding: 40px 0px 24px 0px;
+            // text-align: center;
+        }
+    }
+
+    // .design-refine {
+
+    // }
 }
