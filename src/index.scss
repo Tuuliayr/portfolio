@@ -31,6 +31,7 @@ h3 {
 p {
     color: $font-color-primary;
     text-align: center;
+    line-height: $line-height;
 }
 
 @media (min-width: $xs) {
