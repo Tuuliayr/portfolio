@@ -5,6 +5,15 @@
     justify-content: center;
     align-items: center;
 
+    .highlighted-text {
+        color: $color-highlight;
+        font-weight: $font-weight-bold;
+    }
+
+    .img {
+        padding: 24px 0px 24px 0px;
+    }
+
     .cover {
         padding: 80px 0px 80px 56px;
         display: flex;
@@ -16,7 +25,6 @@
         &__text-wrapper {
             width: 36%;
             padding-left: 80px;
-            // background-color: lightblue;
 
             h1, p {
                 text-align: left;
@@ -25,7 +33,6 @@
 
             p {
                 font-size: $font-20;
-                line-height: $line-height;
             }
         }
     }
@@ -63,8 +70,18 @@
         align-items: center;
         background-color: $color-black;
 
-        p, h1 {
-            padding-bottom: 40px;
+        &__text-wrapper {
+            width: 50%;
+
+            h1, p {
+                padding: 24px 0px 24px 0px;
+                text-align: left;
+            }
+    
+            h3 {
+                padding: 40px 0px 24px 0px;
+                text-align: left;
+            }
         }
     }
 }
