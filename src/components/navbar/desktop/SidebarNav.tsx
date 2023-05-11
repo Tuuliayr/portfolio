@@ -7,10 +7,20 @@ const SidebarNav: React.FC = () => {
     
     return (
         <div className="sidebar">
-                {/* <div className="sidebar-links">
+                <div className="links">
                     <Link
                         activeClass="active"
-                        to="aboutMe"
+                        to="cover"
+                        smooth={true}
+                        spy={true}
+                        offset={-108}
+                        duration={500}
+                    >
+                        Bakery Mobile App
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        to="overview"
                         smooth={true}
                         spy={true}
                         offset={-108}
@@ -20,7 +30,7 @@ const SidebarNav: React.FC = () => {
                     </Link>
                     <Link
                         activeClass="active"
-                        to="projects"
+                        to="understanding"
                         smooth={true}
                         spy={true}
                         offset={-60}
@@ -30,16 +40,35 @@ const SidebarNav: React.FC = () => {
                     </Link>
                     <Link
                         activeClass="active"
-                        to="contactMe"
+                        to="designStart"
                         smooth={true}
                         spy={true}
                         offset={-30}
                         duration={500}
                     >
-                        {t("navigation.sidebar.process")}
+                        {t("navigation.sidebar.designStart")}
                     </Link>
-                </div> */}
-                
+                    <Link
+                        activeClass="active"
+                        to="designRefine"
+                        smooth={true}
+                        spy={true}
+                        offset={-30}
+                        duration={500}
+                    >
+                        {t("navigation.sidebar.designRefine")}
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        to="takeaways"
+                        smooth={true}
+                        spy={true}
+                        offset={-30}
+                        duration={500}
+                    >
+                        {t("navigation.sidebar.takeaways")}
+                    </Link>
+                </div>
             </div>
     )
 }
