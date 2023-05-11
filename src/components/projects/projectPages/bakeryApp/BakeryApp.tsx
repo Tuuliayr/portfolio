@@ -2,16 +2,21 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import ArrowRightIcon from '@mui/icons-material/ArrowForwardIos';
 import imgBakeryApp from '../../../../static/images/bakery-app-home.png';
 import imgPersona from '../../../../static/images/persona-manu.jpg';
 import imgUserJourney from '../../../../static/images/user-journey-map-manu.jpg';
 import imgPaperWireframe from '../../../../static/images/paper-wireframe.jpg';
 import imgPaperWireframeRefined from '../../../../static/images/paper-wireframe-refined.jpg';
 import imgDigitalWireframes from '../../../../static/images/digital-wirefames.jpg';
-import imgMockupBefore from '../../../../static/images/mockup-before.jpg';
-import imgMockupAfter from '../../../../static/images/mockup-after.jpg';
+import imgMockupBeforeProduct from '../../../../static/images/mockup-before.jpg';
+import imgMockupAfterProduct from '../../../../static/images/mockup-after.jpg';
+import imgMockupBeforeProfile from '../../../../static/images/mockup-before2.jpg';
+import imgMockupAfterProfile from '../../../../static/images/mockup-after2.jpg';
+import imgMockupBrowse from '../../../../static/images/mockup-browse.jpg';
+import imgMockupCheckout from '../../../../static/images/mockup-checkout.jpg';
 // import LanguageSelector from '../../../languageSelector/LanguageSelector';
-// import SidebarNav from '../../../navbar/desktop/SidebarNav';
+import SidebarNav from '../../../navbar/desktop/SidebarNav';
 import MyTag from '../../../base/myTag/MyTag';
 // import TechTags from '../../../../models/TechTags';
 
@@ -19,9 +24,10 @@ const BakeryApp: React.FC = () => {
     const {t} = useTranslation();
 
     return (
-        <div className="project-page" id="first">
+        <div className="project-page">
             {/* <LanguageSelector/> */}
-            <div className="cover">
+            <SidebarNav/>
+            <div className="cover" id="cover">
                 <img src={imgBakeryApp} alt="Bakery mobile ordering app's home page." height={600}></img>
                 <div className="cover__text-wrapper">
                     <h1>{t("projects.bakeryApp.title")}</h1>
@@ -29,7 +35,7 @@ const BakeryApp: React.FC = () => {
                     <MyTag label={t("projects.techs.FIGMA")}/>
                 </div>
             </div>
-            <div className="overview">
+            <div className="overview" id="overview">
                 <h1>Overview</h1>
                 <h3>{t("projects.bakeryApp.date")}</h3>
                 <HelpOutlineIcon className="problem-icon"/>
@@ -38,7 +44,7 @@ const BakeryApp: React.FC = () => {
                 <StarOutlineIcon className="goal-icon"/>
                 <p>The goal: Design an app that makes finding suitable food options faster and more comfortable.</p>
             </div>
-            <div className="understanding">
+            <div className="understanding" id="understanding">
                 <div className="understanding__text-wrapper">
                     <h1>Understanding</h1>
                     <h3>User research summary</h3>
@@ -62,7 +68,7 @@ const BakeryApp: React.FC = () => {
                     <span className="highlighted-text"> help the users make more confident choices</span>.</p>
                 </div>
             </div>
-            <div className="design-start">
+            <div className="design-start" id="designStart">
                 {/* <div className="design__text-wrapper"> */}
                     <h1>Starting the design</h1>
                     <p>Pälä pälä design process?</p>
@@ -83,21 +89,65 @@ const BakeryApp: React.FC = () => {
                     <p>From testing the low-fidelity prototype on five users, I could determine that the following changes were needed:</p>
                     <div className="design-start__text-wrapper">
                         <p><span className="highlighted-text">1.</span> Back button was missing from the profile page.</p>
-                        <p><span className="highlighted-text">2.</span> Users felt that reading ingredient lists is tiring and there should be quicker way to find out, if the product is suitable for their dietary needs.</p>
+                        <p><span className="highlighted-text">2.</span> Users felt that reading ingredient lists is tiring and there should be quicker way to find out, 
+                            if the product is suitable for their dietary needs.</p>
                         <p><span className="highlighted-text">3.</span> Users needed a clearer way to access orders.</p>
                     </div>
                 {/* </div> */}
             </div>
-            <div className="design-refine">
+            <div className="design-refine" id="designRefine">
                 <div className="understanding__text-wrapper">
                     <h1>Refining the design</h1>
                     <h3>Mockups</h3>
-                    <img src={imgMockupBefore} alt="Product page wireframe." height={600} className="img"></img>
-                    <img src={imgMockupAfter} alt="Product page mockup." height={600} className="img"></img>
-                    <h3>High-fidelity prototype</h3>
-                    <h3>Accessibility</h3>
+                    <div className="comparison-wrapper">
+                    <img src={imgMockupBeforeProduct} alt="Product page wireframe." height={600} className="img"></img>
+                        <ArrowRightIcon className="arrow-right"/>
+                        <img src={imgMockupAfterProduct} alt="Product page mockup." height={600} className="img"></img>
+                    </div>
+                    <p>Dietary tags were added to product page. Tags will help the user quickly decide if the product is suitable for them, without reading the ingredient list. 
+                        The layout was modified to fit these new elements.</p>
+                    <p>“Add to cart” button was accompanied by an element that shows how many items have been added so that the user can add many items at
+                        once and see how many items have been already added.</p>
                 </div>
-
+                    <div className="comparison-wrapper">
+                        <img src={imgMockupBeforeProfile} alt="Profile page wireframe." height={600} className="img"></img>
+                        <ArrowRightIcon className="arrow-right"/>
+                    <img src={imgMockupAfterProfile} alt="Profile page mockup." height={600} className="img"></img>
+                    </div>
+                <div className="understanding__text-wrapper">
+                    <p>Profile page was redesigned and missing back button added. All the user information can be accessed and edited in a uniform way.</p>
+                    <p>Information was divided into small sections, which makes it easy to read. Orders can be found at the top of the page.</p>
+                    <h3>Key mockups</h3>
+                </div>
+                <div>
+                    <img src={imgBakeryApp} alt="Home page mockup." height={500} className="img"></img>
+                    <img src={imgMockupBrowse} alt="Product browsing page mockup." height={500} className="img"></img>
+                    <img src={imgMockupAfterProduct} alt="Product page mockup." height={500} className="img"></img>
+                    <img src={imgMockupCheckout} alt="Checkout page mockup." height={500} className="img"></img>
+                </div>
+                <div className="understanding__text-wrapper">
+                    <h3>High-fidelity prototype</h3>
+                    <p>The final high-fidelity prototype presented cleaner user flows for navigating the app and ordering bakery goods.</p>
+                    <p>View bakery mobile app's <a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?
+                    node-id=415-129&scaling=min-zoom&page-id=415%3A128&starting-point-node-id=415%3A129"> high-fidelity prototype</a>.</p>
+                    <h3>Accessibility</h3>
+                    <p><span className="highlighted-text">1.</span> WCAG guidelines on color contrast were followed.</p>
+                    <p><span className="highlighted-text">2.</span> Used icons to help make navigation easier.</p>
+                    <p><span className="highlighted-text">3.</span> Kept language simple.</p>
+                    <p><span className="highlighted-text">4.</span> Used pictures for the products.</p>
+                </div>
+            </div>
+            <div className="design-start" id="takeaways">
+                <h1>Takeaways</h1>
+                <p><span className="highlighted-text">Impact:</span> The app makes users feel like they can make informed decisions on their bakery ordering choices.</p>
+                <p><span className="highlighted-text">What I learned:</span> I learned to trust the iteration process more. It can feel overwhelming to start from nothing, but I am happy
+                    how far I have gotten with this app design.</p>
+                <h3>Next steps</h3>
+                <div className="design-start__text-wrapper">
+                    <p><span className="highlighted-text">1.</span> Conduct another round of usability studies to validate whether the pain points users experienced have
+                        been effectively addressed.</p>
+                    <p><span className="highlighted-text">2.</span> Conduct more user research to determine any new areas of need.</p>
+                </div>
             </div>
         </div>
     )

@@ -19,7 +19,7 @@
     }
 
     .img {
-        padding: 24px 0px 24px 0px;
+        padding: 24px 24px 24px 24px;
     }
 
     .cover {
@@ -93,7 +93,7 @@
         }
     }
 
-    .design-start {
+    .design-start, .takeaways {
         width: 100%;
         padding: 80px 0px 80px 0px;
         display: flex;
@@ -120,7 +120,19 @@
         }
     }
 
-    // .design-refine {
+    .design-refine {
 
-    // }
+        .comparison-wrapper {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            padding: 24px 0px 24px 0px;
+
+            .arrow-right {
+                padding: 56px;
+                color: $color-secondary;
+                font-size: $font-60;
+            }
+        }
+    }
 }
