@@ -11,11 +11,9 @@
         "sidebar": {
             "overview": "Overview",
             "understanding": "Understanding",
-            "design": "Design process",
-            "layout": "Layout",
-            "interaction": "Interaction",
-            "evaluation": "Evaluation",
-            "reflection": "Reflection"
+            "designStart": "Starting the design",
+            "designRefine": "Refining the design",
+            "takeaways": "Takeaways"
         }
     },
     
