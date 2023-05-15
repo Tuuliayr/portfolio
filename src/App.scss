@@ -1,17 +1,11 @@
-@media (min-width: $xs) {
-    .app {
-        padding: 0px 0px 8px 0px;
-    }
-}
-
 @media (min-width: $large) {
     .app {
-        padding: 72px 32px 24px 32px;
+        padding: 72px 32px 0px;
     }
 }
 
 @media (min-width: $xl) {
     .app {
-        padding: 80px 64px 24px 64px;
+        padding: 80px 64px 0px;
     }
 }

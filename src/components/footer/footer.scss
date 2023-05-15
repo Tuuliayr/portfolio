@@ -1,13 +1,18 @@
-@media (max-width: $large) {
+@media (min-width: $xs) {
     footer {
-        padding-top: 24px;
-        padding-bottom: 64px;
+        padding: 16px 0px 72px;
+    }
+}
+
+@media (min-width: $xl) {
+    footer {
+        padding: 24px 0px 64px;
     }
 }
 
 @media (min-width: $large) {
     footer {
-        padding-top: 64px;
+        padding: 64px 0px 24px;
     }
 }
 
