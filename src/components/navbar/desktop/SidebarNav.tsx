@@ -13,7 +13,7 @@ const SidebarNav: React.FC = () => {
                         to="cover"
                         smooth={true}
                         spy={true}
-                        offset={-108}
+                        offset={-70}
                         duration={500}
                     >
                         Bakery Mobile App
@@ -23,7 +23,7 @@ const SidebarNav: React.FC = () => {
                         to="overview"
                         smooth={true}
                         spy={true}
-                        offset={-108}
+                        offset={-60}
                         duration={500}
                     >
                         {t("navigation.sidebar.overview")}
@@ -33,7 +33,6 @@ const SidebarNav: React.FC = () => {
                         to="understanding"
                         smooth={true}
                         spy={true}
-                        offset={-60}
                         duration={500}
                     >
                         {t("navigation.sidebar.understanding")}
@@ -43,7 +42,6 @@ const SidebarNav: React.FC = () => {
                         to="designStart"
                         smooth={true}
                         spy={true}
-                        offset={-30}
                         duration={500}
                     >
                         {t("navigation.sidebar.designStart")}
@@ -53,7 +51,6 @@ const SidebarNav: React.FC = () => {
                         to="designRefine"
                         smooth={true}
                         spy={true}
-                        offset={-30}
                         duration={500}
                     >
                         {t("navigation.sidebar.designRefine")}
@@ -63,7 +60,6 @@ const SidebarNav: React.FC = () => {
                         to="takeaways"
                         smooth={true}
                         spy={true}
-                        offset={-30}
                         duration={500}
                     >
                         {t("navigation.sidebar.takeaways")}
