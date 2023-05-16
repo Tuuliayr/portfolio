@@ -3,6 +3,7 @@
 @import "components/base/variables.scss";
 @import "components/base/breakpoints.scss";
 
+@import "components/base/myBackButton/myBackButton.scss";
 @import "components/base/myButton/myButton.scss";
 @import "components/base/myTextField/myTextField.scss";
 @import "components/base/myTag/myTag.scss";
@@ -12,6 +13,7 @@
 @import "components/navbar/mobile/navbarMobile.scss";
 @import "components/navbar/mobile/topBarMobile.scss";
 @import "components/navbar/desktop/sidebarNav.scss";
+@import "components/navbar/backNavbar.scss";
 
 // Languages
 @import "components/languageSelector/languageSelector.scss";
