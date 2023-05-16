@@ -43,18 +43,18 @@ const BakeryApp: React.FC = () => {
             </div>
             <div className="overview" id="overview">
                 <div className="text-wrapper center-aligned">
-                    <h1>Overview</h1>
+                    <h1>{t("navigation.sidebar.overview")}</h1>
                     <h3>{t("projects.bakeryApp.date")}</h3>
                 </div>
                 <HelpOutlineIcon className="icon"/>
-                <p><span className="highlighted-text">Problem:</span> Some people have limitations on what they can eat or need more information on their food for other reasons. 
+                <p className="text-wrapper__space"><span className="highlighted-text">Problem:</span> Some people have limitations on what they can eat or need more information on their food for other reasons. 
                     This information isn't always easy to find.</p>
                 <StarOutlineIcon className="icon"/>
                 <p><span className="highlighted-text">Goal:</span> Design an app that makes finding suitable food options faster and more comfortable.</p>
             </div>
             <div className="understanding" id="understanding">
                 <div className="text-wrapper left-aligned">
-                    <h1>Understanding</h1>
+                    <h1>{t("navigation.sidebar.understanding")}</h1>
                     <h3>User research summary</h3>
                     <p>The competitive audit showed lack of ingredient and nutrition information on other ordering apps/websites.</p>
                     <p>I created empathy maps to better understand the users' wants and needs. The user group I focused on was working adults 
@@ -88,7 +88,7 @@ const BakeryApp: React.FC = () => {
             </div>
             <div className="design-start" id="designStart">
                 <div className="text-wrapper left-aligned">
-                    <h1>Starting the design</h1>
+                    <h1>{t("navigation.sidebar.designStart")}</h1>
                     <p>Pälä pälä design process?</p>
                     <h3>Paper wireframes</h3>
                     <p>Wireframing on paper enabled quick iteration and trying out different layouts for the home page before moving on to digital wireframing.</p>
@@ -128,7 +128,7 @@ const BakeryApp: React.FC = () => {
             </div>
             <div className="design-refine" id="designRefine">
                 <div className="text-wrapper left-aligned">
-                    <h1>Refining the design</h1>
+                    <h1>{t("navigation.sidebar.designRefine")}</h1>
                     <h3>Mockups</h3>
                     <div className="comparison">
                         <img 
@@ -206,12 +206,12 @@ const BakeryApp: React.FC = () => {
             </div>
             <div className="takeaways" id="takeaways">
                 <div className="text-wrapper center-aligned">
-                    <h1>Takeaways</h1>
+                    <h1>{t("navigation.sidebar.takeaways")}</h1>
                 </div>
                     <PeopleIcon className="icon"/>
-                    <p><span className="highlighted-text">Impact:</span> The app makes users feel like they can make informed decisions on their bakery ordering choices.</p>
+                    <p className="text-wrapper__space"><span className="highlighted-text">Impact:</span> The app makes users feel like they can make informed decisions on their bakery ordering choices.</p>
                     <SchoolIcon className="icon"/>
-                    <p><span className="highlighted-text">What I learned:</span> I learned to trust the iteration process more. It can feel overwhelming to start from nothing, but I am happy
+                    <p className="text-wrapper__space"><span className="highlighted-text">What I learned:</span> I learned to trust the iteration process more. It can feel overwhelming to start from nothing, but I am happy
                         how far I have gotten with this app design.</p>
                 <div className="text-wrapper center-aligned">
                     <h3>Next steps</h3>
