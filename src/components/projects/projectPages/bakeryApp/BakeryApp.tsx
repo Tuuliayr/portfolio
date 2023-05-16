@@ -17,11 +17,10 @@ import imgMockupBeforeProfile from '../../../../static/images/mockup-before2.jpg
 import imgMockupAfterProfile from '../../../../static/images/mockup-after2.jpg';
 import imgMockupBrowse from '../../../../static/images/mockup-browse.jpg';
 import imgMockupCheckout from '../../../../static/images/mockup-checkout.jpg';
-// import LanguageSelector from '../../../languageSelector/LanguageSelector';
+import BackNavbar from '../../../navbar/BackNavbar';
 import SidebarNav from '../../../navbar/desktop/SidebarNav';
 import MyTag from '../../../base/myTag/MyTag';
 import Footer from '../../../footer/Footer';
-// import TechTags from '../../../../models/TechTags';
 
 const BakeryApp: React.FC = () => {
     const {t} = useTranslation();
@@ -32,7 +31,7 @@ const BakeryApp: React.FC = () => {
 
     return (
         <div className="bakery-app">
-            {/* <LanguageSelector/> */}
+            <BackNavbar/>
             <SidebarNav/>
             <div className="cover" id="cover">
                 <img src={imgBakeryApp} alt="Bakery mobile ordering app's home page." height={600}></img>
