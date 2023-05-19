@@ -47,89 +47,134 @@ const BakeryApp: React.FC = () => {
                     <h3>{t("projects.bakeryApp.date")}</h3>
                 </div>
                 <HelpOutlineIcon className="icon"/>
-                <p className="text-wrapper__space"><span className="highlighted-text">Problem:</span> Some people have limitations on what they can eat or need more information on their food for other reasons. 
-                    This information isn't always easy to find.</p>
+                <p className="text-wrapper__space">
+                    <span className="highlighted-text">
+                        {t("projects.bakeryApp.overview.problem")}
+                    </span>
+                    {t("projects.bakeryApp.overview.problemContent")}
+                </p>
                 <StarOutlineIcon className="icon"/>
-                <p><span className="highlighted-text">Goal:</span> Design an app that makes finding suitable food options faster and more comfortable.</p>
+                <p>
+                    <span 
+                        className="highlighted-text">{t("projects.bakeryApp.overview.goal")}
+                    </span>
+                    {t("projects.bakeryApp.overview.goalContent")}
+                </p>
             </div>
             <div className="understanding" id="understanding">
                 <div className="text-wrapper left-aligned">
                     <h1>{t("navigation.sidebar.understanding")}</h1>
-                    <h3>User research summary</h3>
-                    <p>The competitive audit showed lack of ingredient and nutrition information on other ordering apps/websites.</p>
-                    <p>I created empathy maps to better understand the users' wants and needs. The user group I focused on was working adults 
-                        between the ages of 20 and 60 years old. Empathy maps were then refined into personas.</p>
-                    <p>Research revealed three major user pain points.</p>
+                    <h3>{t("projects.bakeryApp.understanding.userResearch.heading")}</h3>
+                    <p>{t("projects.bakeryApp.understanding.userResearch.competitiveAudit")}</p>
+                    <p>{t("projects.bakeryApp.understanding.userResearch.empathy")}</p>
+                    <p>{t("projects.bakeryApp.understanding.userResearch.revelation")}</p>
                     <h3>Pain points</h3>
-                    <p><span className="highlighted-text">Inconvenience</span> - Trying to find information about allergens and nutrition values feels inconvenient.</p>
-                    <p><span className="highlighted-text">Time</span> - Finding suitable food options takes too long.</p>
-                    <p><span className="highlighted-text">Uncertainty</span> - Not sure what the food contains. “Can I eat this?"</p>
+                    <p>
+                        <span className="highlighted-text">
+                            {t("projects.bakeryApp.understanding.painPoints.inconvenience")}
+                        </span>
+                        {t("projects.bakeryApp.understanding.painPoints.inconvenienceText")}
+                    </p>
+                    <p>
+                        <span className="highlighted-text">
+                            {t("projects.bakeryApp.understanding.painPoints.time")}
+                        </span>
+                        {t("projects.bakeryApp.understanding.painPoints.timeText")}
+                    </p>
+                    <p>
+                        <span className="highlighted-text">
+                            {t("projects.bakeryApp.understanding.painPoints.uncertainty")}
+                        </span>
+                            {t("projects.bakeryApp.understanding.painPoints.uncertaintyText")}
+                    </p>
                 </div>
                 <div className="text-wrapper left-aligned">
-                <h3>Persona - Manu</h3>
+                <h3>{t("projects.bakeryApp.understanding.persona.heading")}</h3>
                 <img 
                     src={imgPersona} 
                     alt="Persona: Manu." 
                     height={500} 
                     className="img"
                 />
-                <p><span className="highlighted-text">Problem statement</span> - Manu is a junior employee in an HR consulting firm who needs a faster way to find 
-                    suitable food options for their coworkers because of the coworkers' allergies.</p>
-                <h3>User journey map - Manu</h3>
+                <p>
+                    <span className="highlighted-text">
+                        {t("projects.bakeryApp.understanding.persona.problemStatement")}
+                    </span>
+                    {t("projects.bakeryApp.understanding.persona.problemStatementText")}
+                </p>
+                <h3>{t("projects.bakeryApp.understanding.userJourney.heading")}</h3>
                 <img 
                     src={imgUserJourney} 
                     alt="User journey map: Manu." 
                     height={500} 
                     className="img"
                 />
-                <p>Mapping Manu's journey revealed that a way to filter the products could <span className="highlighted-text">quicken the ordering process</span> and 
-                    <span className="highlighted-text"> help the users make more confident choices</span>.</p>
+                <p>
+                    {t("projects.bakeryApp.understanding.userJourney.journey")}
+                    <span className="highlighted-text">
+                        {t("projects.bakeryApp.understanding.userJourney.quickenProcess")}
+                    </span> 
+                    {t("projects.bakeryApp.understanding.userJourney.and")}
+                    <span className="highlighted-text">
+                        {t("projects.bakeryApp.understanding.userJourney.helpUsers")}
+                    </span>
+                        .
+                </p>
                 </div>
             </div>
             <div className="design-start" id="designStart">
                 <div className="text-wrapper left-aligned">
                     <h1>{t("navigation.sidebar.designStart")}</h1>
                     <p>Pälä pälä design process?</p>
-                    <h3>Paper wireframes</h3>
-                    <p>Wireframing on paper enabled quick iteration and trying out different layouts for the home page before moving on to digital wireframing.</p>
+                    <h3>{t("projects.bakeryApp.designStart.paperWireframes.heading")}</h3>
+                    <p>{t("projects.bakeryApp.designStart.paperWireframes.iteration")}</p>
                     <img 
                         src={imgPaperWireframe} 
                         alt="Five different paper wireframe versions of the home page." 
                         height={400} 
                         className="img"
                     />
-                    <p>I ideatiated five different versions of the home page.</p>
+                    <p>{t("projects.bakeryApp.designStart.paperWireframes.ideation")}</p>
                     <img 
                         src={imgPaperWireframeRefined} 
                         alt="Refined version of the home page." 
                         height={400} 
                         className="img"
                     />
-                    <p>After assessing the best features of the differend wirefames I built a refined version of the home screen.</p>
-                    <h3>Digital wireframes</h3>
+                    <p>{t("projects.bakeryApp.designStart.paperWireframes.refinedVersion")}</p>
+                    <h3>{t("projects.bakeryApp.designStart.digitalWireframes.heading")}</h3>
                     <img 
                         src={imgDigitalWireframes} 
                         alt="Digital wireframes." 
                         height={500} 
                         className="img"
                     />
-                    <p>As the initial design phase continued, I made sure to base screen designs on findings from the user research.</p>
-                    <h3>Low-fidelity prototype</h3>
-                    <p>I connected the digital wireframe screens in order to create the primary user flow, which presents the process of ordering bakery goods.</p>
-                    <p>View bakery mobile app's <a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?
-                    node-id=3%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2&show-proto-sidebar=1"> low-fidelity prototype</a>.</p>
-                    <h3>Usability study findings</h3>
-                    <p>From testing the low-fidelity prototype on five users, I could determine that the following changes were needed:</p>
-                    <p><span className="highlighted-text">1.</span> Back button was missing from the profile page.</p>
-                    <p><span className="highlighted-text">2.</span> Users felt that reading ingredient lists is tiring and there should be quicker way to find out, 
-                        if the product is suitable for their dietary needs.</p>
-                    <p><span className="highlighted-text">3.</span> Users needed a clearer way to access orders.</p>
+                    <p>{t("projects.bakeryApp.designStart.digitalWireframes.designs")}</p>
+                    <h3>{t("projects.bakeryApp.designStart.lofiPrototype.heading")}</h3>
+                    <p>{t("projects.bakeryApp.designStart.lofiPrototype.userFlow")}</p>
+                    <p>
+                        {t("projects.bakeryApp.designStart.lofiPrototype.prototypeText")} 
+                        <a 
+                            target="_blank" 
+                            rel="noreferrer" 
+                            href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?
+                                node-id=3%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2&show-proto-sidebar=1"
+                        >
+                            {t("projects.bakeryApp.designStart.lofiPrototype.prototypeLink")}
+                        </a>
+                        .
+                    </p>
+                    <h3>{t("projects.bakeryApp.designStart.usabilityFindings.heading")}</h3>
+                    <p>{t("projects.bakeryApp.designStart.usabilityFindings.changes")}</p>
+                    <p><span className="highlighted-text">1. </span>{t("projects.bakeryApp.designStart.usabilityFindings.backButton")}</p>
+                    <p><span className="highlighted-text">2. </span>{t("projects.bakeryApp.designStart.usabilityFindings.dietaryNeeds")}</p>
+                    <p><span className="highlighted-text">3. </span>{t("projects.bakeryApp.designStart.usabilityFindings.orders")}</p>
                 </div>
             </div>
             <div className="design-refine" id="designRefine">
                 <div className="text-wrapper left-aligned">
                     <h1>{t("navigation.sidebar.designRefine")}</h1>
-                    <h3>Mockups</h3>
+                    <h3>{t("projects.bakeryApp.designRefine.mockups.heading")}</h3>
                     <div className="comparison">
                         <img 
                             src={imgMockupBeforeProduct} 
@@ -144,10 +189,8 @@ const BakeryApp: React.FC = () => {
                             height={600} className="img"
                         />
                     </div>
-                    <p>Dietary tags were added to product page. Tags will help the user quickly decide if the product is suitable for them, without reading the ingredient list. 
-                        The layout was modified to fit these new elements.</p>
-                    <p>“Add to cart” button was accompanied by an element that shows how many items have been added so that the user can add many items at
-                        once and see how many items have been already added.</p>
+                    <p>{t("projects.bakeryApp.designRefine.mockups.dietaryTags")}</p>
+                    <p>{t("projects.bakeryApp.designRefine.mockups.addToCart")}</p>
                     <div className="comparison">
                         <img 
                             src={imgMockupBeforeProfile} 
@@ -163,9 +206,9 @@ const BakeryApp: React.FC = () => {
                             className="img"
                         />
                     </div>
-                    <p>Profile page was redesigned and missing back button added. All the user information can be accessed and edited in a uniform way.</p>
-                    <p>Information was divided into small sections, which makes it easy to read. Orders can be found at the top of the page.</p>
-                    <h3>Key mockups</h3>
+                    <p>{t("projects.bakeryApp.designRefine.mockups.profilePage")}</p>
+                    <p>{t("projects.bakeryApp.designRefine.mockups.sections")}</p>
+                    <h3>{t("projects.bakeryApp.designRefine.keyMockups")}</h3>
                 </div>
                 <div>
                     <img 
@@ -193,15 +236,45 @@ const BakeryApp: React.FC = () => {
                     />
                 </div>
                 <div className="text-wrapper left-aligned">
-                    <h3>High-fidelity prototype</h3>
-                    <p>The final high-fidelity prototype presented cleaner user flows for navigating the app and ordering bakery goods.</p>
-                    <p>View bakery mobile app's <a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?
-                    node-id=415-129&scaling=min-zoom&page-id=415%3A128&starting-point-node-id=415%3A129"> high-fidelity prototype</a>.</p>
-                    <h3>Accessibility</h3>
-                    <p><span className="highlighted-text">1.</span> WCAG guidelines on color contrast were followed.</p>
-                    <p><span className="highlighted-text">2.</span> Used icons to help make navigation easier.</p>
-                    <p><span className="highlighted-text">3.</span> Kept language simple.</p>
-                    <p><span className="highlighted-text">4.</span> Used pictures for the products.</p>
+                    <h3>{t("projects.bakeryApp.designRefine.hifiPrototype.heading")}</h3>
+                    <p>{t("projects.bakeryApp.designRefine.hifiPrototype.final")}</p>
+                    <p>
+                        {t("projects.bakeryApp.designRefine.hifiPrototype.prototypeText")}
+                        <a 
+                            target="_blank" 
+                            rel="noreferrer" 
+                            href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?
+                                node-id=415-129&scaling=min-zoom&page-id=415%3A128&starting-point-node-id=415%3A129"
+                        >
+                            {t("projects.bakeryApp.designRefine.hifiPrototype.prototypeLink")}
+                        </a>
+                        .
+                        </p>
+                    <h3>{t("projects.bakeryApp.designRefine.accessibility.heading")}</h3>
+                    <p>
+                        <span className="highlighted-text">
+                            1. 
+                        </span>
+                        {t("projects.bakeryApp.designRefine.accessibility.colors")}
+                    </p>
+                    <p>
+                        <span className="highlighted-text">
+                            2. 
+                        </span>
+                        {t("projects.bakeryApp.designRefine.accessibility.icons")}
+                    </p>
+                    <p>
+                        <span className="highlighted-text">
+                            3. 
+                        </span>
+                        {t("projects.bakeryApp.designRefine.accessibility.language")}
+                    </p>
+                    <p>
+                        <span className="highlighted-text">
+                            4. 
+                        </span>
+                        {t("projects.bakeryApp.designRefine.accessibility.pictures")}
+                    </p>
                 </div>
             </div>
             <div className="takeaways" id="takeaways">
@@ -209,15 +282,33 @@ const BakeryApp: React.FC = () => {
                     <h1>{t("navigation.sidebar.takeaways")}</h1>
                 </div>
                     <PeopleIcon className="icon"/>
-                    <p className="text-wrapper__space"><span className="highlighted-text">Impact:</span> The app makes users feel like they can make informed decisions on their bakery ordering choices.</p>
+                    <p className="text-wrapper__space">
+                        <span className="highlighted-text">
+                            {t("projects.bakeryApp.takeaways.impact")}
+                        </span>
+                        {t("projects.bakeryApp.takeaways.impactText")}
+                    </p>
                     <SchoolIcon className="icon"/>
-                    <p className="text-wrapper__space"><span className="highlighted-text">What I learned:</span> I learned to trust the iteration process more. It can feel overwhelming to start from nothing, but I am happy
-                        how far I have gotten with this app design.</p>
+                    <p className="text-wrapper__space">
+                        <span className="highlighted-text">
+                            {t("projects.bakeryApp.takeaways.whatLearned")}
+                        </span>
+                        {t("projects.bakeryApp.takeaways.whatLearnedText")}
+                    </p>
                 <div className="text-wrapper center-aligned">
-                    <h3>Next steps</h3>
-                    <p><span className="highlighted-text">1.</span> Conduct another round of usability studies to validate whether the pain points users experienced have
-                        been effectively addressed.</p>
-                    <p><span className="highlighted-text">2.</span> Conduct more user research to determine any new areas of need.</p>
+                    <h3>{t("projects.bakeryApp.takeaways.nextSteps.heading")}</h3>
+                    <p>
+                        <span className="highlighted-text">
+                            1. 
+                        </span>
+                        {t("projects.bakeryApp.takeaways.nextSteps.usabilityStudy")}
+                    </p>
+                    <p>
+                        <span className="highlighted-text">
+                            2. 
+                        </span>
+                            {t("projects.bakeryApp.takeaways.nextSteps.research")}
+                    </p>
                 </div>
             </div>
             <Footer/>
