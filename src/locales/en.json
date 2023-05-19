@@ -58,31 +58,91 @@
             },
             "understanding": {
                 "userResearch": {
-                    "h3": "User research summary",
-                    "p1": "The competitive audit showed lack of ingredient and nutrition information on other ordering apps/websites.",
-                    "p2": "I created empathy maps to better understand the users' wants and needs. The user group I focused on was working adults between the ages of 20 and 60 years old. Empathy maps were then refined into personas.",
-                    "p3": "Research revealed three major user pain points."
+                    "heading": "User research summary",
+                    "competitiveAudit": "The competitive audit showed lack of ingredient and nutrition information on other ordering apps/websites.",
+                    "empathy": "I created empathy maps to better understand the users' wants and needs. The user group I focused on was working adults between the ages of 20 and 60 years old. Empathy maps were then refined into personas.",
+                    "revelation": "Research revealed three major user pain points."
                 },
                 "painPoints": {
-                    "p1": "inconvenience ",
-                    "p1Content": "- Trying to find information about allergens and nutrition values feels inconvenient.",
-                    "p2": "Time ",
-                    "p2Content": "- Finding suitable food options takes too long.",
-                    "p3": "Uncertainty ",
-                    "p3Content": "- Not sure what the food contains. “Can I eat this?"
+                    "inconvenience": "inconvenience ",
+                    "inconvenienceText": "- Trying to find information about allergens and nutrition values feels inconvenient.",
+                    "time": "Time ",
+                    "timeText": "- Finding suitable food options takes too long.",
+                    "uncertainty": "Uncertainty ",
+                    "uncertaintyText": "- Not sure what the food contains. “Can I eat this?"
                 },
                 "persona": {
-                    "h3": "Persona - Manu",
-                    "p1": "Problem statement ",
-                    "p1Content": "- Manu is a junior employee in an HR consulting firm who needs a faster way to find suitable food options for their coworkers because of the coworkers' allergies."
+                    "heading": "Persona - Manu",
+                    "problemStatement": "Problem statement ",
+                    "problemStatementText": "- Manu is a junior employee in an HR consulting firm who needs a faster way to find suitable food options for their coworkers because of the coworkers' allergies."
                 },
                 "userJourney": {
-                    "h3": "User journey map - Manu",
-                    "p1": "Mapping Manu's journey revealed that a way to filter the products could ",
-                    "p1span1": "quicken the ordering process",
+                    "heading": "User journey map - Manu",
+                    "journey": "Mapping Manu's journey revealed that a way to filter the products could ",
+                    "quickenProcess": "quicken the ordering process",
                     "and": " and",
-                    "p1span2": " help the users make more confident choices",
-                    "fullStop": "."
+                    "helpUsers": " help the users make more confident choices"
+                }
+            },
+            "designStart": {
+                "paperWireframes": {
+                    "heading": "Paper wireframes",
+                    "iteration": "Wireframing on paper enabled quick iteration and trying out different layouts for the home page before moving on to digital wireframing.",
+                    "ideation": "I ideatiated five different versions of the home page.",
+                    "refinedVersion": "After assessing the best features of the differend wirefames I built a refined version of the home screen."
+
+                },
+                "digitalWireframes": {
+                    "heading": "Digital Wireframes",
+                    "designs": "As the initial design phase continued, I made sure to base screen designs on findings from the user research."
+
+                },
+                "lofiPrototype": {
+                    "heading": "Low-fidelity prototype",
+                    "userFlow": "I connected the digital wireframe screens in order to create the primary user flow, which presents the process of ordering bakery goods.",
+                    "prototypeText": "View bakery mobile app's ",
+                    "prototypeLink": "low-fidelity prototype"
+                },
+                "usabilityFindings": {
+                    "heading": "Usability study findings",
+                    "changes": "From testing the low-fidelity prototype on five users, I could determine that the following changes were needed:",
+                    "backButton": "Back button was missing from the profile page.",
+                    "dietaryNeeds": "Users felt that reading ingredient lists is tiring and there should be quicker way to find out, if the product is suitable for their dietary needs.",
+                    "orders": "Users needed a clearer way to access orders."
+                }
+            },
+            "designRefine": {
+                "mockups": {
+                    "heading": "Mockups",
+                    "dietaryTags": "Dietary tags were added to product page. Tags will help the user quickly decide if the product is suitable for them, without reading the ingredient list. The layout was modified to fit these new elements.",
+                    "addToCart": "'Add to cart' button was accompanied by an element that shows how many items have been added so that the user can add many items at once and see how many items have been already added.",
+                    "profilePage": "Profile page was redesigned and missing back button added. All the user information can be accessed and edited in a uniform way.",
+                    "sections": "Information was divided into small sections, which makes it easy to read. Orders can be found at the top of the page."
+                },
+                "keyMockups": "Key mockups",
+                "hifiPrototype": {
+                    "final": "The final high-fidelity prototype presented cleaner user flows for navigating the app and ordering bakery goods.",
+                    "prototypeText": "View bakery mobile app's ",
+                    "prototypeLink": "high-fidelity prototype"
+                },
+                "accessibility": {
+                    "heading": "Accessibility",
+                    "colors": "WCAG guidelines on color contrast were followed.",
+                    "icons": "Used icons to help make navigation easier.",
+                    "language": "Kept language simple.",
+                    "pictures": "Used pictures for the products."
+                }
+            },
+            "takeaways": {
+                "heading": "Takeaways",
+                "impact": "Impact:",
+                "impactText": "The app makes users feel like they can make informed decisions on their bakery ordering choices.",
+                "whatLearned": "What I learned:",
+                "whatLearnedText": "I learned to trust the iteration process more. It can feel overwhelming to start from nothing, but I am happy how far I have gotten with this app design.",
+                "nextSteps": {
+                    "heading": "Next steps",
+                    "usabilityStudy": "Conduct another round of usability studies to validate whether the pain points users experienced have been effectively addressed.",
+                    "research": "Conduct more user research to determine any new areas of need."
                 }
             }
         },
