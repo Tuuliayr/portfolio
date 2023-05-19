@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
                     techs={[TechTags.FIGMA]}
                     desc={t("projects.bakeryApp.desc")}
                     myImg={imgBakery}
-                    myImgAlt={"projects.bakeryApp.imgAlt"}
+                    myImgAlt={"projects.bakeryApp.imgAlts.home"}
                 />
                 <ProjectCard
                     url="/dance-vote"
