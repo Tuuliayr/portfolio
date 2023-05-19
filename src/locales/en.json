@@ -1,7 +1,8 @@
 {
     "buttons": {
         "readMore": "Read more",
-        "submit": "Send"
+        "submit": "Send",
+        "back": "Back"
     },
 
     "navigation": {
@@ -42,11 +43,48 @@
             "KRITA": "Krita"
         },
         "bakeryApp": {
-            "imgAlt": "Picture of the home page of the app.",
+            "imgAlts": {
+                "home": "Bakery mobile ordering app's home page."
+            },
             "title": "Bakery Mobile Ordering App Design",
             "date": "Spring 2023 | UX/UI Design",
             "role": "Role: UX/UI designer",
-            "desc": "A design of a mobile app for ordering goods from a local bakery. The app provides the customers an easy way to access detailed information on used ingredients and nutrition charts, in order to support the customers making the most suitable choices for themselves and to alleviate concerns about allergens."
+            "desc": "A design of a mobile app for ordering goods from a local bakery. The app provides the customers an easy way to access detailed information on used ingredients and nutrition charts, in order to support the customers making the most suitable choices for themselves and to alleviate concerns about allergens.",
+            "overview": {
+                "problem": "Problem: ",
+                "problemContent": "Some people have limitations on what they can eat or need more information on their food for other reasons. This information isn't always easy to find.",
+                "goal": "Goal :",
+                "goalContent": " Design an app that makes finding suitable food options faster and more comfortable."
+            },
+            "understanding": {
+                "userResearch": {
+                    "h3": "User research summary",
+                    "p1": "The competitive audit showed lack of ingredient and nutrition information on other ordering apps/websites.",
+                    "p2": "I created empathy maps to better understand the users' wants and needs. The user group I focused on was working adults between the ages of 20 and 60 years old. Empathy maps were then refined into personas.",
+                    "p3": "Research revealed three major user pain points."
+                },
+                "painPoints": {
+                    "p1": "inconvenience ",
+                    "p1Content": "- Trying to find information about allergens and nutrition values feels inconvenient.",
+                    "p2": "Time ",
+                    "p2Content": "- Finding suitable food options takes too long.",
+                    "p3": "Uncertainty ",
+                    "p3Content": "- Not sure what the food contains. “Can I eat this?"
+                },
+                "persona": {
+                    "h3": "Persona - Manu",
+                    "p1": "Problem statement ",
+                    "p1Content": "- Manu is a junior employee in an HR consulting firm who needs a faster way to find suitable food options for their coworkers because of the coworkers' allergies."
+                },
+                "userJourney": {
+                    "h3": "User journey map - Manu",
+                    "p1": "Mapping Manu's journey revealed that a way to filter the products could ",
+                    "p1span1": "quicken the ordering process",
+                    "and": " and",
+                    "p1span2": " help the users make more confident choices",
+                    "fullStop": "."
+                }
+            }
         },
         "danceVote": {
             "imgAlt": "Picture of the voting room page.",
