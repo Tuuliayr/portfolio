@@ -1,13 +1,21 @@
 {
     "buttons": {
         "readMore": "Lue lisää",
-        "submit": "Lähetä"
+        "submit": "Lähetä",
+        "back": "Takaisin"
     },
 
     "navigation": {
         "about": "Minä",
         "work": "Projektit",
-        "contact": "Ota yhteyttä"
+        "contact": "Ota yhteyttä",
+        "sidebar": {
+            "overview": "Yhteenveto",
+            "understanding": "Ymmärrys",
+            "designStart": "Suunnittelun alku",
+            "designRefine": "Suunnitelman hiominen",
+            "takeaways": "Loppusanat"
+        }
     },
 
     "myIntroduction": {
