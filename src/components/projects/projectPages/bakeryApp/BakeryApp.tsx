@@ -32,8 +32,12 @@ const BakeryApp: React.FC = () => {
     return (
         <div className="bakery-app">
             <BackNavbar/>
-            <SidebarNav/>
-            <div className="cover" id="cover">
+            <SidebarNav
+                destinations={["coverBakery", "overview", "understanding", "designStart", "designRefine", "takeaways"]}
+                titles={["Bakery Mobile App", "Overview", "Understanding", "Starting the design", "Refining the design", "Takeaways"]}
+                offsets={[-70, -60]}
+            />
+            <div className="cover" id="coverBakery">
                 <img
                     src={imgBakeryApp} 
                     alt="Bakery mobile ordering app's home page." 
