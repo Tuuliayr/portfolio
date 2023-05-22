@@ -34,7 +34,11 @@ const BakeryApp: React.FC = () => {
             <BackNavbar/>
             <SidebarNav/>
             <div className="cover" id="cover">
-                <img src={imgBakeryApp} alt="Bakery mobile ordering app's home page." height={600}></img>
+                <img
+                    src={imgBakeryApp} 
+                    alt="Bakery mobile ordering app's home page." 
+                    height={600}
+                />
                 <div className="cover__text">
                     <h1>{t("projects.bakeryApp.title")}</h1>
                     <p>{t("projects.bakeryApp.desc")}</p>
@@ -43,7 +47,7 @@ const BakeryApp: React.FC = () => {
             </div>
             <div className="overview" id="overview">
                 <div className="text-wrapper center-aligned">
-                    <h1>{t("navigation.sidebar.overview")}</h1>
+                    <h2>{t("navigation.sidebar.overview")}</h2>
                     <h3>{t("projects.bakeryApp.date")}</h3>
                 </div>
                 <HelpOutlineIcon className="icon"/>
@@ -55,20 +59,20 @@ const BakeryApp: React.FC = () => {
                 </p>
                 <StarOutlineIcon className="icon"/>
                 <p>
-                    <span 
-                        className="highlighted-text">{t("projects.bakeryApp.overview.goal")}
+                    <span className="highlighted-text">
+                        {t("projects.bakeryApp.overview.goal")}
                     </span>
                     {t("projects.bakeryApp.overview.goalContent")}
                 </p>
             </div>
             <div className="understanding" id="understanding">
                 <div className="text-wrapper left-aligned">
-                    <h1>{t("navigation.sidebar.understanding")}</h1>
+                    <h2>{t("navigation.sidebar.understanding")}</h2>
                     <h3>{t("projects.bakeryApp.understanding.userResearch.heading")}</h3>
                     <p>{t("projects.bakeryApp.understanding.userResearch.competitiveAudit")}</p>
                     <p>{t("projects.bakeryApp.understanding.userResearch.empathy")}</p>
                     <p>{t("projects.bakeryApp.understanding.userResearch.revelation")}</p>
-                    <h3>Pain points</h3>
+                    <h3>{t("projects.bakeryApp.understanding.painPoints.heading")}</h3>
                     <p>
                         <span className="highlighted-text">
                             {t("projects.bakeryApp.understanding.painPoints.inconvenience")}
@@ -85,46 +89,46 @@ const BakeryApp: React.FC = () => {
                         <span className="highlighted-text">
                             {t("projects.bakeryApp.understanding.painPoints.uncertainty")}
                         </span>
-                            {t("projects.bakeryApp.understanding.painPoints.uncertaintyText")}
+                        {t("projects.bakeryApp.understanding.painPoints.uncertaintyText")}
                     </p>
                 </div>
                 <div className="text-wrapper left-aligned">
-                <h3>{t("projects.bakeryApp.understanding.persona.heading")}</h3>
-                <img 
-                    src={imgPersona} 
-                    alt="Persona: Manu." 
-                    height={500} 
-                    className="img"
-                />
-                <p>
-                    <span className="highlighted-text">
-                        {t("projects.bakeryApp.understanding.persona.problemStatement")}
-                    </span>
-                    {t("projects.bakeryApp.understanding.persona.problemStatementText")}
-                </p>
-                <h3>{t("projects.bakeryApp.understanding.userJourney.heading")}</h3>
-                <img 
-                    src={imgUserJourney} 
-                    alt="User journey map: Manu." 
-                    height={500} 
-                    className="img"
-                />
-                <p>
-                    {t("projects.bakeryApp.understanding.userJourney.journey")}
-                    <span className="highlighted-text">
-                        {t("projects.bakeryApp.understanding.userJourney.quickenProcess")}
-                    </span> 
-                    {t("projects.bakeryApp.understanding.userJourney.and")}
-                    <span className="highlighted-text">
-                        {t("projects.bakeryApp.understanding.userJourney.helpUsers")}
-                    </span>
+                    <h3>{t("projects.bakeryApp.understanding.persona.heading")}</h3>
+                    <img 
+                        src={imgPersona} 
+                        alt="Persona: Manu." 
+                        height={500} 
+                        className="img"
+                    />
+                    <p>
+                        <span className="highlighted-text">
+                            {t("projects.bakeryApp.understanding.persona.problemStatement")}
+                        </span>
+                        {t("projects.bakeryApp.understanding.persona.problemStatementText")}
+                    </p>
+                    <h3>{t("projects.bakeryApp.understanding.userJourney.heading")}</h3>
+                    <img 
+                        src={imgUserJourney} 
+                        alt="User journey map: Manu." 
+                        height={500} 
+                        className="img"
+                    />
+                    <p>
+                        {t("projects.bakeryApp.understanding.userJourney.journey")}
+                        <span className="highlighted-text">
+                            {t("projects.bakeryApp.understanding.userJourney.quickenProcess")}
+                        </span> 
+                        {t("projects.bakeryApp.understanding.userJourney.and")}
+                        <span className="highlighted-text">
+                            {t("projects.bakeryApp.understanding.userJourney.helpUsers")}
+                        </span>
                         .
-                </p>
+                    </p>
                 </div>
             </div>
             <div className="design-start" id="designStart">
                 <div className="text-wrapper left-aligned">
-                    <h1>{t("navigation.sidebar.designStart")}</h1>
+                    <h2>{t("navigation.sidebar.designStart")}</h2>
                     <p>Pälä pälä design process?</p>
                     <h3>{t("projects.bakeryApp.designStart.paperWireframes.heading")}</h3>
                     <p>{t("projects.bakeryApp.designStart.paperWireframes.iteration")}</p>
@@ -166,14 +170,23 @@ const BakeryApp: React.FC = () => {
                     </p>
                     <h3>{t("projects.bakeryApp.designStart.usabilityFindings.heading")}</h3>
                     <p>{t("projects.bakeryApp.designStart.usabilityFindings.changes")}</p>
-                    <p><span className="highlighted-text">1. </span>{t("projects.bakeryApp.designStart.usabilityFindings.backButton")}</p>
-                    <p><span className="highlighted-text">2. </span>{t("projects.bakeryApp.designStart.usabilityFindings.dietaryNeeds")}</p>
-                    <p><span className="highlighted-text">3. </span>{t("projects.bakeryApp.designStart.usabilityFindings.orders")}</p>
+                    <p>
+                        <span className="highlighted-text">1. </span>
+                        {t("projects.bakeryApp.designStart.usabilityFindings.backButton")}
+                    </p>
+                    <p>
+                        <span className="highlighted-text">2. </span>
+                        {t("projects.bakeryApp.designStart.usabilityFindings.dietaryNeeds")}
+                    </p>
+                    <p>
+                        <span className="highlighted-text">3. </span>
+                        {t("projects.bakeryApp.designStart.usabilityFindings.orders")}
+                    </p>
                 </div>
             </div>
             <div className="design-refine" id="designRefine">
                 <div className="text-wrapper left-aligned">
-                    <h1>{t("navigation.sidebar.designRefine")}</h1>
+                    <h2>{t("navigation.sidebar.designRefine")}</h2>
                     <h3>{t("projects.bakeryApp.designRefine.mockups.heading")}</h3>
                     <div className="comparison">
                         <img 
@@ -252,34 +265,26 @@ const BakeryApp: React.FC = () => {
                         </p>
                     <h3>{t("projects.bakeryApp.designRefine.accessibility.heading")}</h3>
                     <p>
-                        <span className="highlighted-text">
-                            1. 
-                        </span>
+                        <span className="highlighted-text">1. </span>
                         {t("projects.bakeryApp.designRefine.accessibility.colors")}
                     </p>
                     <p>
-                        <span className="highlighted-text">
-                            2. 
-                        </span>
+                        <span className="highlighted-text">2. </span>
                         {t("projects.bakeryApp.designRefine.accessibility.icons")}
                     </p>
                     <p>
-                        <span className="highlighted-text">
-                            3. 
-                        </span>
+                        <span className="highlighted-text">3. </span>
                         {t("projects.bakeryApp.designRefine.accessibility.language")}
                     </p>
                     <p>
-                        <span className="highlighted-text">
-                            4. 
-                        </span>
+                        <span className="highlighted-text">4. </span>
                         {t("projects.bakeryApp.designRefine.accessibility.pictures")}
                     </p>
                 </div>
             </div>
             <div className="takeaways" id="takeaways">
                 <div className="text-wrapper center-aligned">
-                    <h1>{t("navigation.sidebar.takeaways")}</h1>
+                    <h2>{t("navigation.sidebar.takeaways")}</h2>
                 </div>
                     <PeopleIcon className="icon"/>
                     <p className="text-wrapper__space">
@@ -298,16 +303,12 @@ const BakeryApp: React.FC = () => {
                 <div className="text-wrapper center-aligned">
                     <h3>{t("projects.bakeryApp.takeaways.nextSteps.heading")}</h3>
                     <p>
-                        <span className="highlighted-text">
-                            1. 
-                        </span>
+                        <span className="highlighted-text">1. </span>
                         {t("projects.bakeryApp.takeaways.nextSteps.usabilityStudy")}
                     </p>
                     <p>
-                        <span className="highlighted-text">
-                            2. 
-                        </span>
-                            {t("projects.bakeryApp.takeaways.nextSteps.research")}
+                        <span className="highlighted-text">2. </span>
+                        {t("projects.bakeryApp.takeaways.nextSteps.research")}
                     </p>
                 </div>
             </div>
