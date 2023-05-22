@@ -16,7 +16,7 @@
     .text-wrapper {
         width: 50%;
 
-        h1, p {
+        h2, p {
             padding: 24px 0px 24px;
         }
 
@@ -38,13 +38,13 @@
     }
 
     .left-aligned {
-        h1, h3, p {
+        h2, h3, p {
             text-align: left;
         }
     }
 
     .center-aligned {
-        h1, h3, p {
+        h2, h3, p {
             text-align: center;
         }
     }
