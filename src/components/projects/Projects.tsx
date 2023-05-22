@@ -12,12 +12,8 @@ const Projects: React.FC = () => {
 
     return (
         <div className="projects" id="projects">
-            <h1 className="projects__title">
-                {t("projects.title")}
-            </h1>
-            <p className="projects__p">
-                {t("projects.desc")}
-            </p>
+            <h2 className="projects__title">{t("projects.title")}</h2>
+            <p className="projects__p">{t("projects.desc")}</p>
             <div className="project-cards-container">
                 <ProjectCard 
                     url="/bakery-app"
