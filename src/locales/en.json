@@ -64,6 +64,7 @@
                     "revelation": "Research revealed three major user pain points."
                 },
                 "painPoints": {
+                    "heading": "Pain points",
                     "inconvenience": "inconvenience ",
                     "inconvenienceText": "- Trying to find information about allergens and nutrition values feels inconvenient.",
                     "time": "Time ",
