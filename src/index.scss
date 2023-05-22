@@ -24,7 +24,7 @@ body {
     justify-content: center;
 }
 
-h2, h3 {
+h1, h2, h3 {
     color: $font-color-primary;
 }
 
@@ -35,9 +35,8 @@ p {
 }
 
 @media (min-width: $xs) {
-    h1 {
+    h1, h2 {
         font-size: $h1-font-size;
-        color: $font-color-primary;
     }
 
     h3 {
@@ -52,7 +51,6 @@ p {
 @media (min-width: $xl) {
     h1, h2 {
         font-size: $h1-font-size-desktop;
-        color: $font-color-primary;
     }
 
     h3 {
