@@ -1,0 +1,38 @@
+.dance-vote {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: $color-highlight;
+    }
+
+    a:hover {
+        color: $font-color-primary;
+    }
+    
+    .cover {
+        padding: 80px 0px 80px 56px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-black;
+    
+        &__text {
+            width: 36%;
+            padding-left: 80px;
+    
+            h1, p {
+                text-align: left;
+                padding-bottom: 24px;
+            }
+    
+            p {
+                font-size: $font-20;
+            }
+        }
+    }
+}
