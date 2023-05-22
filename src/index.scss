@@ -24,7 +24,7 @@ body {
     justify-content: center;
 }
 
-h3 {
+h2, h3 {
     color: $font-color-primary;
 }
 
@@ -50,7 +50,7 @@ p {
 }
 
 @media (min-width: $xl) {
-    h1 {
+    h1, h2 {
         font-size: $h1-font-size-desktop;
         color: $font-color-primary;
     }
