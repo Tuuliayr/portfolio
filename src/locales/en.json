@@ -53,7 +53,7 @@
             "overview": {
                 "problem": "Problem: ",
                 "problemContent": "Some people have limitations on what they can eat or need more information on their food for other reasons. This information isn't always easy to find.",
-                "goal": "Goal :",
+                "goal": "Goal:",
                 "goalContent": " Design an app that makes finding suitable food options faster and more comfortable."
             },
             "understanding": {
@@ -65,7 +65,7 @@
                 },
                 "painPoints": {
                     "heading": "Pain points",
-                    "inconvenience": "inconvenience ",
+                    "inconvenience": "Inconvenience ",
                     "inconvenienceText": "- Trying to find information about allergens and nutrition values feels inconvenient.",
                     "time": "Time ",
                     "timeText": "- Finding suitable food options takes too long.",
@@ -86,6 +86,7 @@
                 }
             },
             "designStart": {
+                "summary": "After gathering empathy and understanding for the users' pain points, I drafter paper wireframes which were then turned into digital wireframes. The screens were then connected into a low-fidelity prototype and utilized for a usability study.",
                 "paperWireframes": {
                     "heading": "Paper wireframes",
                     "iteration": "Wireframing on paper enabled quick iteration and trying out different layouts for the home page before moving on to digital wireframing.",
@@ -120,8 +121,12 @@
                     "profilePage": "Profile page was redesigned and missing back button added. All the user information can be accessed and edited in a uniform way.",
                     "sections": "Information was divided into small sections, which makes it easy to read. Orders can be found at the top of the page."
                 },
-                "keyMockups": "Key mockups",
+                "keyMockups": {
+                    "heading": "Key mockups",
+                    "orderingFlow": "Some key screens from the ordering flow."
+                },
                 "hifiPrototype": {
+                    "heading": "High-fidelity prototype",
                     "final": "The final high-fidelity prototype presented cleaner user flows for navigating the app and ordering bakery goods.",
                     "prototypeText": "View bakery mobile app's ",
                     "prototypeLink": "high-fidelity prototype"
@@ -152,7 +157,82 @@
             "title": "UX and UI design of a Voting App (Thesis)",
             "date": "Fall 2022 | UX/UI Design",
             "role": "Role: UX/UI designer",
-            "desc": "The objective of the thesis was to design a user interface for a voting application so that the audience could take part in judging. The commissioner of this thesis was Groove Connection Oy which is a limited company that organizes social partner dance competitions. The company hoped to lighten the workload of its judges. The thesis resulted in an interactive prototype that was used in the programming of the web application."
+            "desc": "The objective of the thesis was to design a user interface for a voting application so that the audience could take part in judging. The commissioner of this thesis was Groove Connection Oy which is a limited company that organizes social partner dance competitions. The company hoped to lighten the workload of its judges. The thesis resulted in an interactive prototype that was used in the programming of the web application.",
+            "theseusText": "Read more on ",
+            "theseusLink": "Theseus",
+            "overview": {
+                "problem": "Problem: ",
+                "problemContent": "Judging in dance competitions is tiring and time consuming. How could the workload of the judges be lightened?",
+                "goal": "Goal: ",
+                "goalContent": "The goal of the project is to design the user interface for a voting application so that the audience could participate in the judging of dance competitions."
+            },
+            "understanding": {
+                "userResearch": {
+                    "heading": "User research summary",
+                    "empathy": "Empathy maps and user personas were created in order to understand better the users' needs.",
+                    "competitiveAudit": "The research made it clear that there is not much competition in voting apps aimed at dance competitions.",
+                    "revelation": "It was concluded that a simple, easy-to-use and accessible app would serve the cause well."
+                },
+                "personaAntti": {
+                    "heading": "Persona - Antti",
+                    "problemStatement": "Problem statement ",
+                    "problemStatementText": "- Antti is a color-blind and dyslexic student who needs more websites and applications that consider people like him because he does not want to feel like an outsider."
+                },
+                "personaJouni": {
+                    "heading": "Persona - Jouni",
+                    "problemStatement": "Problem statement ",
+                    "problemStatementText": "Jouni is a organizer of the vote who needs an easy-to-use app aimed at dance eventsbecause he wants the voting to go smoothly."
+                },
+                "userJourney": {
+                    "heading": "User journey map - Manu",
+                    "journey": "Mapping Manu's journey revealed that a way to filter the products could ",
+                    "quickenProcess": "quicken the ordering process",
+                    "and": " and",
+                    "helpUsers": " help the users make more confident choices"
+                },
+                "ideation": {
+                    "heading": "Ideation",
+                    "crazyEights": "I used the crazy eights exercise for brainstorming different home page layouts. The goal was to fit all the elements on the page in a way that feels intuitive and to keep the 'joining the voting room' functionality as the highest priority.",
+                    "refinedVersion": "After the exercise I evaluated each screen. I built a refined version of the home page based on my preferred features of the screens."
+                }
+            },
+            "wireframes": {
+                "heading": "Wireframes",
+                "designs": "After ideating, I created the initial digital designs for the DanceVote app. These plans focused on getting an idea of how the voting process should go for the voter and what the app would look like for the vote organizer."
+            },
+            "designRefine": {
+                "mockups": {
+                    "heading": "Mockups"
+                },
+                "keyMockups": "Key mockups",
+                "hifiPrototype": {
+                    "heading": "High-fidelity prototype",
+                    "final": "The final high-fidelity prototype presented cleaner user flows for navigating the app and ordering bakery goods.",
+                    "prototypeText": "View DanceVote app's ",
+                    "prototypeLink": "high-fidelity prototype"
+                },
+                "accessibility": {
+                    "typography": "",
+                    "colors": "",
+                    "buttonSize": ""
+                }
+            },
+            "usabilityStudy": {
+                "heading": "Usability study findings",
+                "changes": "From testing the low-fidelity prototype on seven users, I could determine that the following changes were needed:"
+            },
+            "takeaways": {
+                "heading": "Takeaways",
+                "impact": "Impact:",
+                "impactText": "",
+                "whatLearned": "What I learned:",
+                "whatLearnedText": "",
+                "nextSteps": {
+                    "heading": "Next steps",
+                    "usabilityStudy": "",
+                    "research": ""
+                }
+            }
         },
         "farmersApp": {
             "imgAlt": "Picture of the 'My boxes' page.",

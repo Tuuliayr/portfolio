@@ -54,7 +54,15 @@
             "title": "Äänestyssovelluksen UX- ja UI-suunnittelu (Opinnäytetyö)",
             "date": "Syksy 2022 | UX/UI-suunnittelu",
             "role": "Roolini: UX/UI-suunnittelija",
-            "desc": "Opinnäytyön tavoitteena oli yleisöäänestyssovelluksen käyttöliittymän ja käyttäjäkokemuksen suunnittelu. Toimeksiantaja Groove Connection Oy on sosiaalisen paritanssin kilpailuja järjestävä osakeyhtiö, joka halusi keventää tapahtumiensa tuomarien työtaakkaa. Opinnäytetyön tuloksena syntyi interaktiivinen prototyyppi, jonka pohjalta voitiin ohjelmoida tanssikilpailuissa hyodynnettävä verkkosovellus."
+            "desc": "Opinnäytyön tavoitteena oli yleisöäänestyssovelluksen käyttöliittymän ja käyttäjäkokemuksen suunnittelu. Toimeksiantaja Groove Connection Oy on sosiaalisen paritanssin kilpailuja järjestävä osakeyhtiö, joka halusi keventää tapahtumiensa tuomarien työtaakkaa. Opinnäytetyön tuloksena syntyi interaktiivinen prototyyppi, jonka pohjalta voitiin ohjelmoida tanssikilpailuissa hyodynnettävä verkkosovellus.",
+            "theseusText": "Lue lisää ",
+            "theseusLink": "Theseuksessa",
+            "overview": {
+                "problem": "Ongelma: ",
+                "problemContent": "Tanssikilpailuissa tuomaroiminen on raskasta ja aikaa vievää. Miten tuomarien työtaakkaa voitaisiin keventää?",
+                "goal": "Tavoite: ",
+                "goalContent": "Luo DanceVote-yleisöäänestyssovelluksen interaktiinen prototyyppi, joka mallintaa ohjelmoitavan sovelluksen ulkonäköä ja toiminnallisuutta."
+            }
         },
         "farmersApp": {
             "imgAlt": "Kuva My boxes -sivusta.",
