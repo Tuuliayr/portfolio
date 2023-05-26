@@ -133,31 +133,31 @@ const BakeryApp: React.FC = () => {
             <div className="design-start" id="designStart">
                 <div className="text-wrapper left-aligned">
                     <h2>{t("navigation.sidebar.designStart")}</h2>
-                    <p>Pälä pälä design process?</p>
+                    <p>{t("projects.bakeryApp.designStart.summary")}</p>
                     <h3>{t("projects.bakeryApp.designStart.paperWireframes.heading")}</h3>
                     <p>{t("projects.bakeryApp.designStart.paperWireframes.iteration")}</p>
+                    <p>{t("projects.bakeryApp.designStart.paperWireframes.ideation")}</p>
                     <img 
                         src={imgPaperWireframe} 
                         alt="Five different paper wireframe versions of the home page." 
                         height={400} 
                         className="img"
                     />
-                    <p>{t("projects.bakeryApp.designStart.paperWireframes.ideation")}</p>
+                    <p>{t("projects.bakeryApp.designStart.paperWireframes.refinedVersion")}</p>
                     <img 
                         src={imgPaperWireframeRefined} 
                         alt="Refined version of the home page." 
                         height={400} 
                         className="img"
                     />
-                    <p>{t("projects.bakeryApp.designStart.paperWireframes.refinedVersion")}</p>
                     <h3>{t("projects.bakeryApp.designStart.digitalWireframes.heading")}</h3>
+                    <p>{t("projects.bakeryApp.designStart.digitalWireframes.designs")}</p>
                     <img 
                         src={imgDigitalWireframes} 
                         alt="Digital wireframes." 
                         height={500} 
                         className="img"
                     />
-                    <p>{t("projects.bakeryApp.designStart.digitalWireframes.designs")}</p>
                     <h3>{t("projects.bakeryApp.designStart.lofiPrototype.heading")}</h3>
                     <p>{t("projects.bakeryApp.designStart.lofiPrototype.userFlow")}</p>
                     <p>
@@ -192,6 +192,8 @@ const BakeryApp: React.FC = () => {
                 <div className="text-wrapper left-aligned">
                     <h2>{t("navigation.sidebar.designRefine")}</h2>
                     <h3>{t("projects.bakeryApp.designRefine.mockups.heading")}</h3>
+                    <p>{t("projects.bakeryApp.designRefine.mockups.dietaryTags")}</p>
+                    <p>{t("projects.bakeryApp.designRefine.mockups.addToCart")}</p>
                     <div className="comparison">
                         <img 
                             src={imgMockupBeforeProduct} 
@@ -206,8 +208,8 @@ const BakeryApp: React.FC = () => {
                             height={600} className="img"
                         />
                     </div>
-                    <p>{t("projects.bakeryApp.designRefine.mockups.dietaryTags")}</p>
-                    <p>{t("projects.bakeryApp.designRefine.mockups.addToCart")}</p>
+                    <p>{t("projects.bakeryApp.designRefine.mockups.profilePage")}</p>
+                    <p>{t("projects.bakeryApp.designRefine.mockups.sections")}</p>
                     <div className="comparison">
                         <img 
                             src={imgMockupBeforeProfile} 
@@ -223,9 +225,8 @@ const BakeryApp: React.FC = () => {
                             className="img"
                         />
                     </div>
-                    <p>{t("projects.bakeryApp.designRefine.mockups.profilePage")}</p>
-                    <p>{t("projects.bakeryApp.designRefine.mockups.sections")}</p>
-                    <h3>{t("projects.bakeryApp.designRefine.keyMockups")}</h3>
+                    <h3>{t("projects.bakeryApp.designRefine.keyMockups.heading")}</h3>
+                    <p>{t("projects.bakeryApp.designRefine.keyMockups.orderingFlow")}</p>
                 </div>
                 <div>
                     <img 
@@ -266,7 +267,7 @@ const BakeryApp: React.FC = () => {
                             {t("projects.bakeryApp.designRefine.hifiPrototype.prototypeLink")}
                         </a>
                         .
-                        </p>
+                    </p>
                     <h3>{t("projects.bakeryApp.designRefine.accessibility.heading")}</h3>
                     <p>
                         <span className="highlighted-text">1. </span>
