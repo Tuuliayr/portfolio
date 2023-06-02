@@ -201,10 +201,14 @@
                 "designs": "After ideating, I created the initial digital designs for the DanceVote app. These plans focused on getting an idea of how the voting process should go for the voter and what the app would look like for the vote organizer."
             },
             "designRefine": {
+                "heading": "Prototype",
                 "mockups": {
                     "heading": "Mockups"
                 },
-                "keyMockups": "Key mockups",
+                "keyMockups": {
+                    "heading": "Key mockups",
+                    "votingFlow": "Some key screens from the voting flow."
+                },
                 "hifiPrototype": {
                     "heading": "High-fidelity prototype",
                     "final": "The final high-fidelity prototype presented cleaner user flows for navigating the app and ordering bakery goods.",
@@ -212,9 +216,11 @@
                     "prototypeLink": "high-fidelity prototype"
                 },
                 "accessibility": {
-                    "typography": "",
-                    "colors": "",
-                    "buttonSize": ""
+                    "heading": "Accessibility",
+                    "wcag": "WCAG guidelines followed in: ",
+                    "typography":  "Typograpghy",
+                    "colors": "Color contrasts",
+                    "targetSize": "Target sizes"
                 }
             },
             "usabilityStudy": {
@@ -223,14 +229,14 @@
             },
             "takeaways": {
                 "heading": "Takeaways",
-                "impact": "Impact:",
-                "impactText": "",
-                "whatLearned": "What I learned:",
-                "whatLearnedText": "",
+                "impact": "Impact: ",
+                "impactText": "The project resulted in an interactive prototype that models the appearance and functionality of the final application. In the prototype, the user can participate in voting, view voting results or create and manage their own voting.",
+                "whatLearned": "What I learned: ",
+                "whatLearnedText": "Conducting usability study made me remember once again the importance of it. The user can always notice or feel something unexpected about the design.",
                 "nextSteps": {
                     "heading": "Next steps",
-                    "usabilityStudy": "",
-                    "research": ""
+                    "ui": "Enchance the UI with animations and images.",
+                    "accessibility": "Test accessibility more."
                 }
             }
         },
