@@ -32,8 +32,8 @@ const DanceVote: React.FC = () => {
         <div className="bakery-app">
             <BackNavbar/>
             <SidebarNav
-                destinations={["coverDance", "overviewDance", "understanding", "wireframes", "mockupsDance", "takeaways"]}
-                titles={["Dance Vote", "Overview", "Understanding", "Wireframes", "Key mockups", "Takeaways"]}
+                destinations={["coverDance", "overviewDance", "understanding", "wireframes", "prototype", "takeaways"]}
+                titles={["Dance Vote", "Overview", "Understanding", "Wireframes", "Prototype", "Takeaways"]}
                 offsets={[-70, -60]}
             />
             <div className="cover" id="coverDance">
@@ -172,25 +172,13 @@ const DanceVote: React.FC = () => {
                         height={500} 
                         className="img"
                     />
-                    <h3>Low-fidelity prototype</h3>
-                    <p>
-                        <a 
-                            target="_blank" 
-                            rel="noreferrer" 
-                            href="https://www.figma.com/proto/zUDPa8vviZOWu9opoA61xp/Voting-Web-app?
-                                type=design&node-id=1113-12287&scaling=min-zoom&page-id=1113%3A12202&starting-point-node-id=1113%3A12287"
-                        >
-                             Lofi-prototype link
-                        </a>
-                    </p>
-                    <h3>{t("projects.danceVote.designStart.usabilityFindings.heading")}</h3>
-                    <p>{t("projects.danceVote.designStart.usabilityFindings.changes")}</p>
                 </div>
             </div>
-            <div className="design-refine" id="mockupsDance">
+            <div className="design-refine" id="prototype">
                 <div className="text-wrapper left-aligned">
-                    <h2>Prototype</h2>
-                    <h3>{t("projects.danceVote.designRefine.keyMockups")}</h3>
+                    <h2>{t("projects.danceVote.designRefine.heading")}</h2>
+                    <h3>{t("projects.danceVote.designRefine.keyMockups.heading")}</h3>
+                    <p>{t("projects.danceVote.designRefine.keyMockups.votingFlow")}</p>
                 </div>
                 <div>
                     <img 
@@ -231,24 +219,20 @@ const DanceVote: React.FC = () => {
                         </a>
                         .
                     </p>
-                    <h3>{t("projects.bakeryApp.designRefine.accessibility.heading")}</h3>
+                    <h3>{t("projects.danceVote.designRefine.accessibility.heading")}</h3>
+                    <p>{t("projects.danceVote.designRefine.accessibility.wcag")}</p>
                     <p>
                         <span className="highlighted-text">1. </span>
-                        
+                        {t("projects.danceVote.designRefine.accessibility.typography")}
                     </p>
                     <p>
                         <span className="highlighted-text">2. </span>
-                        
+                        {t("projects.danceVote.designRefine.accessibility.colors")}
                     </p>
                     <p>
                         <span className="highlighted-text">3. </span>
-                        
+                        {t("projects.danceVote.designRefine.accessibility.targetSize")}
                     </p>
-                    <p>
-                        <span className="highlighted-text">4. </span>
-                        
-                    </p>
-                    <p></p>
                 </div>
             </div>
             <div className="takeaways" id="takeaways">
@@ -273,11 +257,11 @@ const DanceVote: React.FC = () => {
                     <h3>{t("projects.danceVote.takeaways.nextSteps.heading")}</h3>
                     <p>
                         <span className="highlighted-text">1. </span>
-                        {t("projects.danceVote.takeaways.nextSteps.usabilityStudy")}
+                        {t("projects.danceVote.takeaways.nextSteps.ui")}
                     </p>
                     <p>
                         <span className="highlighted-text">2. </span>
-                        {t("projects.danceVote.takeaways.nextSteps.research")}
+                        {t("projects.danceVote.takeaways.nextSteps.accessibility")}
                     </p>
                 </div>
             </div>
