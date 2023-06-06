@@ -20,7 +20,7 @@
 
     "myIntroduction": {
         "greeting": "Moikka! Mä oon Tuuli.",
-        "aboutMe": "Olen työharjoittelua vaille valmis, omaa paikkaani alalta etsivä tietojenkäsittelyn tradenomi. Minua erityisesti kiinnostavat frontendin puoli ja UX/UI-suunnittelu, mutta olen avoin kaikenlaiselle uuden oppimiselle."
+        "aboutMe": "Minulla on noin kolmen vuoden verran kokemusta front-end-devauksesta ja UX-suunnittelusta koulun puolelta ja omista projekteista. Tärkeämpänä seikkana voin sanoa ottavani uudet haasteet vastaan sisulla ja sydämellä. Odotan innolla saavani tietojenkäsittelyn tradenomin opintoni päätökseen ja löytäväni oman paikkani tältä alalta."
     },
 
     "contactMe": {
@@ -43,17 +43,117 @@
             "KRITA": "Krita"
         },
         "bakeryApp": {
-            "imgAlt": "Kuva sovelluksen kotisivusta.",
-            "title": "Leipomon mobiilisovelluksen käyttöliittymä",
-            "date": "Kevät 2023 | UX/UI-suunnittelu",
-            "role": "Roolini: UX/UI-suunnittelija",
-            "desc": "Tässä on kuvaus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "imgAlts": {
+                "home": "Leipomosovelluksen kotisivu."
+            },
+            "title": "Leipomon mobiiilitilausovelluksen suunnittelu",
+            "dateRole": "Kevät 2023 | UX/UI-suunnittelu",
+            "desc": "Käyttöliittymän suunnitelma mobiilisovelluksesta leipomotuotteiden tilaamiseen paikallisesta leipomosta. Sovelluksella asiakkkaat pääsevät helposti käsiksi yksityiskohtaisiin tietoihin ainesosista ja ravintosisällöistä. Tarkoitus on auttaa asiakkaita tekemään sopivia valintoja ja lievittämään huolta allergeeneista.",
+            "overview": {
+                "problem": "Ongelma: ",
+                "problemContent": "Joillakin ihmisillä on rajoituksia sen suhteen, mitä he voivat syödä, tai he tarvitsevat muista syistä lisätietoa ruoastaan. Tätä tietoa ei ole aina helppo löytää.",
+                "goal": "Tavoite: ",
+                "goalContent": "Suunnittele sovellus, joka tekee sopivien ruokavaihtoehtojen löytämisestä nopeampaa ja miellyttävämpää."
+            },
+            "understanding": {
+                "userResearch": {
+                    "heading": "Käyttäjätutkimuksen yhteenveto",
+                    "competitiveAudit": "Kilpailija-analyysistä kävi ilmi, että ainesosa- ja ravintosisältötietojen tarjoamisessa oli puutteita joissakin muissa tilaussovelluksissa/verkkosivustoilla.",
+                    "empathy": "Loin käyttäjäpersoonia ymmärtääkseni paremmin käyttäjien haluja ja tarpeita. Käyttäjäryhmään sisällytettiin 20-60-vuotiaat työssäkäyvät aikuiset.",
+                    "revelation": "Tutkimus paljasti kolme kipupistettä."
+                },
+                "painPoints": {
+                    "heading": "Kipupisteet",
+                    "inconvenience": "Epäkäytännöllisyys ",
+                    "inconvenienceText": "- Tietojen etsiminen allergeeneista ja ravintoarvoista tuntuu vaivalloiselta.",
+                    "time": "Aika ",
+                    "timeText": "- Sopivien ruokavaihtoehtojen löytämiseen menee liikaa aikaa.",
+                    "uncertainty": "Epävarmuus ",
+                    "uncertaintyText": "- Epävarmuus siitä, mitä ruoka sisältää. 'Voinko syödä tätä?'"
+                },
+                "persona": {
+                    "heading": "Persoona - Manu",
+                    "problemStatement": "Problem statement ",
+                    "problemStatementText": "- Manu is a junior employee in an HR consulting firm who needs a faster way to find suitable food options for their coworkers because of the coworkers' allergies."
+                },
+                "userJourney": {
+                    "heading": "User journey map - Manu",
+                    "journey": "Mapping Manu's journey revealed that a way to filter the products could ",
+                    "quickenProcess": "quicken the ordering process",
+                    "and": " and",
+                    "helpUsers": " help the users make more confident choices"
+                }
+            },
+            "designStart": {
+                "summary": "Kerättyäni empatiaa ja ymmärrystä käyttäjien kipupisteitä kohtaan, luonnostelin paperisia rautalankamalleja, joista muodostin digitaalisia rautalankamalleja. Näytöt yhdistettiin matalan tarkkuuden prototyypiksi, jota hyödynnettiin käyttäjätestauksessa.",
+                "paperWireframes": {
+                    "heading": "Paperiset rautalankamallit",
+                    "iteration": "Rautalankamallien piirtäminen paperille mahdollisti nopean iteroinnin ja erilaisten sommitelmien kokeilemisen ennen kuin siirryin digitaalisiin rautalankamalleihin.",
+                    "ideation": "Ideoin aloitusnäytöstä viisi erilaista versiota.",
+                    "refinedVersion": "Yhdistelin näyttöjen parhaita ominaisuuksia muodostaakseni aloitusnäytön parannellun version."
+                },
+                "digitalWireframes": {
+                    "heading": "Digitaaliset rautalankamallit",
+                    "designs": "Suunnittelun alkuvaiheen jatkuessa varmistin, että käyttöliittymän suunnittelu perustuisi käyttäjätutkimuksen tuloksiin."
+
+                },
+                "lofiPrototype": {
+                    "heading": "Low-fidelity prototype",
+                    "userFlow": "I connected the digital wireframe screens in order to create the primary user flow, which presents the process of ordering bakery goods.",
+                    "prototypeText": "View bakery mobile app's ",
+                    "prototypeLink": "low-fidelity prototype"
+                },
+                "usabilityFindings": {
+                    "heading": "Käytettävyystutkimuksen tulokset",
+                    "changes": "From testing the low-fidelity prototype on five users, I could determine that the following changes were needed:",
+                    "backButton": "Takaisin-nappi puuttui profiilisivulta.",
+                    "dietaryNeeds": "Käyttäjistä tuntui, että ainesosalistojen lukeminen on raskasta, ja että pitäisi olla nopeampi tapa saada selville, sopiiko tuote heidän ruokavalioonsa.",
+                    "orders": "Käyttäjät tarvitsevat selkeämmän tavan löytää tilauksensa sovelluksesta."
+                }
+            },
+            "designRefine": {
+                "mockups": {
+                    "heading": "Mockupit",
+                    "dietaryTags": "Ruokavaliomerkinnät lisättiin tuotesivulle. Merkinnät auttavat käyttäjää päättämään ilman ainesosalistan lukemista, onko tuote sopiva hänelle. Uusille elementeille tehtiin tilaa muokkaamalla sivun ulkoasua.",
+                    "addToCart": "'Add to cart' -painike was accompanied by an element that shows how many items have been added so that the user can add many items at once and see how many items have been already added.",
+                    "profilePage": "Profiilisivu suunniteltiin uudelleen ja puuttuva takaisin-painike lisättiin. Käyttäjätietojen esittäminen ja muokkaaminen tapahtuu yhtenäisemmällä tavalla.",
+                    "sections": "Tiedot jaettiin pieniin osioihin, jotta teksti olisi helppolukuisempaa. Tilaukset löytyvät sivun yläosasta."
+                },
+                "keyMockups": {
+                    "heading": "Keskeisiä mockuppeja",
+                    "orderingFlow": "Keskeisiä näyttöjä tilausprosessista."
+                },
+                "hifiPrototype": {
+                    "heading": "High-fidelity prototype",
+                    "final": "Viimeistelty hi-fi prototyyppi eli korkean tason prototyyppi esittää selkeämpiä cleaner user flows for navigating the app and ordering bakery goods. sovelluksessa liikkumiseen ja leipototuotteiden tilaamiseen.",
+                    "prototypeText": "Kokeile leipomosovelluksen ",
+                    "prototypeLink": "prototyyppiä"
+                },
+                "accessibility": {
+                    "heading": "Saavutettavuus",
+                    "colors": "WCAG-ohjeistuksia noudatettiin värien kontrasteissa.",
+                    "icons": "Ikoneja käytettiin navigoinnin helpottamiseksi.",
+                    "language": "Kieli on yksinkertaista.",
+                    "pictures": "Kuvia käytettiin tuotekuvausten yhteydessä."
+                }
+            },
+            "takeaways": {
+                "heading": "Loppusanat",
+                "impact": "Merkitys: ",
+                "impactText": "Sovellus saa käyttäjät tuntemaan, että he tekevät tietoisia valintoja tilatessaan leipomosta.",
+                "whatLearned": "Mitä opin: ",
+                "whatLearnedText": "Opin luottamaan iterointiin enemmän. Voi tuntua joltain aloittaa tyhjästä, mutta olen iloinen, siitä, kuinka pitkälle olen päässyt",
+                "nextSteps": {
+                    "heading": "Jatkokehitys",
+                    "usabilityStudy": "Tee toinen käytettävyystutkimuskierros vahvistaaksesi, onko käyttäjien kokemiin kipupisteisiin vastattu tehokkaasti.",
+                    "research": "Tee lisää käyttäjätutkimusta uusien tarpeiden määrittämiseksi."
+                }
+            }
         },
         "danceVote": {
             "imgAlt": "Kuva sovelluksen äänestyshuoneesta.",
             "title": "Äänestyssovelluksen UX- ja UI-suunnittelu (Opinnäytetyö)",
-            "date": "Syksy 2022 | UX/UI-suunnittelu",
-            "role": "Roolini: UX/UI-suunnittelija",
+            "dateRole": "Syksy 2022 | UX/UI-suunnittelu",
             "desc": "Opinnäytyön tavoitteena oli yleisöäänestyssovelluksen käyttöliittymän ja käyttäjäkokemuksen suunnittelu. Toimeksiantaja Groove Connection Oy on sosiaalisen paritanssin kilpailuja järjestävä osakeyhtiö, joka halusi keventää tapahtumiensa tuomarien työtaakkaa. Opinnäytetyön tuloksena syntyi interaktiivinen prototyyppi, jonka pohjalta voitiin ohjelmoida tanssikilpailuissa hyodynnettävä verkkosovellus.",
             "theseusText": "Lue lisää ",
             "theseusLink": "Theseuksessa",

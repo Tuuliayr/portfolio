@@ -20,7 +20,7 @@
     
     "myIntroduction": {
         "greeting": "Hi! I'm Tuuli.",
-        "aboutMe": "I am looking forward to completing my degree in Business Information Systems. Meanwhile, I am looking for my place in the field and a trainee position. I am particularly interested in frontend and UX/UI design but open to learn all kinds of new things."
+        "aboutMe": "I have about three years of experience with frontend development and UX design from school and personal projects. More importantly, I like to take on new challenges with heart and sisu. I am looking forward to completing my degree in Business Information Systems and finding my place in the field of tech."
     },
 
     "contactMe": {
@@ -47,8 +47,7 @@
                 "home": "Bakery mobile ordering app's home page."
             },
             "title": "Bakery Mobile Ordering App Design",
-            "date": "Spring 2023 | UX/UI Design",
-            "role": "Role: UX/UI designer",
+            "dateRole": "Spring 2023 | UX/UI Design | Team: 1",
             "desc": "A design of a mobile app for ordering goods from a local bakery. The app provides the customers an easy way to access detailed information on used ingredients and nutrition charts, in order to support the customers making the most suitable choices for themselves and to alleviate concerns about allergens.",
             "overview": {
                 "problem": "Problem: ",
@@ -60,7 +59,7 @@
                 "userResearch": {
                     "heading": "User research summary",
                     "competitiveAudit": "The competitive audit showed lack of ingredient and nutrition information on other ordering apps/websites.",
-                    "empathy": "I created empathy maps to better understand the users' wants and needs. The user group I focused on was working adults between the ages of 20 and 60 years old. Empathy maps were then refined into personas.",
+                    "empathy": "I created user personas in order to better understand the users' wants and needs. The user group I focused on was working adults between the ages of 20 and 60 years old.",
                     "revelation": "Research revealed three major user pain points."
                 },
                 "painPoints": {
@@ -70,7 +69,7 @@
                     "time": "Time ",
                     "timeText": "- Finding suitable food options takes too long.",
                     "uncertainty": "Uncertainty ",
-                    "uncertaintyText": "- Not sure what the food contains. “Can I eat this?"
+                    "uncertaintyText": "- Not sure what the food contains. 'Can I eat this?'"
                 },
                 "persona": {
                     "heading": "Persona - Manu",
@@ -141,9 +140,9 @@
             },
             "takeaways": {
                 "heading": "Takeaways",
-                "impact": "Impact:",
+                "impact": "Impact: ",
                 "impactText": "The app makes users feel like they can make informed decisions on their bakery ordering choices.",
-                "whatLearned": "What I learned:",
+                "whatLearned": "What I learned: ",
                 "whatLearnedText": "I learned to trust the iteration process more. It can feel overwhelming to start from nothing, but I am happy how far I have gotten with this app design.",
                 "nextSteps": {
                     "heading": "Next steps",
@@ -155,8 +154,7 @@
         "danceVote": {
             "imgAlt": "Picture of the voting room page.",
             "title": "UX and UI design of a Voting App (Thesis)",
-            "date": "Fall 2022 | UX/UI Design",
-            "role": "Role: UX/UI designer",
+            "dateRole": "Fall 2022 | UX/UI Design | Team: 1",
             "desc": "The objective of the thesis was to design a user interface for a voting application so that the audience could take part in judging. The commissioner of this thesis was Groove Connection Oy which is a limited company that organizes social partner dance competitions. The company hoped to lighten the workload of its judges. The thesis resulted in an interactive prototype that was used in the programming of the web application.",
             "theseusText": "Read more on ",
             "theseusLink": "Theseus",
@@ -164,7 +162,7 @@
                 "problem": "Problem: ",
                 "problemContent": "Judging in dance competitions is tiring and time consuming. How could the workload of the judges be lightened?",
                 "goal": "Goal: ",
-                "goalContent": "The goal of the project is to design the user interface for a voting application so that the audience could participate in the judging of dance competitions."
+                "goalContent": "Design a UI for a voting application so that the audience can participate in the judging of dance competitions."
             },
             "understanding": {
                 "userResearch": {
@@ -181,7 +179,7 @@
                 "personaJouni": {
                     "heading": "Persona - Jouni",
                     "problemStatement": "Problem statement ",
-                    "problemStatementText": "Jouni is a organizer of the vote who needs an easy-to-use app aimed at dance eventsbecause he wants the voting to go smoothly."
+                    "problemStatementText": "Jouni is a organizer of the vote who needs an easy-to-use app aimed at dance events because he wants the voting to go smoothly."
                 },
                 "userJourney": {
                     "heading": "User journey map - Manu",
@@ -193,12 +191,14 @@
                 "ideation": {
                     "heading": "Ideation",
                     "crazyEights": "I used the crazy eights exercise for brainstorming different home page layouts. The goal was to fit all the elements on the page in a way that feels intuitive and to keep the 'joining the voting room' functionality as the highest priority.",
-                    "refinedVersion": "After the exercise I evaluated each screen. I built a refined version of the home page based on my preferred features of the screens."
+                    "refinedVersion": "After the exercise I evaluated each screen and then built a refined version of the home page based on the preferred features."
                 }
             },
             "wireframes": {
                 "heading": "Wireframes",
-                "designs": "After ideating, I created the initial digital designs for the DanceVote app. These plans focused on getting an idea of how the voting process should go for the voter and what the app would look like for the vote organizer."
+                "designs": "After ideating, I created the initial digital designs for the DanceVote app. These plans focused on getting an idea of how the voting process should go for the voter and what the app would look like for the vote organizer.",
+                "voteOrganizer": "Home screen, log in modal, logged in user's votes",
+                "voter": ""
             },
             "designRefine": {
                 "heading": "Prototype",
