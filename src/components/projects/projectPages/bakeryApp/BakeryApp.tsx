@@ -52,7 +52,7 @@ const BakeryApp: React.FC = () => {
             <div className="overview" id="overview">
                 <div className="text-wrapper center-aligned">
                     <h2>{t("navigation.sidebar.overview")}</h2>
-                    <h3>{t("projects.bakeryApp.date")}</h3>
+                    <h3>{t("projects.bakeryApp.dateRole")}</h3>
                 </div>
                 <HelpOutlineIcon className="icon"/>
                 <p className="text-wrapper__space">

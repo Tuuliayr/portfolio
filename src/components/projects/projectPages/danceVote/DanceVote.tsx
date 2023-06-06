@@ -62,7 +62,7 @@ const DanceVote: React.FC = () => {
             <div className="overview" id="overviewDance">
             <div className="text-wrapper center-aligned">
                     <h2>{t("navigation.sidebar.overview")}</h2>
-                    <h3>{t("projects.danceVote.date")}</h3>
+                    <h3>{t("projects.danceVote.dateRole")}</h3>
                 </div>
                 <HelpOutlineIcon className="icon"/>
                 <p className="text-wrapper__space">
@@ -166,12 +166,14 @@ const DanceVote: React.FC = () => {
                         height={500} 
                         className="img"
                     />
+                    <div>
                     <img 
                         src={imgWireframesAccessibility} 
                         alt="Wireframe of the voting room page with better accessibility." 
                         height={500} 
                         className="img"
                     />
+                    </div>
                 </div>
             </div>
             <div className="design-refine" id="prototype">
