@@ -18,8 +18,7 @@ const Projects: React.FC = () => {
                 <ProjectCard 
                     url="/bakery-app"
                     title={t("projects.bakeryApp.title")}
-                    date={t("projects.bakeryApp.date")}
-                    role={t("projects.bakeryApp.role")}
+                    dateRole={t("projects.bakeryApp.dateRole")}
                     techs={[TechTags.FIGMA]}
                     desc={t("projects.bakeryApp.desc")}
                     myImg={imgBakery}
@@ -28,8 +27,7 @@ const Projects: React.FC = () => {
                 <ProjectCard
                     url="/dance-vote"
                     title={t("projects.danceVote.title")}
-                    date={t("projects.danceVote.date")}
-                    role={t("projects.danceVote.role")}
+                    dateRole={t("projects.danceVote.dateRole")}
                     techs={[TechTags.FIGMA]}
                     desc={t("projects.danceVote.desc")}
                     myImg={imgVoting}
@@ -38,8 +36,7 @@ const Projects: React.FC = () => {
                 <ProjectCard
                     url="/farmers-app"
                     title={t("projects.farmersApp.title")}
-                    date={t("projects.farmersApp.date")}
-                    role={t("projects.farmersApp.role")}
+                    dateRole={t("projects.farmersApp.dateRole")}
                     techs={[TechTags.REACT, TechTags.AWS]}
                     desc={t("projects.farmersApp.desc")}
                     myImg={imgFarmer}
