@@ -9,15 +9,14 @@ import MyButton from '../base/myButton/MyButton';
 interface Props {
     url: string;
     title: string;
-    date: string;
-    role: string;
+    dateRole: string;
     techs: string[];
     desc: string;
     myImg: string;
     myImgAlt: string;
 }
 
-const ProjectCard: React.FC<Props> = ({url, title, date, role, techs, desc, myImg, myImgAlt}) => {
+const ProjectCard: React.FC<Props> = ({url, title, dateRole, techs, desc, myImg, myImgAlt}) => {
 
     const navigate = useNavigate();
     const {t} = useTranslation();
@@ -50,7 +49,7 @@ const ProjectCard: React.FC<Props> = ({url, title, date, role, techs, desc, myIm
                     <div className={`card__info-collapsible ${open ? "open" : "close"}`}>
                         <div>
                             <p className="project-date">
-                                {t(date)}
+                                {t(dateRole)}
                             </p>
                             <div className="tags-wrapper">
                                 {techs.map(tech => (
