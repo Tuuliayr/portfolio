@@ -46,22 +46,22 @@ const DanceVote: React.FC = () => {
                     <h1>{t("projects.danceVote.title")}</h1>
                     <p>{t("projects.danceVote.desc")}</p>
                     <MyTag label={t("projects.techs.FIGMA")}/>
-                    <p className="thesis-link">
+                    <p className="project-link">
                         {t("projects.danceVote.theseusText")}
-                    <a
-                        target="_blank" 
-                        rel="noreferrer" 
-                        href="https://urn.fi/URN:NBN:fi:amk-2022121429724"
-                    >
-                        {t("projects.danceVote.theseusLink")}
-                        <OpenInNewIcon fontSize="small"/>
-                    </a>
+                        <a
+                            target="_blank" 
+                            rel="noreferrer" 
+                            href="https://urn.fi/URN:NBN:fi:amk-2022121429724"
+                        >
+                            {t("projects.danceVote.theseusLink")}
+                            <OpenInNewIcon fontSize="small"/>
+                        </a>
                     </p>
                 </div>
             </div>
             <div className="overview" id="overviewDance">
             <div className="text-wrapper center-aligned">
-                    <h2>{t("navigation.sidebar.overview")}</h2>
+                    <h2>{t("projects.danceVote.overview.heading")}</h2>
                     <h3>{t("projects.danceVote.dateRole")}</h3>
                 </div>
                 <HelpOutlineIcon className="icon"/>
@@ -81,7 +81,7 @@ const DanceVote: React.FC = () => {
             </div>
             <div className="understanding" id="understanding">
                 <div className="text-wrapper left-aligned">
-                    <h2>{t("navigation.sidebar.understanding")}</h2>
+                    <h2>{t("projects.danceVote.understanding.heading")}</h2>
                     <h3>{t("projects.danceVote.understanding.userResearch.heading")}</h3>
                     <p>{t("projects.danceVote.understanding.userResearch.empathy")}</p>
                     <p>{t("projects.danceVote.understanding.userResearch.competitiveAudit")}</p>
@@ -101,24 +101,6 @@ const DanceVote: React.FC = () => {
                         </span>
                         {t("projects.danceVote.understanding.personaAntti.problemStatementText")}
                     </p>
-                    {/* <h3>{t("projects.bakeryApp.understanding.userJourney.heading")}</h3> */}
-                    {/* <img 
-                        src={imgUserJourney} 
-                        alt="User journey map: Manu." 
-                        height={500} 
-                        className="img"
-                    /> */}
-                    {/* <p>
-                        {t("projects.bakeryApp.understanding.userJourney.journey")}
-                        <span className="highlighted-text">
-                            {t("projects.bakeryApp.understanding.userJourney.quickenProcess")}
-                        </span> 
-                        {t("projects.bakeryApp.understanding.userJourney.and")}
-                        <span className="highlighted-text">
-                            {t("projects.bakeryApp.understanding.userJourney.helpUsers")}
-                        </span>
-                        .
-                    </p> */}
                     <h3>{t("projects.danceVote.understanding.personaJouni.heading")}</h3>
                     <img 
                         src={imgPersonaJouni} 
@@ -132,7 +114,6 @@ const DanceVote: React.FC = () => {
                         </span>
                         {t("projects.danceVote.understanding.personaJouni.problemStatementText")}
                     </p>
-                    {/* <h3>{t("projects.bakeryApp.understanding.userJourney.heading")}</h3> */}
                     <h3>{t("projects.danceVote.understanding.ideation.heading")}</h3>
                     <p>{t("projects.danceVote.understanding.ideation.crazyEights")}</p>
                     <img 
@@ -154,12 +135,14 @@ const DanceVote: React.FC = () => {
                 <div className="text-wrapper left-aligned">
                     <h2>{t("projects.danceVote.wireframes.heading")}</h2>
                     <p>{t("projects.danceVote.wireframes.designs")}</p>
+                    <p>{t("projects.danceVote.wireframes.voteOrganizer")}</p>
                     <img 
                         src={imgWireframes} 
                         alt="Wireframes of the log in flow." 
                         height={500} 
                         className="img"
                     />
+                    <p>{t("projects.danceVote.wireframes.voter")}</p>
                     <img 
                         src={imgWireframesConfirmation} 
                         alt="Voting room confirmation wireframe." 
@@ -167,6 +150,7 @@ const DanceVote: React.FC = () => {
                         className="img"
                     />
                     <div>
+                    <p>{t("projects.danceVote.wireframes.votingRoom")}</p>
                     <img 
                         src={imgWireframesAccessibility} 
                         alt="Wireframe of the voting room page with better accessibility." 
@@ -214,8 +198,7 @@ const DanceVote: React.FC = () => {
                         <a 
                             target="_blank" 
                             rel="noreferrer" 
-                            href="https://www.figma.com/proto/zUDPa8vviZOWu9opoA61xp/Voting-Web-app?
-                                type=design&node-id=785-9661&scaling=scale-down&page-id=0%3A1&starting-point-node-id=785%3A9661"
+                            href="https://www.figma.com/proto/zUDPa8vviZOWu9opoA61xp/Voting-Web-app?type=design&node-id=785-9661&scaling=scale-down&page-id=0%3A1&starting-point-node-id=785%3A9661"
                         >
                             {t("projects.danceVote.designRefine.hifiPrototype.prototypeLink")}
                         </a>
@@ -239,7 +222,7 @@ const DanceVote: React.FC = () => {
             </div>
             <div className="takeaways" id="takeaways">
                 <div className="text-wrapper center-aligned">
-                    <h2>{t("navigation.sidebar.takeaways")}</h2>
+                    <h2>{t("projects.danceVote.takeaways.heading")}</h2>
                 </div>
                     <PeopleIcon className="icon"/>
                     <p className="text-wrapper__space">
