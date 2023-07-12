@@ -8,14 +8,7 @@
     "navigation": {
         "about": "About",
         "work": "Projects",
-        "contact": "Contact",
-        "sidebar": {
-            "overview": "Overview",
-            "understanding": "Understanding",
-            "designStart": "Starting the design",
-            "designRefine": "Refining the design",
-            "takeaways": "Takeaways"
-        }
+        "contact": "Contact"
     },
     
     "myIntroduction": {
@@ -47,15 +40,19 @@
                 "home": "Bakery mobile ordering app's home page."
             },
             "title": "Bakery Mobile Ordering App Design",
-            "dateRole": "Spring 2023 | UX/UI Design | Team: 1",
+            "dateRole": "Spring 2023 | UX/UI Design",
             "desc": "A design of a mobile app for ordering goods from a local bakery. The app provides the customers an easy way to access detailed information on used ingredients and nutrition charts, in order to support the customers making the most suitable choices for themselves and to alleviate concerns about allergens.",
+            "linkText": "View ",
+            "link": "prototype",
             "overview": {
+                "heading": "Overview",
                 "problem": "Problem: ",
                 "problemContent": "Some people have limitations on what they can eat or need more information on their food for other reasons. This information isn't always easy to find.",
                 "goal": "Goal:",
                 "goalContent": " Design an app that makes finding suitable food options faster and more comfortable."
             },
             "understanding": {
+                "heading": "Undestanding",
                 "userResearch": {
                     "heading": "User research summary",
                     "competitiveAudit": "The competitive audit showed lack of ingredient and nutrition information on other ordering apps/websites.",
@@ -85,6 +82,7 @@
                 }
             },
             "designStart": {
+                "heading": "Starting the design",
                 "summary": "After gathering empathy and understanding for the users' pain points, I drafter paper wireframes which were then turned into digital wireframes. The screens were then connected into a low-fidelity prototype and utilized for a usability study.",
                 "paperWireframes": {
                     "heading": "Paper wireframes",
@@ -113,6 +111,7 @@
                 }
             },
             "designRefine": {
+                "heading": "Refining the design",
                 "mockups": {
                     "heading": "Mockups",
                     "dietaryTags": "Dietary tags were added to product page. Tags will help the user quickly decide if the product is suitable for them, without reading the ingredient list. The layout was modified to fit these new elements.",
@@ -151,20 +150,96 @@
                 }
             }
         },
+
+        "cinemaRoom": {
+            "title": "Cinema.room - Responsive website",
+            "dateRole": "April 2023 | UX/UI Design",
+            "desc": "A responsive modern website design for ordering movie tickets and making seat reservations.",
+            "linkText": "View ",
+            "link": "prototype",
+            "overview": {
+                "heading": "Overview",
+                "problem": "Problem: ",
+                "problemContent": "How to make the ticket ordering process engaging?",
+                "goal": "Goal: ",
+                "goalContent": "The goal of the project is to design the user interface for a movie theater's website. The user experience should be intuitive and pleasant."
+            },
+            "understanding": {
+                "heading": "Understanding",
+                "userResearch": {
+                    "heading": "User research summary",
+                    "empathy": "User personas were created in order to understand better the user's needs.",
+                    "competitiveAudit": "The research showed that some movie theater websites are not necessarily meeting their full potential on maximizing customer comfort.",
+                    "revelation": "It was concluded that a simple, easy-to-use and accessible app would serve the cause well."
+                },
+                "persona": {
+                    "heading": "Persona - Mikaela",
+                    "problemStatement": "Problem statement ",
+                    "problemStatementText": "- Mikaela is an avid movie watcher in the theaters who needs a better website for finding movies because she doesn't have the energy for anything more complicated."
+                },
+                "ia": {
+                    "heading": "IA - Sitemap",
+                    "sitemap": "Before starting the wireframing, I made a site map of the basic structure of the site."
+                }
+            },
+            "designStart": {
+                "heading": "Lo-fi prototype",
+                "wireframes": "Wireframes",
+                "summary": "I started on the initial digital designs for the Cinema.room website with the desktop view. These plans focused on getting an idea of how the ticket purchasing process should go.",
+                "lofiPrototype": {
+                    "heading": "Low-fidelity prototype",
+                    "userFlow": "Next I created a low-fidelity prototype that connected the user flow of purchasing tickets.",
+                    "prototypeText": "View Cinema.room's ",
+                    "prototypeLink": "low-fidelity prototype"
+                }
+            },
+            "designRefine": {
+                "heading": "Hi-fi prototype",
+                "summary": "I iterated on the initial designs and started creating the visual design of the site. I aimed for a calming and cozy but futuristic feel by combining shades of black and pink. Bright pink works well as a color for call-to-actions in this design.",
+                "mockups": {
+                    "heading": "Mockups",
+                    "movieInfo": "Desktop version of the movie information page.",
+                    "reservation": "Desktop version of the reservation page.",
+                    "mobile": "Mobile version of the movie information page."
+                },
+                "hifiPrototype": {
+                    "heading": "High-fidelity prototype",
+                    "final": "The high-fidelity prototype followed the same user flow as the low-fidelity prototype.",
+                    "prototypeText": "View Cinema.room's ",
+                    "prototypeLink": "high-fidelity prototype"
+                }
+            },
+            "takeaways": {
+                "heading": "Takeaways",
+                "impact": "Impact: ",
+                "impactText": "The project resulted in a high-fidelity prototype of the ticket purchasing flow. The UI design of the app has been given positive feedback.",
+                "whatLearned": "What I learned: ",
+                "whatLearnedText": "Movie theater websites hold a lot of information and organizing this information without making the UI too crowded is a challenge.",
+                "nextSteps": {
+                    "heading": "Next steps",
+                    "otherScreens": "Finish all screens needed for a functioning website on desktop and mobile.",
+                    "usabilityStudy": "Conduct a usability study.",
+                    "accessibility": "Account for accessibility."
+                }
+            }
+        },
+
         "danceVote": {
-            "imgAlt": "Picture of the voting room page.",
+            "imgAlt": "Voting room page of the DanceVote app.",
             "title": "UX and UI design of a Voting App (Thesis)",
-            "dateRole": "Fall 2022 | UX/UI Design | Team: 1",
+            "dateRole": "Fall 2022 | UX/UI Design",
             "desc": "The objective of the thesis was to design a user interface for a voting application so that the audience could take part in judging. The commissioner of this thesis was Groove Connection Oy which is a limited company that organizes social partner dance competitions. The company hoped to lighten the workload of its judges. The thesis resulted in an interactive prototype that was used in the programming of the web application.",
             "theseusText": "Read more on ",
             "theseusLink": "Theseus",
             "overview": {
+                "heading": "Overview",
                 "problem": "Problem: ",
                 "problemContent": "Judging in dance competitions is tiring and time consuming. How could the workload of the judges be lightened?",
                 "goal": "Goal: ",
                 "goalContent": "Design a UI for a voting application so that the audience can participate in the judging of dance competitions."
             },
             "understanding": {
+                "heading": "Understanding",
                 "userResearch": {
                     "heading": "User research summary",
                     "empathy": "Empathy maps and user personas were created in order to understand better the users' needs.",
@@ -181,13 +256,6 @@
                     "problemStatement": "Problem statement ",
                     "problemStatementText": "Jouni is a organizer of the vote who needs an easy-to-use app aimed at dance events because he wants the voting to go smoothly."
                 },
-                "userJourney": {
-                    "heading": "User journey map - Manu",
-                    "journey": "Mapping Manu's journey revealed that a way to filter the products could ",
-                    "quickenProcess": "quicken the ordering process",
-                    "and": " and",
-                    "helpUsers": " help the users make more confident choices"
-                },
                 "ideation": {
                     "heading": "Ideation",
                     "crazyEights": "I used the crazy eights exercise for brainstorming different home page layouts. The goal was to fit all the elements on the page in a way that feels intuitive and to keep the 'joining the voting room' functionality as the highest priority.",
@@ -196,9 +264,10 @@
             },
             "wireframes": {
                 "heading": "Wireframes",
-                "designs": "After ideating, I created the initial digital designs for the DanceVote app. These plans focused on getting an idea of how the voting process should go for the voter and what the app would look like for the vote organizer.",
-                "voteOrganizer": "Home screen, log in modal, logged in user's votes",
-                "voter": ""
+                "designs": "After ideating, I created the initial digital designs for the DanceVote app. These plans focused on getting an idea of how the voter should go through the voting process and how the app would look to the vote organizer.",
+                "voteOrganizer": "Log in process",
+                "voter": "Voting room and sending the vote",
+                "votingRoom": "Voting room with better accessibility and intuitivity by adding arrows to move the pairs up or down the list."
             },
             "designRefine": {
                 "heading": "Prototype",
@@ -223,10 +292,6 @@
                     "targetSize": "Target sizes"
                 }
             },
-            "usabilityStudy": {
-                "heading": "Usability study findings",
-                "changes": "From testing the low-fidelity prototype on seven users, I could determine that the following changes were needed:"
-            },
             "takeaways": {
                 "heading": "Takeaways",
                 "impact": "Impact: ",
@@ -240,6 +305,7 @@
                 }
             }
         },
+        
         "farmersApp": {
             "imgAlt": "Picture of the 'My boxes' page.",
             "title": "Web App for Farmers",

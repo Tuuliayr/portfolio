@@ -8,14 +8,7 @@
     "navigation": {
         "about": "Minä",
         "work": "Projektit",
-        "contact": "Ota yhteyttä",
-        "sidebar": {
-            "overview": "Yhteenveto",
-            "understanding": "Ymmärrys",
-            "designStart": "Suunnittelun alku",
-            "designRefine": "Suunnitelman hiominen",
-            "takeaways": "Loppusanat"
-        }
+        "contact": "Ota yhteyttä"
     },
 
     "myIntroduction": {
@@ -44,18 +37,22 @@
         },
         "bakeryApp": {
             "imgAlts": {
-                "home": "Leipomosovelluksen kotisivu."
+                "home": "Leipomosovelluksen aloitusnäyttö."
             },
             "title": "Leipomon mobiiilitilausovelluksen suunnittelu",
             "dateRole": "Kevät 2023 | UX/UI-suunnittelu",
             "desc": "Käyttöliittymän suunnitelma mobiilisovelluksesta leipomotuotteiden tilaamiseen paikallisesta leipomosta. Sovelluksella asiakkkaat pääsevät helposti käsiksi yksityiskohtaisiin tietoihin ainesosista ja ravintosisällöistä. Tarkoitus on auttaa asiakkaita tekemään sopivia valintoja ja lievittämään huolta allergeeneista.",
+            "linkText": "Kokeile ",
+            "link": "prototyyppiä",
             "overview": {
+                "heading": "Yhteenveto",
                 "problem": "Ongelma: ",
                 "problemContent": "Joillakin ihmisillä on rajoituksia sen suhteen, mitä he voivat syödä, tai he tarvitsevat muista syistä lisätietoa ruoastaan. Tätä tietoa ei ole aina helppo löytää.",
                 "goal": "Tavoite: ",
                 "goalContent": "Suunnittele sovellus, joka tekee sopivien ruokavaihtoehtojen löytämisestä nopeampaa ja miellyttävämpää."
             },
             "understanding": {
+                "heading": "Ymmärrys",
                 "userResearch": {
                     "heading": "Käyttäjätutkimuksen yhteenveto",
                     "competitiveAudit": "Kilpailija-analyysistä kävi ilmi, että ainesosa- ja ravintosisältötietojen tarjoamisessa oli puutteita joissakin muissa tilaussovelluksissa/verkkosivustoilla.",
@@ -74,17 +71,18 @@
                 "persona": {
                     "heading": "Persoona - Manu",
                     "problemStatement": "Problem statement ",
-                    "problemStatementText": "- Manu is a junior employee in an HR consulting firm who needs a faster way to find suitable food options for their coworkers because of the coworkers' allergies."
+                    "problemStatementText": "- Manu is HR-konsultointiyhtiön juniori työntekijä, joka tarvitsee nopeamman tavan löytää työkavereilleen sopivia ruokavaihtoehtoja, sillä heillä on erilaisia allergioita."
                 },
                 "userJourney": {
                     "heading": "User journey map - Manu",
-                    "journey": "Mapping Manu's journey revealed that a way to filter the products could ",
-                    "quickenProcess": "quicken the ordering process",
-                    "and": " and",
-                    "helpUsers": " help the users make more confident choices"
+                    "journey": "Manun matkan kartoittaminen paljasti, että mahdollisuus suodattaa tuotteita voisi ",
+                    "quickenProcess": "nopeuttaa tilauksen tekemistä",
+                    "and": " ja",
+                    "helpUsers": " auttaa käyttäjiä tekemään varmempia valintoja"
                 }
             },
             "designStart": {
+                "heading": "Suunnittelun alku",
                 "summary": "Kerättyäni empatiaa ja ymmärrystä käyttäjien kipupisteitä kohtaan, luonnostelin paperisia rautalankamalleja, joista muodostin digitaalisia rautalankamalleja. Näytöt yhdistettiin matalan tarkkuuden prototyypiksi, jota hyödynnettiin käyttäjätestauksessa.",
                 "paperWireframes": {
                     "heading": "Paperiset rautalankamallit",
@@ -98,24 +96,25 @@
 
                 },
                 "lofiPrototype": {
-                    "heading": "Low-fidelity prototype",
-                    "userFlow": "I connected the digital wireframe screens in order to create the primary user flow, which presents the process of ordering bakery goods.",
-                    "prototypeText": "View bakery mobile app's ",
-                    "prototypeLink": "low-fidelity prototype"
+                    "heading": "Matalan tason prototyyppi",
+                    "userFlow": "Yhdistin digitaalisen rautalankamallin näkymät toisiinsa kuvaamaan käyttäjän ensisijaista flow:ta eli leipomotuotteiden tilaamista.",
+                    "prototypeText": "Kokeile leipomosovelluksen ",
+                    "prototypeLink": "low-fi prototyyppiä"
                 },
                 "usabilityFindings": {
                     "heading": "Käytettävyystutkimuksen tulokset",
-                    "changes": "From testing the low-fidelity prototype on five users, I could determine that the following changes were needed:",
+                    "changes": "Testattuani prototyyppiä viidellä käyttäjällä päätin, että seuraavat muutokset olivat tarpeen:",
                     "backButton": "Takaisin-nappi puuttui profiilisivulta.",
                     "dietaryNeeds": "Käyttäjistä tuntui, että ainesosalistojen lukeminen on raskasta, ja että pitäisi olla nopeampi tapa saada selville, sopiiko tuote heidän ruokavalioonsa.",
                     "orders": "Käyttäjät tarvitsevat selkeämmän tavan löytää tilauksensa sovelluksesta."
                 }
             },
             "designRefine": {
+                "heading": "Suunnitelman hiominen",
                 "mockups": {
                     "heading": "Mockupit",
                     "dietaryTags": "Ruokavaliomerkinnät lisättiin tuotesivulle. Merkinnät auttavat käyttäjää päättämään ilman ainesosalistan lukemista, onko tuote sopiva hänelle. Uusille elementeille tehtiin tilaa muokkaamalla sivun ulkoasua.",
-                    "addToCart": "'Add to cart' -painike was accompanied by an element that shows how many items have been added so that the user can add many items at once and see how many items have been already added.",
+                    "addToCart": "'Add to cart' -painikkeen vierelle lisättiin elementti, jonka avulla käyttäjä voi suoraan vaikuttaa tuotteen kappalemäärään ostoskorissa.",
                     "profilePage": "Profiilisivu suunniteltiin uudelleen ja puuttuva takaisin-painike lisättiin. Käyttäjätietojen esittäminen ja muokkaaminen tapahtuu yhtenäisemmällä tavalla.",
                     "sections": "Tiedot jaettiin pieniin osioihin, jotta teksti olisi helppolukuisempaa. Tilaukset löytyvät sivun yläosasta."
                 },
@@ -124,10 +123,10 @@
                     "orderingFlow": "Keskeisiä näyttöjä tilausprosessista."
                 },
                 "hifiPrototype": {
-                    "heading": "High-fidelity prototype",
-                    "final": "Viimeistelty hi-fi prototyyppi eli korkean tason prototyyppi esittää selkeämpiä cleaner user flows for navigating the app and ordering bakery goods. sovelluksessa liikkumiseen ja leipototuotteiden tilaamiseen.",
+                    "heading": "Korkean tason prototyyppi",
+                    "final": "High-fidelity eli korkean tason prototyyppi esittää selkeämmän käyttäjän polun sovelluksessa liikkumiseen ja leipototuotteiden tilaamiseen.",
                     "prototypeText": "Kokeile leipomosovelluksen ",
-                    "prototypeLink": "prototyyppiä"
+                    "prototypeLink": "hi-fi prototyyppiä"
                 },
                 "accessibility": {
                     "heading": "Saavutettavuus",
@@ -150,20 +149,162 @@
                 }
             }
         },
+
+        "cinemaRoom": {
+            "title": "Cinema.room - Responsive website",
+            "dateRole": "April 2023 | UX/UI Design",
+            "desc": "A responsive modern website design for ordering movie tickets and making seat reservations.",
+            "linkText": "View ",
+            "link": "prototype",
+            "overview": {
+                "heading": "Overview",
+                "problem": "Problem: ",
+                "problemContent": "How to make the ticket ordering process engaging?",
+                "goal": "Goal: ",
+                "goalContent": "The goal of the project is to design the user interface for a movie theater's website. The user experience should be intuitive and pleasant."
+            },
+            "understanding": {
+                "heading": "Understanding",
+                "userResearch": {
+                    "heading": "User research summary",
+                    "empathy": "User personas were created in order to understand better the user's needs.",
+                    "competitiveAudit": "The research showed that some movie theater websites are not necessarily meeting their full potential on maximizing customer comfort.",
+                    "revelation": "It was concluded that a simple, easy-to-use and accessible app would serve the cause well."
+                },
+                "persona": {
+                    "heading": "Persona - Mikaela",
+                    "problemStatement": "Problem statement ",
+                    "problemStatementText": "- Mikaela is an avid movie watcher in the theaters who needs a better website for finding movies because she doesn't have the energy for anything more complicated."
+                },
+                "ia": {
+                    "heading": "IA - Sitemap",
+                    "sitemap": "Before starting the wireframing, I made a site map of the basic structure of the site."
+                }
+            },
+            "designStart": {
+                "heading": "Lo-fi prototype",
+                "wireframes": "Wireframes",
+                "summary": "I started on the initial digital designs for the Cinema.room website with the desktop view. These plans focused on getting an idea of how the ticket purchasing process should go.",
+                "lofiPrototype": {
+                    "heading": "Low-fidelity prototype",
+                    "userFlow": "Next I created a low-fidelity prototype that connected the user flow of purchasing tickets.",
+                    "prototypeText": "View Cinema.room's ",
+                    "prototypeLink": "low-fidelity prototype"
+                }
+            },
+            "designRefine": {
+                "heading": "Hi-fi prototype",
+                "summary": "I iterated on the initial designs and started creating the visual design of the site. I aimed for a calming and cozy but futuristic feel by combining shades of black and pink. Bright pink works well as a color for call-to-actions in this design.",
+                "mockups": {
+                    "heading": "Mockups",
+                    "movieInfo": "Desktop version of the movie information page.",
+                    "reservation": "Desktop version of the reservation page.",
+                    "mobile": "Mobile version of the movie information page."
+                },
+                "hifiPrototype": {
+                    "heading": "High-fidelity prototype",
+                    "final": "The high-fidelity prototype followed the same user flow as the low-fidelity prototype.",
+                    "prototypeText": "View Cinema.room's ",
+                    "prototypeLink": "high-fidelity prototype"
+                }
+            },
+            "takeaways": {
+                "heading": "Takeaways",
+                "impact": "Impact: ",
+                "impactText": "The project resulted in a high-fidelity prototype of the ticket purchasing flow. The UI design of the app has been given positive feedback.",
+                "whatLearned": "What I learned: ",
+                "whatLearnedText": "Movie theater websites hold a lot of information and organizing this information without making the UI too crowded is a challenge.",
+                "nextSteps": {
+                    "heading": "Next steps",
+                    "otherScreens": "Finish all screens needed for a functioning website on desktop and mobile.",
+                    "usabilityStudy": "Conduct a usability study.",
+                    "accessibility": "Account for accessibility."
+                }
+            }
+        },
+
         "danceVote": {
-            "imgAlt": "Kuva sovelluksen äänestyshuoneesta.",
+            "imgAlt": "DanceVote-sovelluksen äänestyshuone.",
             "title": "Äänestyssovelluksen UX- ja UI-suunnittelu (Opinnäytetyö)",
             "dateRole": "Syksy 2022 | UX/UI-suunnittelu",
             "desc": "Opinnäytyön tavoitteena oli yleisöäänestyssovelluksen käyttöliittymän ja käyttäjäkokemuksen suunnittelu. Toimeksiantaja Groove Connection Oy on sosiaalisen paritanssin kilpailuja järjestävä osakeyhtiö, joka halusi keventää tapahtumiensa tuomarien työtaakkaa. Opinnäytetyön tuloksena syntyi interaktiivinen prototyyppi, jonka pohjalta voitiin ohjelmoida tanssikilpailuissa hyodynnettävä verkkosovellus.",
             "theseusText": "Lue lisää ",
             "theseusLink": "Theseuksessa",
             "overview": {
-                "problem": "Ongelma: ",
+                "heading": "Yhteenveto",
+                "problem": "Ongelma:  ",
                 "problemContent": "Tanssikilpailuissa tuomaroiminen on raskasta ja aikaa vievää. Miten tuomarien työtaakkaa voitaisiin keventää?",
                 "goal": "Tavoite: ",
                 "goalContent": "Luo DanceVote-yleisöäänestyssovelluksen interaktiinen prototyyppi, joka mallintaa ohjelmoitavan sovelluksen ulkonäköä ja toiminnallisuutta."
+            },
+            "understanding": {
+                "heading": "Ymmärrys",
+                "userResearch": {
+                    "heading": "Käyttäjätutkimuksen yhteenveto",
+                    "empathy": "Ymmärtääkseni paremmin käyttäjien tarpeita loin suunnittelun alussa empatiakarttoja ja käyttäjäpersoonia.",
+                    "competitiveAudit": "Tutkimalla muita äänestyssovelluksia kävi ilmi, että tanssikilpailuille suunnatuissa äänestyssovelluksissa ei ollut paljon kilpailua.",
+                    "revelation": "Oli todettavissa, että yksinkertainen, helppokäyttöinen ja saavutettava sovellus voisi täyttää tämän markkinaraon."
+                },
+                "personaAntti": {
+                    "heading": "Persona - Antti",
+                    "problemStatement": "Problem statement ",
+                    "problemStatementText": "-  Antti on värisokea ja lukivaikeuksinen äänestäjä, joka tarvitsee enemmän sovelluksia, joiden suunnittelussa olisi huomioitu hänen kaltaisensa ihmiset, koska hän ei halua tuntea oloaan ulkopuoliseksi."
+                },
+                "personaJouni": {
+                    "heading": "Persoona - Jouni",
+                    "problemStatement": "Problem statement ",
+                    "problemStatementText": "Jouni on äänestyksen järjestäjä, joka tarvitsee tanssikilpailuille suunnatun helppokäyttöisen äänestyssovelluksen, jotta yleisöäänestys sujuisi mahdollisimman mutkattomasti."
+                },
+                "ideation": {
+                    "heading": "Ideointi",
+                    "crazyEights": "Ideoin crazy eights -harjoituksen avulla erilaisia vaihtoehtoja aloitusnäytön asettelusta. Tavoitteena oli saada kaikki elementit mahtumaan sivulle intuitiivisella tavalla pitäne äänestykseen liittymisen korkeimpana prioriteettina.",
+                    "refinedVersion": "Harjoituksen jälkeen arvioin jokaisen ja rakensin aloitusnäytöstä parannellun version parhaiden ominaisuuksien perusteella."
+                }
+            },
+            "wireframes": {
+                "heading": "Rautalankamallit",
+                "designs": "Ideoinnin jälkeen tein DanceVote-sovellukse alustavan digitaalisen suunnitelman. Suunnitelman avulla oli tarkoitus hahmotella, miltä sovellus näyttäisi äänestäjälle vs. äänestyksen järjestäjälle.",
+                "voteOrganizer": "Sisäänkirjautuminen",
+                "voter": "Äänestyshuone ja äänen lähettäminen",
+                "votingRoom": "Äänestyssivun saavutettavampi ja intuitiivisempi versio. Painamalla nuolia tanssipari siirtyy sijoituksessa ylös- tai alaspäin."
+            },
+            "designRefine": {
+                "heading": "Prototyyppi",
+                "mockups": {
+                    "heading": "Mockupit"
+                },
+                "keyMockups": {
+                    "heading": "Keskeisiä mockuppeja",
+                    "votingFlow": "Keskeisiä näyttöjä äänestysprosessista."
+                },
+                "hifiPrototype": {
+                    "heading": "High-fidelity prototype",
+                    "final": "The final high-fidelity prototype presented cleaner user flows for navigating the app and ordering bakery goods.",
+                    "prototypeText": "Kokeile DanceVote-sovelluksen ",
+                    "prototypeLink": "prototyyppiä"
+                },
+                "accessibility": {
+                    "heading": "Saavutettavuus",
+                    "wcag": "WCAG-ohjeita seurattiin: ",
+                    "typography":  "Typografiassa",
+                    "colors": "Värien kontrasteissa",
+                    "targetSize": "Kohteiden koossa"
+                }
+            },
+            "takeaways": {
+                "heading": "Takeaways",
+                "impact": "Impact: ",
+                "impactText": "The project resulted in an interactive prototype that models the appearance and functionality of the final application. In the prototype, the user can participate in voting, view voting results or create and manage their own voting.",
+                "whatLearned": "What I learned: ",
+                "whatLearnedText": "Conducting usability study made me remember once again the importance of it. The user can always notice or feel something unexpected about the design.",
+                "nextSteps": {
+                    "heading": "Next steps",
+                    "ui": "Enchance the UI with animations and images.",
+                    "accessibility": "Test accessibility more."
+                }
             }
         },
+
         "farmersApp": {
             "imgAlt": "Kuva My boxes -sivusta.",
             "title": "Verkkosovellus maanviljelijöille",
