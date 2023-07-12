@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import { useTranslation } from 'react-i18next';
-import imgBakery from '../../static/images/bakery-app-home1.png';
+import imgBakery from '../../static/images/bakery-app-home1.jpg';
 import imgVoting from '../../static/images/voting-app-voting1.png';
 import imgFarmer from '../../static/images/farmer-app-myboxes1.png';
 import TechTags from '../../models/TechTags';
