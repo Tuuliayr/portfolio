@@ -5,7 +5,8 @@ import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import ArrowRightIcon from '@mui/icons-material/ArrowForwardIos';
 import PeopleIcon from '@mui/icons-material/PeopleAlt';
 import SchoolIcon from '@mui/icons-material/School';
-import imgBakeryApp from '../../../../static/images/bakery-app-home.png';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import imgBakeryApp from '../../../../static/images/bakery-app-home.jpg';
 import imgPersona from '../../../../static/images/persona-manu.jpg';
 import imgUserJourney from '../../../../static/images/user-journey-map-manu.jpg';
 import imgPaperWireframe from '../../../../static/images/paper-wireframe.jpg';
@@ -47,11 +48,22 @@ const BakeryApp: React.FC = () => {
                     <h1>{t("projects.bakeryApp.title")}</h1>
                     <p>{t("projects.bakeryApp.desc")}</p>
                     <MyTag label={t("projects.techs.FIGMA")}/>
+                    <p className="project-link">
+                        {t('projects.bakeryApp.linkText')}
+                        <a
+                            target="_blank" 
+                            rel="noreferrer" 
+                            href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?node-id=415%3A129&scaling=min-zoom&page-id=415%3A128&starting-point-node-id=415%3A129"
+                        >
+                            {t('projects.bakeryApp.link')}
+                            <OpenInNewIcon fontSize="small"/>
+                        </a>
+                    </p>
                 </div>
             </div>
             <div className="overview" id="overview">
                 <div className="text-wrapper center-aligned">
-                    <h2>{t("navigation.sidebar.overview")}</h2>
+                    <h2>{t("projects.bakeryApp.overview.heading")}</h2>
                     <h3>{t("projects.bakeryApp.dateRole")}</h3>
                 </div>
                 <HelpOutlineIcon className="icon"/>
@@ -71,7 +83,7 @@ const BakeryApp: React.FC = () => {
             </div>
             <div className="understanding" id="understanding">
                 <div className="text-wrapper left-aligned">
-                    <h2>{t("navigation.sidebar.understanding")}</h2>
+                    <h2>{t("projects.bakeryApp.understanding.heading")}</h2>
                     <h3>{t("projects.bakeryApp.understanding.userResearch.heading")}</h3>
                     <p>{t("projects.bakeryApp.understanding.userResearch.competitiveAudit")}</p>
                     <p>{t("projects.bakeryApp.understanding.userResearch.empathy")}</p>
@@ -132,7 +144,7 @@ const BakeryApp: React.FC = () => {
             </div>
             <div className="design-start" id="designStart">
                 <div className="text-wrapper left-aligned">
-                    <h2>{t("navigation.sidebar.designStart")}</h2>
+                    <h2>{t("projects.bakeryApp.designStart.heading")}</h2>
                     <p>{t("projects.bakeryApp.designStart.summary")}</p>
                     <h3>{t("projects.bakeryApp.designStart.paperWireframes.heading")}</h3>
                     <p>{t("projects.bakeryApp.designStart.paperWireframes.iteration")}</p>
@@ -165,8 +177,7 @@ const BakeryApp: React.FC = () => {
                         <a 
                             target="_blank" 
                             rel="noreferrer" 
-                            href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?
-                                node-id=3%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2&show-proto-sidebar=1"
+                            href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?node-id=3%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2&show-proto-sidebar=1"
                         >
                             {t("projects.bakeryApp.designStart.lofiPrototype.prototypeLink")}
                         </a>
@@ -190,7 +201,7 @@ const BakeryApp: React.FC = () => {
             </div>
             <div className="design-refine" id="designRefine">
                 <div className="text-wrapper left-aligned">
-                    <h2>{t("navigation.sidebar.designRefine")}</h2>
+                    <h2>{t("projects.bakeryApp.designRefine.heading")}</h2>
                     <h3>{t("projects.bakeryApp.designRefine.mockups.heading")}</h3>
                     <p>{t("projects.bakeryApp.designRefine.mockups.dietaryTags")}</p>
                     <p>{t("projects.bakeryApp.designRefine.mockups.addToCart")}</p>
@@ -261,8 +272,7 @@ const BakeryApp: React.FC = () => {
                         <a 
                             target="_blank" 
                             rel="noreferrer" 
-                            href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?
-                                node-id=415-129&scaling=min-zoom&page-id=415%3A128&starting-point-node-id=415%3A129"
+                            href="https://www.figma.com/proto/UIfMCbPeV2vzPdzClgawMY/Google-UX-Prototype?node-id=415%3A129&scaling=min-zoom&page-id=415%3A128&starting-point-node-id=415%3A129"
                         >
                             {t("projects.bakeryApp.designRefine.hifiPrototype.prototypeLink")}
                         </a>
@@ -289,7 +299,7 @@ const BakeryApp: React.FC = () => {
             </div>
             <div className="takeaways" id="takeaways">
                 <div className="text-wrapper center-aligned">
-                    <h2>{t("navigation.sidebar.takeaways")}</h2>
+                    <h2>{t("projects.bakeryApp.takeaways.heading")}</h2>
                 </div>
                     <PeopleIcon className="icon"/>
                     <p className="text-wrapper__space">
