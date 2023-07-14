@@ -17,7 +17,7 @@ const FarmersApp: React.FC = () => {
                 <img
                     src={imgFarmerApp} 
                     alt="DanceVote app's voting page." 
-                    height={600}
+                    className="cover__img"
                 />
                 <div className="cover__text">
                     <h1>{t("projects.farmersApp.title")}</h1>
