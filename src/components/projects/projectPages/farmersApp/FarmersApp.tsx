@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import imgFarmerApp from '../../../../static/images/farmer-app-myboxes.png';
@@ -9,6 +9,10 @@ import Footer from '../../../footer/Footer';
 const FarmersApp: React.FC = () => {
 
     const {t} = useTranslation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="bakery-app">
