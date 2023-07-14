@@ -1,134 +1,328 @@
-.bakery-app {
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+// .bakery-app {
+//     width: 100%;
+//     display: flex;
+//     flex-flow: column nowrap;
+//     justify-content: center;
+//     align-items: center;
 
-    a {
-        color: $color-highlight;
-    }
+//     a {
+//         color: $color-highlight;
+//     }
 
-    a:hover {
-        color: $font-color-primary;
-    }
+//     a:hover {
+//         color: $font-color-primary;
+//     }
 
-    .text-wrapper {
-        width: 50%;
+//     .text-wrapper {
+//         width: 50%;
 
-        h2, p {
-            padding: 24px 0px 24px;
-        }
+//         h2, p {
+//             padding: 24px 0px 24px;
+//         }
 
-        h3 {
-            padding: 56px 0px 24px;
-        }
+//         h3 {
+//             padding: 56px 0px 24px;
+//         }
 
-        &__list {
-            width: 30%;
+//         &__list {
+//             width: 30%;
 
-            p {
-                text-align: left;
-            }
-        }
+//             p {
+//                 text-align: left;
+//             }
+//         }
 
-        &__space {
-            width: 70%;
-            padding-bottom: 48px;
-        }
-    }
+//         &__space {
+//             width: 70%;
+//             padding-bottom: 48px;
+//         }
+//     }
 
-    .left-aligned {
-        h2, h3, p {
-            text-align: left;
-        }
-    }
+//     .left-aligned {
+//         h2, h3, p {
+//             text-align: left;
+//         }
+//     }
 
-    .center-aligned {
-        h2, h3, p {
-            text-align: center;
-        }
-    }
+//     .center-aligned {
+//         h2, h3, p {
+//             text-align: center;
+//         }
+//     }
 
-    .highlighted-text {
-        color: $color-highlight;
-        font-weight: $font-weight-bold;
-    }
+//     .highlighted-text {
+//         color: $color-highlight;
+//         font-weight: $font-weight-bold;
+//     }
 
-    .img {
-        padding: 24px;
-    }
+//     .img {
+//         padding: 24px;
+//     }
 
-    .icon {
-        padding: 40px;
-        color: $color-secondary;
-        font-size: $font-60;
-    }
+//     .icon {
+//         padding: 40px;
+//         color: $color-secondary;
+//         font-size: $font-60;
+//     }
 
-    .cover {
-        padding: 80px 0px 80px 56px;
+//     .cover {
+//         padding: 80px 0px 80px 56px;
+//         display: flex;
+//         flex-flow: row nowrap;
+//         justify-content: center;
+//         align-items: center;
+//         background-color: $color-black;
+
+//         &__text {
+//             width: 36%;
+//             padding-left: 80px;
+
+//             h1, p {
+//                 text-align: left;
+//                 padding-bottom: 24px;
+//             }
+
+//             p {
+//                 font-size: $font-20;
+//             }
+
+//             .project-link {
+//                 padding-top: 24px;
+//             }
+
+//             .tags {
+//                 display: flex;
+//                 flex-flow: row nowrap;
+//             }
+//         }
+
+//         // &__img {
+
+//         // }
+//     }
+
+//     .overview, .takeaways {
+//         width: 100%;
+//         padding: 80px 0px 144px;
+//         display: flex;
+//         flex-flow: column nowrap;
+//         align-items: center;
+//         background-color: $color-section-bg;
+//     }
+
+//     .understanding, .design-refine {
+//         width: 100%;
+//         padding: 80px 0px 144px;
+//         display: flex;
+//         flex-flow: column nowrap;
+//         align-items: center;
+//         background-color: $color-black;
+
+//         .comparison {
+//             display: flex;
+//             flex-flow: row nowrap;
+//             align-items: center;
+//             padding: 24px 0px 24px;
+
+//             .arrow-right {
+//                 padding: 56px;
+//                 color: $color-secondary;
+//                 font-size: $font-60;
+//             }
+//         }
+
+//         // &__img {
+//         //     height: ;
+//         // }
+//     }
+
+//     .design-start {
+//         width: 100%;
+//         padding: 80px 0px 144px;
+//         display: flex;
+//         flex-flow: column nowrap;
+//         align-items: center;
+//         background-color: $color-section-bg;
+//     }
+// }
+
+@media (min-width: $xs) {
+    .bakery-app {
+        width: 100%;
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
-        background-color: $color-black;
 
-        &__text {
-            width: 36%;
-            padding-left: 80px;
+        a {
+            color: $color-highlight;
+        }
+            
+        a:hover {
+            color: $font-color-primary;
+        }
 
-            h1, p {
+        .text-wrapper {
+            h2, p {
+                padding: 24px 0px 0px;
+            }
+
+            h3 {
+                padding: 56px 0px 24px;
+            }
+
+            &__list {
+                // width: 30%;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+            &__space {
+                // width: 70%;
+                padding: 0px 16px 24px;
+            }
+        }
+
+        .left-aligned {
+            h2, h3, p {
                 text-align: left;
-                padding-bottom: 24px;
-            }
-
-            p {
-                font-size: $font-20;
-            }
-
-            .project-link {
-                padding-top: 24px;
             }
         }
-    }
 
-    .overview, .takeaways {
-        width: 100%;
-        padding: 80px 0px 144px;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        background-color: $color-section-bg;
-    }
+        .center-aligned {
+            h2, h3, p {
+                text-align: center;
+            }
+        }
 
-    .understanding, .design-refine {
-        width: 100%;
-        padding: 80px 0px 144px;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        background-color: $color-black;
+        .highlighted-text {
+            color: $color-highlight;
+            font-weight: $font-weight-bold;
+        }
 
-        .comparison {
+        // .img {
+        //     padding: 24px;
+        // }
+
+        .icon {
+            padding: 40px;
+            color: $color-secondary;
+            font-size: $font-60;
+        }
+        
+        .cover{
             display: flex;
-            flex-flow: row nowrap;
+            flex-flow: column nowrap;
+            justify-content: center;
             align-items: center;
-            padding: 24px 0px 24px;
+            background-color: $color-black;
+            padding: 80px 16px 40px;
+    
+            &__text {
+                // width: 36%;
+                // padding-left: 80px;
+    
+                h1, p {
+                    text-align: left;
+                    padding-bottom: 16px;
+                }
+    
+                p {
+                    font-size: $font-20;
+                }
+    
+                .project-link {
+                    padding-top: 24px;
+                }
+    
+                .tags {
+                    display: flex;
+                    flex-flow: row nowrap;
+                }
+            }
 
-            .arrow-right {
-                padding: 56px;
-                color: $color-secondary;
-                font-size: $font-60;
+            .cover__img {
+                height: 350px;
+                padding: 16px;
+            }
+        }
+
+        .overview, .takeaways {
+            padding: 48px 0px 56px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            background-color: $color-section-bg;
+        }
+    
+        .understanding, .design-refine {
+            padding: 48px 16px 56px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            background-color: $color-black;
+    
+            .comparison {
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                padding: 24px 0px 24px;
+    
+                .arrow-right {
+                    padding: 16px;
+                    color: $color-secondary;
+                    font-size: $font-40;
+                }
+            }
+    
+            &__img-small {
+                height: 180px;
+                padding: 16px 0px;
+            }
+
+            &__img-medium {
+                height: 224px;
+                padding: 16px 0px;
+            }
+
+            .key-mockups {
+                display: flex;
+                flex-flow: column nowrap;
+
+                &__img {
+                    height: 320px;
+                    padding: 16px 0px;
+                }
+            }
+        }
+
+        .design-start {
+            padding: 48px 16px 56px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            background-color: $color-section-bg;
+                    
+            &__img-small {
+                height: 120px;
+                padding: 16px 0px;
+            }
+
+            &__img-medium {
+                height: 240px;
+                padding: 16px 0px;
+            }
+
+            &__img-large {
+                height: 320px;
+                padding: 16px 0px;
             }
         }
     }
+}
 
-    .design-start {
-        width: 100%;
-        padding: 80px 0px 144px;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        background-color: $color-section-bg;
-    }
+@media (min-width: $large) {
+
 }
