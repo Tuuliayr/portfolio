@@ -28,7 +28,7 @@
 
     "projects": {
         "title": "Projects",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "desc": "Here you can read about some of the projects that I have worked on.",
         "techs": {
             "FIGMA": "Figma",
             "REACT": "React",
@@ -309,8 +309,9 @@
         "farmersApp": {
             "imgAlt": "Picture of the 'My boxes' page.",
             "title": "Web App for Farmers",
-            "date": "Spring 2021 | Web Development",
-            "role": "Role: developer",
+            "dateRole": "Spring 2021 | Web Development",
+            "team": "Team members: 10",
+            "role": "My role: 1 of the 3 developers",
             "desc": "An international customer project where a web app prototype was designed and developed. The app is a refill management solution for farmers who want to sell their products with salesboxes. With the app the farmer can see real-time stock level data of the products that have been added to the database and also delete and edit the products.",
             "linkText": "View ",
             "link": "Github repository"
