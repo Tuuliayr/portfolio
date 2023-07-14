@@ -52,7 +52,7 @@
                 "goalContent": " Design an app that makes finding suitable food options faster and more comfortable."
             },
             "understanding": {
-                "heading": "Undestanding",
+                "heading": "Understanding",
                 "userResearch": {
                     "heading": "User research summary",
                     "competitiveAudit": "The competitive audit showed lack of ingredient and nutrition information on other ordering apps/websites.",
@@ -311,7 +311,9 @@
             "title": "Web App for Farmers",
             "date": "Spring 2021 | Web Development",
             "role": "Role: developer",
-            "desc": "An international customer project where a web app prototype was designed and developed. The app is a refill management solution for farmers who want to sell their products with salesboxes. With the app the farmer can see real-time stock level data of the products that have been added to the database and also delete and edit the products."
+            "desc": "An international customer project where a web app prototype was designed and developed. The app is a refill management solution for farmers who want to sell their products with salesboxes. With the app the farmer can see real-time stock level data of the products that have been added to the database and also delete and edit the products.",
+            "linkText": "View ",
+            "link": "Github repository"
         },
         "mobileGame": {
             "title": "Project Baltic: Save Baltic Sea the mobile game",
