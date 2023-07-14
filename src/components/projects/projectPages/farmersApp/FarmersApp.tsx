@@ -26,6 +26,9 @@ const FarmersApp: React.FC = () => {
                 <div className="cover__text">
                     <h1>{t("projects.farmersApp.title")}</h1>
                     <p>{t("projects.farmersApp.desc")}</p>
+                    <p className="p-small">{t("projects.farmersApp.dateRole")}</p>
+                    <p className="p-small">{t("projects.farmersApp.team")}</p>
+                    <p className="p-small">{t("projects.farmersApp.role")}</p>
                     <div className="tags">
                         <MyTag label={t("projects.techs.REACT")}/>
                         <MyTag label={t("projects.techs.AWS")}/>
