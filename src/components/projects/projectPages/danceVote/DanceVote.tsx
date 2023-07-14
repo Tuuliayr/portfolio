@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import MediaQuery from 'react-responsive';
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import PeopleIcon from '@mui/icons-material/PeopleAlt';
@@ -31,16 +32,18 @@ const DanceVote: React.FC = () => {
     return (
         <div className="bakery-app">
             <BackNavbar/>
-            <SidebarNav
-                destinations={["coverDance", "overviewDance", "understanding", "wireframes", "prototype", "takeaways"]}
-                titles={["Dance Vote", "Overview", "Understanding", "Wireframes", "Prototype", "Takeaways"]}
-                offsets={[-70, -60]}
-            />
+            <MediaQuery minWidth={768}>
+                <SidebarNav
+                    destinations={["coverDance", "overviewDance", "understanding", "wireframes", "prototype", "takeaways"]}
+                    titles={["Dance Vote", "Overview", "Understanding", "Wireframes", "Prototype", "Takeaways"]}
+                    offsets={[-70, -60]}
+                />
+            </MediaQuery>
             <div className="cover" id="coverDance">
                 <img
                     src={imgVotingApp} 
                     alt="DanceVote app's voting page." 
-                    height={600}
+                    className="cover__img"
                 />
                 <div className="cover__text">
                     <h1>{t("projects.danceVote.title")}</h1>
