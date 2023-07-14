@@ -233,9 +233,14 @@
                     font-size: $font-20;
                     opacity: 0.85;
                 }
+
+                .p-small {
+                    font-size: $font-17;
+                }
     
                 .project-link {
                     padding-top: 24px;
+                    font-size: $font-18;
                 }
     
                 .tags {
