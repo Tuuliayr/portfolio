@@ -95,8 +95,7 @@ const DanceVote: React.FC = () => {
                     <img 
                         src={imgPersonaAntti} 
                         alt="Persona: Antti." 
-                        height={500} 
-                        className="img"
+                        className="understanding__img-small"
                     />
                     <p>
                         <span className="highlighted-text">
@@ -108,8 +107,7 @@ const DanceVote: React.FC = () => {
                     <img 
                         src={imgPersonaJouni} 
                         alt="Persona: Jouni." 
-                        height={500} 
-                        className="img"
+                        className="understanding__img-small"
                     />
                     <p>
                         <span className="highlighted-text">
@@ -122,15 +120,13 @@ const DanceVote: React.FC = () => {
                     <img 
                         src={imgCrazy8} 
                         alt="Crazy eights exercise of home page." 
-                        height={600} 
-                        className="img"
+                        className="understanding__img-medium"
                     />
                     <p>{t("projects.danceVote.understanding.ideation.refinedVersion")}</p>
                     <img 
                         src={imgCrazy8Result} 
                         alt="Refined version of the home page." 
-                        height={500} 
-                        className="img"
+                        className="understanding__img-medium"
                     />
                 </div>
             </div>
@@ -142,23 +138,20 @@ const DanceVote: React.FC = () => {
                     <img 
                         src={imgWireframes} 
                         alt="Wireframes of the log in flow." 
-                        height={500} 
-                        className="img"
+                        className="design-start__img-medium"
                     />
                     <p>{t("projects.danceVote.wireframes.voter")}</p>
                     <img 
                         src={imgWireframesConfirmation} 
                         alt="Voting room confirmation wireframe." 
-                        height={500} 
-                        className="img"
+                        className="design-start__img-medium"
                     />
                     <div>
                     <p>{t("projects.danceVote.wireframes.votingRoom")}</p>
                     <img 
                         src={imgWireframesAccessibility} 
                         alt="Wireframe of the voting room page with better accessibility." 
-                        height={500} 
-                        className="img"
+                        className="design-start__img-medium"
                     />
                     </div>
                 </div>
@@ -169,29 +162,26 @@ const DanceVote: React.FC = () => {
                     <h3>{t("projects.danceVote.designRefine.keyMockups.heading")}</h3>
                     <p>{t("projects.danceVote.designRefine.keyMockups.votingFlow")}</p>
                 </div>
-                <div>
+                <div className="key-mockups">
                     <img 
                         src={imgVotingAppHome} 
-                        alt="DanceVote home page mockup." 
-                        height={500} 
-                        className="img"
+                        alt="DanceVote home page mockup."
+                        className="key-mockups__img"
                     />
                     <img 
                         src={imgVotingApp} 
                         alt="Voting room page mockup." 
-                        height={500} 
-                        className="img"
+                        className="key-mockups__img"
                     />
                     <img 
                         src={imgVotingAppVote} 
                         alt="Vote confirmation modal mockup."
-                        height={500} 
-                        className="img"
+                        className="key-mockups__img"
                     />
                     <img 
                         src={imgVotingAppResults} 
                         alt="Vote results page mockup." 
-                        height={500} className="img"
+                        className="key-mockups__img"
                     />
                 </div>
                 <div className="text-wrapper left-aligned">
