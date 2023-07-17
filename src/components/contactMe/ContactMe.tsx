@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+// import { initializeApp } from "firebase/app";
+// import { getFirestore, addDoc, collection } from "firebase/firestore"; 
 import MyButton from '../base/myButton/MyButton';
 import MyTextfield from '../base/myTextField/MyTextField';
 
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
+
 const ContactMe: React.FC = () => {
     
     const {t} = useTranslation();
     const [submitted, setSubmitted] = useState(false);
+    // const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [subject, setSubject] = useState('');
+    // const [message, setMessage] = useState('');
 
     const handleSubmit = () => {
         setTimeout(() => {
