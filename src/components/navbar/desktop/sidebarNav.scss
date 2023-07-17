@@ -4,8 +4,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    top: 320px;
-    right: 72px;
+    top: 30%;
     position: fixed;
 
     .links {
@@ -34,5 +33,17 @@
         &:hover {
             color: $color-secondary;
         }
+    }
+}
+
+@media (min-width: $medium) {
+    .sidebar {
+        right: 32px;
+    }
+}
+
+@media (min-width: $xl) {
+    .sidebar {
+        right: 48px;
     }
 }
