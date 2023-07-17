@@ -23,7 +23,7 @@ const FarmersApp: React.FC = () => {
                     alt="DanceVote app's voting page." 
                     className="cover__img"
                 />
-                <div className="cover__text">
+                <div className="text-wrapper cover__text">
                     <h1>{t("projects.farmersApp.title")}</h1>
                     <p>{t("projects.farmersApp.desc")}</p>
                     <p className="p-small">{t("projects.farmersApp.dateRole")}</p>
