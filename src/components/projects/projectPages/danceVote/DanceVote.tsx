@@ -45,7 +45,7 @@ const DanceVote: React.FC = () => {
                     alt="DanceVote app's voting page." 
                     className="cover__img"
                 />
-                <div className="cover__text">
+                <div className="text-wrapper cover__text">
                     <h1>{t("projects.danceVote.title")}</h1>
                     <p>{t("projects.danceVote.desc")}</p>
                     <MyTag label={t("projects.techs.FIGMA")}/>
@@ -68,14 +68,14 @@ const DanceVote: React.FC = () => {
                     <h3>{t("projects.danceVote.dateRole")}</h3>
                 </div>
                 <HelpOutlineIcon className="icon"/>
-                <p className="text-wrapper__space">
+                <p className="text-wrapper text-wrapper__space">
                     <span className="highlighted-text">
                         {t("projects.danceVote.overview.problem")}
                     </span>
                     {t("projects.danceVote.overview.problemContent")}
                 </p>
                 <StarOutlineIcon className="icon"/>
-                <p>
+                <p className="text-wrapper text-wrapper__space">
                     <span className="highlighted-text">
                         {t("projects.danceVote.overview.goal")}
                     </span>
@@ -218,14 +218,14 @@ const DanceVote: React.FC = () => {
                     <h2>{t("projects.danceVote.takeaways.heading")}</h2>
                 </div>
                     <PeopleIcon className="icon"/>
-                    <p className="text-wrapper__space">
+                    <p className="text-wrapper text-wrapper__space">
                         <span className="highlighted-text">
                             {t("projects.danceVote.takeaways.impact")}
                         </span>
                         {t("projects.danceVote.takeaways.impactText")}
                     </p>
                     <SchoolIcon className="icon"/>
-                    <p className="text-wrapper__space">
+                    <p className="text-wrapper text-wrapper__space">
                         <span className="highlighted-text">
                             {t("projects.danceVote.takeaways.whatLearned")}
                         </span>
