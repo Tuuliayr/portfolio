@@ -45,10 +45,9 @@ const BakeryApp: React.FC = () => {
                 <img
                     src={imgBakeryApp} 
                     alt="Bakery mobile ordering app's home page." 
-                    // height={600}
                     className="cover__img"
                 />
-                <div className="cover__text">
+                <div className="text-wrapper cover__text">
                     <h1>{t("projects.bakeryApp.title")}</h1>
                     <p>{t("projects.bakeryApp.desc")}</p>
                     <MyTag label={t("projects.techs.FIGMA")}/>
@@ -71,14 +70,14 @@ const BakeryApp: React.FC = () => {
                     <h3>{t("projects.bakeryApp.dateRole")}</h3>
                 </div>
                 <HelpOutlineIcon className="icon"/>
-                <p className="text-wrapper__space">
+                <p className="text-wrapper text-wrapper__space">
                     <span className="highlighted-text">
                         {t("projects.bakeryApp.overview.problem")}
                     </span>
                     {t("projects.bakeryApp.overview.problemContent")}
                 </p>
                 <StarOutlineIcon className="icon"/>
-                <p>
+                <p className="text-wrapper text-wrapper__space">
                     <span className="highlighted-text">
                         {t("projects.bakeryApp.overview.goal")}
                     </span>
@@ -117,7 +116,6 @@ const BakeryApp: React.FC = () => {
                     <img 
                         src={imgPersona} 
                         alt="Persona: Manu." 
-                        // height={500} 
                         className="understanding__img-small"
                     />
                     <p>
@@ -130,7 +128,6 @@ const BakeryApp: React.FC = () => {
                     <img 
                         src={imgUserJourney} 
                         alt="User journey map: Manu." 
-                        // height={500} 
                         className="understanding__img-small"
                     />
                     <p>
@@ -156,14 +153,12 @@ const BakeryApp: React.FC = () => {
                     <img 
                         src={imgPaperWireframe} 
                         alt="Five different paper wireframe versions of the home page." 
-                        // height={300} 
                         className="design-start__img-small"
                     />
                     <p>{t("projects.bakeryApp.designStart.paperWireframes.refinedVersion")}</p>
                     <img 
                         src={imgPaperWireframeRefined} 
                         alt="Refined version of the home page." 
-                        // height={400} 
                         className="design-start__img-large"
                     />
                     <h3>{t("projects.bakeryApp.designStart.digitalWireframes.heading")}</h3>
@@ -171,8 +166,7 @@ const BakeryApp: React.FC = () => {
                     <img 
                         src={imgDigitalWireframes} 
                         alt="Digital wireframes." 
-                        // height={500} 
-                        className="design-start__img-medium"
+                        className="design-start__img-large"
                     />
                     <h3>{t("projects.bakeryApp.designStart.lofiPrototype.heading")}</h3>
                     <p>{t("projects.bakeryApp.designStart.lofiPrototype.userFlow")}</p>
@@ -213,14 +207,12 @@ const BakeryApp: React.FC = () => {
                         <img 
                             src={imgMockupBeforeProduct} 
                             alt="Product page wireframe." 
-                            // height={600} 
                             className="design-refine__img-medium"
                         />
                         <ArrowRightIcon className="arrow-right"/>
                         <img 
                             src={imgMockupAfterProduct} 
                             alt="Product page mockup." 
-                            // height={600}
                             className="design-refine__img-medium"
                         />
                     </div>
@@ -230,46 +222,40 @@ const BakeryApp: React.FC = () => {
                         <img 
                             src={imgMockupBeforeProfile} 
                             alt="Profile page wireframe." 
-                            // height={600} 
                             className="design-refine__img-medium"
                         />
                         <ArrowRightIcon className="arrow-right"/>
                         <img 
                             src={imgMockupAfterProfile} 
                             alt="Profile page mockup." 
-                            // height={600} 
                             className="design-refine__img-medium"
                         />
                     </div>
                     <h3>{t("projects.bakeryApp.designRefine.keyMockups.heading")}</h3>
                     <p>{t("projects.bakeryApp.designRefine.keyMockups.orderingFlow")}</p>
                 </div>
-                <div className="key-mockups">
-                    <img 
-                        src={imgBakeryApp} 
-                        alt="Home page mockup." 
-                        // height={500} 
-                        className="key-mockups__img"
-                    />
-                    <img 
-                        src={imgMockupBrowse} 
-                        alt="Product browsing page mockup." 
-                        // height={500} 
-                        className="key-mockups__img"
-                    />
-                    <img 
-                        src={imgMockupAfterProduct} 
-                        alt="Product page mockup." 
-                        // height={500} 
-                        className="key-mockups__img"
-                    />
-                    <img 
-                        src={imgMockupCheckout} 
-                        alt="Checkout page mockup." 
-                        // height={500}
-                        className="key-mockups__img"
-                    />
-                </div>
+                    <div className="key-mockups">
+                        <img 
+                            src={imgBakeryApp} 
+                            alt="Home page mockup." 
+                            className="key-mockups__img"
+                        />
+                        <img 
+                            src={imgMockupBrowse} 
+                            alt="Product browsing page mockup." 
+                            className="key-mockups__img"
+                        />
+                        <img 
+                            src={imgMockupAfterProduct} 
+                            alt="Product page mockup." 
+                            className="key-mockups__img"
+                        />
+                        <img 
+                            src={imgMockupCheckout} 
+                            alt="Checkout page mockup." 
+                            className="key-mockups__img"
+                        />
+                    </div>
                 <div className="text-wrapper left-aligned">
                     <h3>{t("projects.bakeryApp.designRefine.hifiPrototype.heading")}</h3>
                     <p>{t("projects.bakeryApp.designRefine.hifiPrototype.final")}</p>
@@ -308,14 +294,14 @@ const BakeryApp: React.FC = () => {
                     <h2>{t("projects.bakeryApp.takeaways.heading")}</h2>
                 </div>
                     <PeopleIcon className="icon"/>
-                    <p className="text-wrapper__space">
+                    <p className="text-wrapper text-wrapper__space">
                         <span className="highlighted-text">
                             {t("projects.bakeryApp.takeaways.impact")}
                         </span>
                         {t("projects.bakeryApp.takeaways.impactText")}
                     </p>
                     <SchoolIcon className="icon"/>
-                    <p className="text-wrapper__space">
+                    <p className="text-wrapper text-wrapper__space">
                         <span className="highlighted-text">
                             {t("projects.bakeryApp.takeaways.whatLearned")}
                         </span>
