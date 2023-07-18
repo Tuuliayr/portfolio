@@ -15,6 +15,8 @@
         }
 
         .text-wrapper {
+            width: 90%;
+
             h2, p {
                 padding: 24px 0px 0px;
             }
@@ -105,6 +107,7 @@
         }
 
         .overview, .takeaways {
+            width: 100%;
             padding: 48px 0px 56px;
             display: flex;
             flex-flow: column nowrap;
@@ -113,7 +116,8 @@
         }
     
         .understanding, .design-refine {
-            padding: 48px 16px 56px;
+            width: 100%;
+            padding: 48px 0px 56px;
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
@@ -133,12 +137,19 @@
             }
     
             &__img-small {
-                height: 180px;
+                // height: 180px;
+                width: 100%;
                 padding: 16px 0px;
             }
 
             &__img-medium {
-                height: 224px;
+                // height: 224px;
+                width: 70%;
+                padding: 16px 0px;
+            }
+
+            &__img-large {
+                width: 50%;
                 padding: 16px 0px;
             }
 
@@ -154,24 +165,28 @@
         }
 
         .design-start {
-            padding: 48px 16px 56px;
+            width: 100%;
+            padding: 48px 0px 56px;
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
             background-color: $color-section-bg;
                     
             &__img-small {
-                height: 120px;
+                // height: 120px;
+                width: 100%;
                 padding: 16px 0px;
             }
 
             &__img-medium {
-                height: 240px;
+                // height: 240px;
+                width: 80%;
                 padding: 16px 0px;
             }
 
             &__img-large {
-                height: 320px;
+                // height: 280px;
+                width: 50%;
                 padding: 16px 0px;
             }
         }
@@ -323,12 +338,19 @@
             }
     
             &__img-small {
-                height: 400px;
+                // height: 400px;
+                width: 70%;
                 padding: 16px 0px;
             }
 
             &__img-medium {
-                height: 480px;
+                // height: 480px;
+                width: 60%;
+                padding: 16px 0px;
+            }
+
+            &__img-large {
+                width: 25%;
                 padding: 16px 0px;
             }
 
@@ -355,17 +377,20 @@
             background-color: $color-section-bg;
                     
             &__img-small {
-                height: 200px;
+                // height: 200px;
+                width: 70%;
                 padding: 16px 0px;
             }
 
             &__img-medium {
-                height: 240px;
+                // height: 240px;
+                width: 50%;
                 padding: 16px 0px;
             }
 
             &__img-large {
-                height: 400px;
+                // height: 400px;
+                width: 25%;
                 padding: 16px 0px;
             }
         }
