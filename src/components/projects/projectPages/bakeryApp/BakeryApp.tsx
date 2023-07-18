@@ -166,7 +166,7 @@ const BakeryApp: React.FC = () => {
                     <img 
                         src={imgDigitalWireframes} 
                         alt="Digital wireframes." 
-                        className="design-start__img-large"
+                        className="design-start__img-medium"
                     />
                     <h3>{t("projects.bakeryApp.designStart.lofiPrototype.heading")}</h3>
                     <p>{t("projects.bakeryApp.designStart.lofiPrototype.userFlow")}</p>
@@ -207,13 +207,13 @@ const BakeryApp: React.FC = () => {
                         <img 
                             src={imgMockupBeforeProduct} 
                             alt="Product page wireframe." 
-                            className="design-refine__img-medium"
+                            className="design-refine__img-large"
                         />
                         <ArrowRightIcon className="arrow-right"/>
                         <img 
                             src={imgMockupAfterProduct} 
                             alt="Product page mockup." 
-                            className="design-refine__img-medium"
+                            className="design-refine__img-large"
                         />
                     </div>
                     <p>{t("projects.bakeryApp.designRefine.mockups.profilePage")}</p>
@@ -222,13 +222,13 @@ const BakeryApp: React.FC = () => {
                         <img 
                             src={imgMockupBeforeProfile} 
                             alt="Profile page wireframe." 
-                            className="design-refine__img-medium"
+                            className="design-refine__img-large"
                         />
                         <ArrowRightIcon className="arrow-right"/>
                         <img 
                             src={imgMockupAfterProfile} 
                             alt="Profile page mockup." 
-                            className="design-refine__img-medium"
+                            className="design-refine__img-large"
                         />
                     </div>
                     <h3>{t("projects.bakeryApp.designRefine.keyMockups.heading")}</h3>

@@ -120,13 +120,13 @@ const DanceVote: React.FC = () => {
                     <img 
                         src={imgCrazy8} 
                         alt="Crazy eights exercise of home page." 
-                        className="understanding__img-medium"
+                        className="understanding__img-small"
                     />
                     <p>{t("projects.danceVote.understanding.ideation.refinedVersion")}</p>
                     <img 
                         src={imgCrazy8Result} 
                         alt="Refined version of the home page." 
-                        className="understanding__img-medium"
+                        className="understanding__img-large"
                     />
                 </div>
             </div>
@@ -138,7 +138,7 @@ const DanceVote: React.FC = () => {
                     <img 
                         src={imgWireframes} 
                         alt="Wireframes of the log in flow." 
-                        className="design-start__img-medium"
+                        className="design-start__img-small"
                     />
                     <p>{t("projects.danceVote.wireframes.voter")}</p>
                     <img 
@@ -151,7 +151,7 @@ const DanceVote: React.FC = () => {
                     <img 
                         src={imgWireframesAccessibility} 
                         alt="Wireframe of the voting room page with better accessibility." 
-                        className="design-start__img-medium"
+                        className="design-start__img-large"
                     />
                     </div>
                 </div>
