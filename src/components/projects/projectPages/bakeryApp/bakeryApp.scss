@@ -90,20 +90,6 @@
 
 @media (min-width: $xs) {
     .bakery-app {
-        // width: 100%;
-        // display: flex;
-        // flex-flow: column nowrap;
-        // justify-content: center;
-        // align-items: center;
-
-        // a {
-        //     color: $color-highlight;
-        // }
-            
-        // a:hover {
-        //     color: $font-color-primary;
-        // }
-
         .text-wrapper {
             width: 90%;
 
@@ -126,27 +112,6 @@
             }
         }
 
-        // .left-aligned {
-        //     h2, h3, p {
-        //         text-align: left;
-        //     }
-        // }
-
-        // .center-aligned {
-        //     h2, h3, p {
-        //         text-align: center;
-        //     }
-        // }
-
-        // .highlighted-text {
-        //     color: $color-highlight;
-        //     font-weight: $font-weight-bold;
-        // }
-
-        // .img {
-        //     padding: 24px;
-        // }
-
         .icon {
             padding: 40px;
             color: $color-secondary;
@@ -162,32 +127,13 @@
             padding: 80px 16px 40px;
     
             &__text {
-                // width: 36%;
-                // padding-left: 80px;
-    
                 h1, p {
-                    // text-align: left;
                     padding-bottom: 16px;
                 }
-    
-                // p {
-                //     font-size: $font-20;
-                //     opacity: 0.85;
-                // }
 
-                // .p-small {
-                //     font-size: $font-17;
-                // }
-    
                 .project-link {
                     padding-top: 24px;
-                    // font-size: $font-18;
                 }
-    
-                // .tags {
-                //     display: flex;
-                //     flex-flow: row nowrap;
-                // }
             }
 
             .cover__img {
@@ -195,28 +141,11 @@
                 padding: 16px;
             }
         }
-
-        // .overview, .takeaways {
-        //     width: 100%;
-        //     padding: 48px 0px 56px;
-        //     display: flex;
-        //     flex-flow: column nowrap;
-        //     align-items: center;
-        //     background-color: $color-section-bg;
-        // }
     
         .understanding, .design-refine {
-            // width: 100%;
             padding: 48px 0px 56px;
-            // display: flex;
-            // flex-flow: column nowrap;
-            // align-items: center;
-            // background-color: $color-black;
     
             .comparison {
-                // display: flex;
-                // flex-flow: row nowrap;
-                // align-items: center;
                 padding: 24px 0px 24px;
     
                 .arrow-right {
@@ -258,27 +187,19 @@
         }
 
         .design-start {
-            width: 100%;
             padding: 48px 0px 56px;
-            display: flex;
-            flex-flow: column nowrap;
-            align-items: center;
-            background-color: $color-section-bg;
                     
             &__img-small {
-                // height: 120px;
                 width: 100%;
                 padding: 16px 0px;
             }
 
             &__img-medium {
-                // height: 240px;
                 width: 80%;
                 padding: 16px 0px;
             }
 
             &__img-large {
-                // height: 280px;
                 width: 50%;
                 padding: 16px 0px;
             }
@@ -316,20 +237,6 @@
 
 @media (min-width: $large) {
     .bakery-app {
-        // width: 100%;
-        // display: flex;
-        // flex-flow: column nowrap;
-        // justify-content: center;
-        // align-items: center;
-
-        // a {
-        //     color: $color-highlight;
-        // }
-            
-        // a:hover {
-        //     color: $font-color-primary;
-        // }
-
         .text-wrapper {
             width: 60%;
 
@@ -354,23 +261,6 @@
             }
         }
 
-        // .left-aligned {
-        //     h2, h3, p {
-        //         text-align: left;
-        //     }
-        // }
-
-        // .center-aligned {
-        //     h2, h3, p {
-        //         text-align: center;
-        //     }
-        // }
-
-        // .highlighted-text {
-        //     color: $color-highlight;
-        //     font-weight: $font-weight-bold;
-        // }
-
         .icon {
             padding: 32px;
             color: $color-secondary;
@@ -390,28 +280,12 @@
                 padding-left: 80px;
     
                 h1, p {
-                    // text-align: left;
                     padding-bottom: 24px;
                 }
     
-                // p {
-                //     font-size: $font-20;
-                //     opacity: 0.85;
-                // }
-
-                // .p-small {
-                //     font-size: $font-17;
-                // }
-    
                 .project-link {
                     padding-top: 24px;
-                    // font-size: $font-18;
                 }
-    
-                // .tags {
-                //     display: flex;
-                //     flex-flow: row nowrap;
-                // }
             }
 
             .cover__img {
@@ -419,28 +293,11 @@
                 padding: 24px;
             }
         }
-
-        // .overview, .takeaways {
-        //     width: 100%;
-        //     padding: 80px 0px 144px;
-        //     display: flex;
-        //     flex-flow: column nowrap;
-        //     align-items: center;
-        //     background-color: $color-section-bg;
-        // }
     
         .understanding, .design-refine {
-            // width: 100%;
             padding: 80px 0px 144px;
-            // display: flex;
-            // flex-flow: column nowrap;
-            // align-items: center;
-            // background-color: $color-black;
     
             .comparison {
-                // display: flex;
-                // flex-flow: row nowrap;
-                // align-items: center;
                 padding: 24px 0px 24px;
     
                 .arrow-right {
@@ -485,12 +342,7 @@
         }
 
         .design-start {
-            // width: 100%;
             padding: 48px 16px 56px;
-            // display: flex;
-            // flex-flow: column nowrap;
-            // align-items: center;
-            // background-color: $color-section-bg;
                     
             &__img-small {
                 width: 70%;
