@@ -52,6 +52,7 @@
             .tags {
                 display: flex;
                 flex-flow: row nowrap;
+                padding-top: 16px;
             }
         }
     }
@@ -127,9 +128,9 @@
             padding: 80px 16px 40px;
     
             &__text {
-                h1, p {
-                    padding-bottom: 16px;
-                }
+                // h1, p {
+                //     padding-bottom: 16px;
+                // }
 
                 .project-link {
                     padding-top: 24px;
@@ -241,7 +242,7 @@
             width: 60%;
 
             h2, p {
-                padding: 24px 0px 16px;
+                padding: 24px 0px 0px;
             }
 
             h3 {
@@ -279,9 +280,9 @@
                 width: 36%;
                 padding-left: 80px;
     
-                h1, p {
-                    padding-bottom: 24px;
-                }
+                // h1, p {
+                //     padding-bottom: 24px;
+                // }
     
                 .project-link {
                     padding-top: 24px;
