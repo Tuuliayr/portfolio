@@ -33,15 +33,15 @@
     }
 
     input {
-        color: $font-color-primary;
+        color: $font-color-primary !important;
     }
 
     .css-15mnzpi-MuiInputBase-root-MuiFilledInput-root:before {
-        border-bottom: 1px solid $color-primary;
+        border-bottom: 1px solid $color-primary !important;
     }
 
     .css-15mnzpi-MuiInputBase-root-MuiFilledInput-root:after {
-        border-bottom: 1px solid $color-highlight;
+        border-bottom: 1px solid $color-highlight !important;
     }
 }
 
@@ -63,14 +63,14 @@
     }
 
     .css-7209ej-MuiInputBase-input-MuiFilledInput-input {
-        color: $font-color-primary;
+        color: $font-color-primary !important;
     }
 
     .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:before {
-        border-bottom: 1px solid $font-color-primary;
+        border-bottom: 1px solid $font-color-primary !important;
     }
 
     .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:after {
-        border-bottom: 1px solid $color-highlight;
+        border-bottom: 1px solid $color-highlight !important;
     }
 }
