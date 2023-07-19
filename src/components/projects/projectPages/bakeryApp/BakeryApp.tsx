@@ -207,13 +207,13 @@ const BakeryApp: React.FC = () => {
                         <img 
                             src={imgMockupBeforeProduct} 
                             alt="Product page wireframe." 
-                            className="design-refine__img-large"
+                            className="comparison__img"
                         />
                         <ArrowRightIcon className="arrow-right"/>
                         <img 
                             src={imgMockupAfterProduct} 
                             alt="Product page mockup." 
-                            className="design-refine__img-large"
+                            className="comparison__img"
                         />
                     </div>
                     <p>{t("projects.bakeryApp.designRefine.mockups.profilePage")}</p>
@@ -222,13 +222,13 @@ const BakeryApp: React.FC = () => {
                         <img 
                             src={imgMockupBeforeProfile} 
                             alt="Profile page wireframe." 
-                            className="design-refine__img-large"
+                            className="comparison__img"
                         />
                         <ArrowRightIcon className="arrow-right"/>
                         <img 
                             src={imgMockupAfterProfile} 
                             alt="Profile page mockup." 
-                            className="design-refine__img-large"
+                            className="comparison__img"
                         />
                     </div>
                     <h3>{t("projects.bakeryApp.designRefine.keyMockups.heading")}</h3>
