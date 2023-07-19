@@ -62,19 +62,15 @@
         background-color: rgba(0,0,0,0.35);
     }
 
-    .MuiInputBase-inputMultiline {
+    .css-7209ej-MuiInputBase-input-MuiFilledInput-input, .MuiInputBase-inputMultiline {
         color: $font-color-primary !important;
     }
 
-    .css-7209ej-MuiInputBase-input-MuiFilledInput-input {
-        color: $font-color-primary !important;
-    }
-
-    .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:before {
+    .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:before, .MuiInputBase-inputMultiline:before{
         border-bottom: 1px solid $font-color-primary !important;
     }
 
-    .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:after {
+    .css-1rx6cgr-MuiInputBase-root-MuiFilledInput-root:after, .MuiInputBase-inputMultiline:after {
         border-bottom: 1px solid $color-highlight !important;
     }
 }
