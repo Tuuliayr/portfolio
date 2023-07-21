@@ -8,8 +8,6 @@ import MyTextfield from '../base/myTextField/MyTextField';
 
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
-console.log(process.env.REACT_APP_SERVICE_ID);
-
 const ContactMe: React.FC = () => {
     
     const {t} = useTranslation();
