@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import emailjs from '@emailjs/browser';
 // import { initializeApp } from "firebase/app";
 // import { getFirestore, addDoc, collection } from "firebase/firestore"; 
 import MyButton from '../base/myButton/MyButton';
@@ -7,20 +8,34 @@ import MyTextfield from '../base/myTextField/MyTextField';
 
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
+console.log(process.env.REACT_APP_SERVICE_ID);
 
 const ContactMe: React.FC = () => {
     
     const {t} = useTranslation();
     const [submitted, setSubmitted] = useState(false);
-    // const [name, setName] = useState('');
-    // const [email, setEmail] = useState('');
-    // const [subject, setSubject] = useState('');
-    // const [message, setMessage] = useState('');
+    const form = useRef<HTMLFormElement>(null);
 
-    const handleSubmit = () => {
-        setTimeout(() => {
-        setSubmitted(true);
-        }, 100);
+    const handleSubmit = (e: React.SyntheticEvent) => {
+        // setTimeout(() => {
+        // setSubmitted(true);
+        // }, 100);
+
+        e.preventDefault();
+
+        emailjs.sendForm(
+            process.env.REACT_APP_SERVICE_ID || "", 
+            process.env.REACT_APP_TEMPLATE_ID || "", 
+            form.current || "",
+            process.env.REACT_APP_PUBLIC_KEY
+            )
+            .then((result) => {
+                console.log(result.text);
+                console.log("meassage sent");
+            }, (error) => {
+                console.log(error.text);
+            }
+        );
     };
 
     if (submitted) {
@@ -47,6 +62,7 @@ const ContactMe: React.FC = () => {
             </p>
             <svg className="arrow-down"/>
             <form
+                ref={form}
                 action={FORM_ENDPOINT}
                 onSubmit={handleSubmit}
                 method="POST"
@@ -59,6 +75,7 @@ const ContactMe: React.FC = () => {
                         className="text-field"
                         label={t("contactMe.name")}
                         type="text"
+                        name="user_name"
                     />
                 </div>
                 <div>
@@ -67,6 +84,7 @@ const ContactMe: React.FC = () => {
                         className="text-field"
                         label={t("contactMe.email")}
                         type="email"
+                        name="user_email"
                     />
                 </div>
                 <div>
@@ -75,6 +93,7 @@ const ContactMe: React.FC = () => {
                         className="text-field"
                         label={t("contactMe.subject")}
                         type="text"
+                        name="subject"
                     />
                 </div>
                 <div>
@@ -84,6 +103,7 @@ const ContactMe: React.FC = () => {
                         label={t("contactMe.message")}
                         multiline
                         minRows={6}
+                        name="message"
                     />
                 </div>
                 <div className="btn-align btn-align__center">
