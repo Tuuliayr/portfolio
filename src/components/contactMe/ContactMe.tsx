@@ -13,7 +13,7 @@ console.log(process.env.REACT_APP_SERVICE_ID);
 const ContactMe: React.FC = () => {
     
     const {t} = useTranslation();
-    const [submitted, setSubmitted] = useState(false);
+    // const [submitted, setSubmitted] = useState(false);
     const form = useRef<HTMLFormElement>(null);
 
     const handleSubmit = (e: React.SyntheticEvent) => {
@@ -38,14 +38,14 @@ const ContactMe: React.FC = () => {
         );
     };
 
-    if (submitted) {
-        return (
-        <>
-            <h2>Thank you!</h2>
-            <div>We'll be in touch soon.</div>
-        </>
-        );
-    }
+    // if (submitted) {
+    //     return (
+    //     <>
+    //         <h2>Thank you!</h2>
+    //         <div>We'll be in touch soon.</div>
+    //     </>
+    //     );
+    // }
 
     return (
         <div className="contact-me" id="contactMe">
