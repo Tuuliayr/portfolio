@@ -9,9 +9,10 @@ interface Props {
     type?: "text" | "email";
     multiline?: boolean;
     minRows?: number;
+    name: string;
 }
 
-const MyTextfield: React.FC<Props> = ({id, className, label, type, multiline, minRows}) => {
+const MyTextfield: React.FC<Props> = ({id, className, label, type, multiline, minRows, name}) => {
     const {t} = useTranslation();
 
     return (
@@ -25,6 +26,7 @@ const MyTextfield: React.FC<Props> = ({id, className, label, type, multiline, mi
             margin="normal"
             multiline={multiline}
             minRows={minRows}
+            InputProps={{name: name}}
         >
 
         </TextField>
