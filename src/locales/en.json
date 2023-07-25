@@ -155,79 +155,6 @@
             }
         },
 
-        "cinemaRoom": {
-            "title": "Cinema.room - Responsive website",
-            "dateRole": "April 2023 | UX/UI Design",
-            "desc": "A responsive modern website design for ordering movie tickets and making seat reservations.",
-            "linkText": "View ",
-            "link": "prototype",
-            "overview": {
-                "heading": "Overview",
-                "problem": "Problem: ",
-                "problemContent": "How to make the ticket ordering process engaging?",
-                "goal": "Goal: ",
-                "goalContent": "The goal of the project is to design the user interface for a movie theater's website. The user experience should be intuitive and pleasant."
-            },
-            "understanding": {
-                "heading": "Understanding",
-                "userResearch": {
-                    "heading": "User research summary",
-                    "empathy": "User personas were created in order to understand better the user's needs.",
-                    "competitiveAudit": "The research showed that some movie theater websites are not necessarily meeting their full potential on maximizing customer comfort.",
-                    "revelation": "It was concluded that a simple, easy-to-use and accessible app would serve the cause well."
-                },
-                "persona": {
-                    "heading": "Persona - Mikaela",
-                    "problemStatement": "Problem statement ",
-                    "problemStatementText": "- Mikaela is an avid movie watcher in the theaters who needs a better website for finding movies because she doesn't have the energy for anything more complicated."
-                },
-                "ia": {
-                    "heading": "IA - Sitemap",
-                    "sitemap": "Before starting the wireframing, I made a site map of the basic structure of the site."
-                }
-            },
-            "designStart": {
-                "heading": "Lo-fi prototype",
-                "wireframes": "Wireframes",
-                "summary": "I started on the initial digital designs for the Cinema.room website with the desktop view. These plans focused on getting an idea of how the ticket purchasing process should go.",
-                "lofiPrototype": {
-                    "heading": "Low-fidelity prototype",
-                    "userFlow": "Next I created a low-fidelity prototype that connected the user flow of purchasing tickets.",
-                    "prototypeText": "View Cinema.room's ",
-                    "prototypeLink": "low-fidelity prototype"
-                }
-            },
-            "designRefine": {
-                "heading": "Hi-fi prototype",
-                "summary": "I iterated on the initial designs and started creating the visual design of the site. I aimed for a calming and cozy but futuristic feel by combining shades of black and pink. Bright pink works well as a color for call-to-actions in this design.",
-                "mockups": {
-                    "heading": "Mockups",
-                    "movieInfo": "Desktop version of the movie information page.",
-                    "reservation": "Desktop version of the reservation page.",
-                    "mobile": "Mobile version of the movie information page."
-                },
-                "hifiPrototype": {
-                    "heading": "High-fidelity prototype",
-                    "final": "The high-fidelity prototype followed the same user flow as the low-fidelity prototype.",
-                    "prototypeText": "View Cinema.room's ",
-                    "prototypeLink": "high-fidelity prototype"
-                }
-            },
-            "takeaways": {
-                "heading": "Takeaways",
-                "impact": "Impact: ",
-                "impactText": "The project resulted in a high-fidelity prototype of the ticket purchasing flow. The UI design of the app has been given positive feedback.",
-                "whatLearned": "What I learned: ",
-                "whatLearnedText": "Movie theater websites hold a lot of information and organizing this information without making the UI too crowded is a challenge.",
-                "nextSteps": {
-                    "heading": "Next steps",
-                    "otherScreens": "Finish all screens needed for a functioning website on desktop and mobile.",
-                    "usabilityStudy": "Conduct a usability study.",
-                    "accessibility": "Account for accessibility."
-                }
-            }
-        },
-
         "danceVote": {
             "imgAlt": "Voting room page of the DanceVote app.",
             "title": "UX and UI design of a Voting App (Thesis)",
@@ -305,7 +232,7 @@
                 "nextSteps": {
                     "heading": "Next steps",
                     "ui": "Enchance the UI with animations and images.",
-                    "accessibility": "Test accessibility more."
+                    "accessibility": "Test accessibility."
                 }
             }
         },
