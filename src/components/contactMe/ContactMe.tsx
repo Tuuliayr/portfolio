@@ -1,25 +1,16 @@
 import React, { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
-// import { initializeApp } from "firebase/app";
-// import { getFirestore, addDoc, collection } from "firebase/firestore"; 
-// import MyButton from '../base/myButton/MyButton';
+import { toast } from 'react-toastify';
 import MyTextfield from '../base/myTextField/MyTextField';
 import MyToast from '../base/myToast/MyToast';
-
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
 const ContactMe: React.FC = () => {
     
     const {t} = useTranslation();
-    // const [submitted, setSubmitted] = useState(false);
     const form = useRef<HTMLFormElement>(null);
 
     const handleSubmit = (e: React.SyntheticEvent) => {
-        // setTimeout(() => {
-        // setSubmitted(true);
-        // }, 100);
-
         e.preventDefault();
 
         emailjs.sendForm(
@@ -29,6 +20,9 @@ const ContactMe: React.FC = () => {
             process.env.REACT_APP_PUBLIC_KEY
             )
             .then((result) => {
+                toast.success("Message sent!", {
+                    position: toast.POSITION.TOP_CENTER
+                });
                 console.log(result.text);
                 console.log("meassage sent");
             }, (error) => {
@@ -36,15 +30,6 @@ const ContactMe: React.FC = () => {
             }
         );
     };
-
-    // if (submitted) {
-    //     return (
-    //     <>
-    //         <h2>Thank you!</h2>
-    //         <div>We'll be in touch soon.</div>
-    //     </>
-    //     );
-    // }
 
     return (
         <div className="contact-me" id="contactMe">
@@ -62,7 +47,6 @@ const ContactMe: React.FC = () => {
             <svg className="arrow-down"/>
             <form
                 ref={form}
-                action={FORM_ENDPOINT}
                 onSubmit={handleSubmit}
                 method="POST"
                 target="_blank"
@@ -106,12 +90,6 @@ const ContactMe: React.FC = () => {
                     />
                 </div>
                 <div className="btn-align btn-align__center">
-                    {/* <MyButton 
-                        submit
-                        variant="contained"
-                        label="buttons.submit"
-                        size="large"
-                    /> */}
                     <MyToast/>
                 </div>
             </form>
