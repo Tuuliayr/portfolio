@@ -24,7 +24,6 @@ const ContactMe: React.FC = () => {
                     position: toast.POSITION.TOP_CENTER
                 });
                 console.log(result.text);
-                console.log("meassage sent");
             }, (error) => {
                 console.log(error.text);
             }
