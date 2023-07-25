@@ -3,8 +3,9 @@ import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
 // import { initializeApp } from "firebase/app";
 // import { getFirestore, addDoc, collection } from "firebase/firestore"; 
-import MyButton from '../base/myButton/MyButton';
+// import MyButton from '../base/myButton/MyButton';
 import MyTextfield from '../base/myTextField/MyTextField';
+import MyToast from '../base/myToast/MyToast';
 
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
@@ -105,12 +106,13 @@ const ContactMe: React.FC = () => {
                     />
                 </div>
                 <div className="btn-align btn-align__center">
-                    <MyButton 
+                    {/* <MyButton 
                         submit
                         variant="contained"
                         label="buttons.submit"
                         size="large"
-                    />
+                    /> */}
+                    <MyToast/>
                 </div>
             </form>
         </div>
