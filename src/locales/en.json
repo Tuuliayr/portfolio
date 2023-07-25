@@ -5,6 +5,10 @@
         "back": "Back"
     },
 
+    "toast": {
+        "messageSent": "Message sent!"
+    },
+
     "navigation": {
         "about": "About",
         "work": "Projects",

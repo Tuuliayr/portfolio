@@ -5,6 +5,10 @@
         "back": "Takaisin"
     },
 
+    "toast": {
+        "messageSent": "Viesti lähetetty!"
+    },
+
     "navigation": {
         "about": "Minä",
         "work": "Projektit",
