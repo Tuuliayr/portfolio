@@ -1,11 +1,11 @@
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import MyButton from '../myButton/MyButton';
   
 const MyToast: React.FC = () => {
-    const {t} = useTranslation();
+    // const {t} = useTranslation();
 
     const notify = () => {
         toast.success("Message sent!", {
