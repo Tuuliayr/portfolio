@@ -6,7 +6,7 @@ Deployed with Netlify.
 
 [https://tuuliayravainen.netlify.app/](https://tuuliayravainen.netlify.app/)
 
-## Content
+## Portfolio content
 
 - Short introduction
 - Project introductions
