@@ -35,7 +35,14 @@ const DanceVote: React.FC = () => {
             <MediaQuery minWidth={768}>
                 <SidebarNav
                     destinations={["coverDance", "overviewDance", "understanding", "wireframes", "prototype", "takeaways"]}
-                    titles={["Dance Vote", "Overview", "Understanding", "Wireframes", "Prototype", "Takeaways"]}
+                    titles={[
+                                t("projects.danceVote.titleShort"), 
+                                t("projects.danceVote.overview.heading"), 
+                                t("projects.danceVote.understanding.heading"), 
+                                t("projects.danceVote.wireframes.heading"), 
+                                t("projects.danceVote.designRefine.heading"), 
+                                t("projects.danceVote.takeaways.heading")
+                            ]}
                     offsets={[-70, -60]}
                 />
             </MediaQuery>

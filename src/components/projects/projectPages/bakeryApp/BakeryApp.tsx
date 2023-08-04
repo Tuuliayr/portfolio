@@ -37,7 +37,14 @@ const BakeryApp: React.FC = () => {
             <MediaQuery minWidth={768}>
                 <SidebarNav
                     destinations={["coverBakery", "overview", "understanding", "designStart", "designRefine", "takeaways"]}
-                    titles={["Bakery Mobile App", t("projects.bakeryApp.overview.heading"), t("projects.bakeryApp.understanding.heading"), "Starting the design", "Refining the design", "Takeaways"]}
+                    titles={[
+                                t("projects.bakeryApp.titleShort"), 
+                                t("projects.bakeryApp.overview.heading"), 
+                                t("projects.bakeryApp.understanding.heading"), 
+                                t("projects.bakeryApp.designStart.heading"), 
+                                t("projects.bakeryApp.designRefine.heading"), 
+                                t("projects.bakeryApp.takeaways.heading")
+                            ]}
                     offsets={[-70, -60]}
                 />
             </MediaQuery>
