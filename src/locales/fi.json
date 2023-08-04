@@ -44,6 +44,7 @@
                 "home": "Leipomosovelluksen aloitusnäyttö."
             },
             "title": "Leipomon mobiiilitilausovelluksen UX/UI",
+            "titleShort": "Leipomon sovellus",
             "dateRole": "Kevät 2023 | UX/UI-suunnittelu",
             "desc": "Käyttöliittymän suunnitelma mobiilisovelluksesta leipomotuotteiden tilaamiseen paikallisesta leipomosta. Sovelluksella asiakkkaat pääsevät helposti käsiksi yksityiskohtaisiin tietoihin ainesosista ja ravintosisällöistä. Tarkoitus on auttaa asiakkaita tekemään sopivia valintoja ja lievittämään huolta allergeeneista.",
             "linkText": "Kokeile ",
@@ -157,6 +158,7 @@
         "danceVote": {
             "imgAlt": "DanceVote-sovelluksen äänestyshuone.",
             "title": "Äänestyssovelluksen UX- ja UI-suunnittelu (Opinnäytetyö)",
+            "titleShort": "DanceVote",
             "dateRole": "Syksy 2022 | UX/UI-suunnittelu",
             "desc": "Opinnäytyön tavoitteena oli yleisöäänestyssovelluksen käyttöliittymän ja käyttäjäkokemuksen suunnittelu. Toimeksiantaja Groove Connection Oy on sosiaalisen paritanssin kilpailuja järjestävä osakeyhtiö, joka halusi keventää tapahtumiensa tuomarien työtaakkaa. Opinnäytetyön tuloksena syntyi interaktiivinen prototyyppi, jonka pohjalta voitiin ohjelmoida tanssikilpailuissa hyodynnettävä verkkosovellus.",
             "theseusText": "Lue lisää ",

@@ -44,6 +44,7 @@
                 "home": "Bakery mobile ordering app's home page."
             },
             "title": "Bakery Mobile Ordering App Design",
+            "titleShort": "Bakery Mobile App",
             "dateRole": "Spring 2023 | UX/UI Design",
             "desc": "A design of a mobile app for ordering goods from a local bakery. The app provides the customers an easy way to access detailed information on used ingredients and nutrition charts, in order to support the customers making the most suitable choices for themselves and to alleviate concerns about allergens.",
             "linkText": "View ",
@@ -158,6 +159,7 @@
         "danceVote": {
             "imgAlt": "Voting room page of the DanceVote app.",
             "title": "UX and UI design of a Voting App (Thesis)",
+            "titleShort": "DanceVote",
             "dateRole": "Fall 2022 | UX/UI Design",
             "desc": "The objective of the thesis was to design a user interface for a voting application so that the audience could take part in judging. The commissioner of this thesis was Groove Connection Oy which is a limited company that organizes social partner dance competitions. The company hoped to lighten the workload of its judges. The thesis resulted in an interactive prototype that was used in the programming of the web application.",
             "theseusText": "Read more on ",
