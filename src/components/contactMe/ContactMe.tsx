@@ -20,7 +20,7 @@ const ContactMe: React.FC = () => {
             process.env.REACT_APP_PUBLIC_KEY
             )
             .then((result) => {
-                toast.success("Message sent!", {
+                toast.success(t("toast.messageSent"), {
                     position: toast.POSITION.TOP_CENTER
                 });
                 console.log(result.text);
