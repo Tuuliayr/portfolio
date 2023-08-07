@@ -11,16 +11,16 @@ const SidebarNav: React.FC<Props> = ({destinations, titles, offsets}) => {
     
     return (
         <div className="sidebar">
-                <div className="links">
-                    {destinations.map((des, i) =>
-                        <SidebarNavLink
-                            destination={des}
-                            title={titles[i]}
-                            offset={offsets[i]}
-                        />
-                    )}
-                </div>
+            <div className="links">
+                {destinations.map((des, i) =>
+                    <SidebarNavLink
+                        destination={des}
+                        title={titles[i]}
+                        offset={offsets[i]}
+                    />
+                )}
             </div>
+        </div>
     )
 }
 

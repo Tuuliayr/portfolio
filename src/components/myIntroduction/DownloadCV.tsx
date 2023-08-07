@@ -25,7 +25,7 @@ const DownloadCV: React.FC = () => {
             onClick={handleClick}
             startIcon={<DownloadIcon/>}
             size="large"
-        ></MyButton>
+        />
     );
 
 }
