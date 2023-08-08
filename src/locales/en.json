@@ -6,7 +6,8 @@
     },
 
     "toast": {
-        "messageSent": "Message sent!"
+        "messageSent": "Message sent!",
+        "error": "Message could not be sent. Try again later."
     },
 
     "navigation": {

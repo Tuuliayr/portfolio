@@ -6,7 +6,8 @@
     },
 
     "toast": {
-        "messageSent": "Viesti lähetetty!"
+        "messageSent": "Viesti lähetetty!",
+        "error": "Viestiä ei voitu lähettää. Kokeile myöhemmin uudelleen."
     },
 
     "navigation": {
