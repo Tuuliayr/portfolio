@@ -15,15 +15,6 @@ const Projects: React.FC = () => {
             <h2 className="projects__title">{t("projects.title")}</h2>
             <p className="projects__p">{t("projects.desc")}</p>
             <div className="project-cards-container">
-                <ProjectCard 
-                    url="/bakery-app"
-                    title={t("projects.bakeryApp.title")}
-                    dateRole={t("projects.bakeryApp.dateRole")}
-                    techs={[TechTags.FIGMA]}
-                    desc={t("projects.bakeryApp.desc")}
-                    myImg={imgBakery}
-                    myImgAlt={"projects.bakeryApp.imgAlts.home"}
-                />
                 <ProjectCard
                     url="/dance-vote"
                     title={t("projects.danceVote.title")}
@@ -41,6 +32,15 @@ const Projects: React.FC = () => {
                     desc={t("projects.farmersApp.desc")}
                     myImg={imgFarmer}
                     myImgAlt={"projects.farmersApp.imgAlt"}
+                />
+                <ProjectCard 
+                    url="/bakery-app"
+                    title={t("projects.bakeryApp.title")}
+                    dateRole={t("projects.bakeryApp.dateRole")}
+                    techs={[TechTags.FIGMA]}
+                    desc={t("projects.bakeryApp.desc")}
+                    myImg={imgBakery}
+                    myImgAlt={"projects.bakeryApp.imgAlts.home"}
                 />
             </div>
         </div>
