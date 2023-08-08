@@ -55,7 +55,10 @@ const DanceVote: React.FC = () => {
                 <div className="text-wrapper cover__text">
                     <h1>{t("projects.danceVote.title")}</h1>
                     <p>{t("projects.danceVote.desc")}</p>
-                    <MyTag label={t("projects.techs.FIGMA")}/>
+                    <p className="p-small">{t("projects.danceVote.grade")}</p>
+                    <div className="tags">
+                        <MyTag label={t("projects.techs.FIGMA")}/>
+                    </div>
                     <p className="project-link">
                         {t("projects.danceVote.theseusText")}
                         <a

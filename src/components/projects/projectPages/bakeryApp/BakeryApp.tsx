@@ -45,7 +45,7 @@ const BakeryApp: React.FC = () => {
                                 t("projects.bakeryApp.designRefine.heading"), 
                                 t("projects.bakeryApp.takeaways.heading")
                             ]}
-                    offsets={[-70, -60]}
+                    offsets={[-40, -40, -40, -40, -40, -16]}
                 />
             </MediaQuery>
             <div className="cover" id="coverBakery">
@@ -57,7 +57,9 @@ const BakeryApp: React.FC = () => {
                 <div className="text-wrapper cover__text">
                     <h1>{t("projects.bakeryApp.title")}</h1>
                     <p>{t("projects.bakeryApp.desc")}</p>
-                    <MyTag label={t("projects.techs.FIGMA")}/>
+                    <div className="tags">
+                        <MyTag label={t("projects.techs.FIGMA")}/>
+                    </div>
                     <p className="project-link">
                         {t('projects.bakeryApp.linkText')}
                         <a
