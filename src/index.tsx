@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App';
-import BakeryApp from './components/projects/projectPages/bakeryApp/BakeryApp';
-import DanceVote from './components/projects/projectPages/danceVote/DanceVote';
-import FarmersApp from './components/projects/projectPages/farmersApp/FarmersApp';
-import ProjectBaltic from './components/projects/projectPages/projectBaltic/ProjectBaltic';
+import BakeryApp from './components/projects/projectPages/BakeryApp';
+import DanceVote from './components/projects/projectPages/DanceVote';
+import FarmersApp from './components/projects/projectPages/FarmersApp';
+import ProjectBaltic from './components/projects/projectPages/ProjectBaltic';
 import "./i18n";
 
 const root = ReactDOM.createRoot(
