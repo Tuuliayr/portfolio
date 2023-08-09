@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import imgBakery from '../../static/images/bakery-app-home1.jpg';
 import imgVoting from '../../static/images/voting-app-voting1.png';
 import imgFarmer from '../../static/images/farmer-app-myboxes1.png';
+import imgBaltic from '../../static/images/baltic-logo.png'
 import TechTags from '../../models/TechTags';
 
 const Projects: React.FC = () => {
@@ -41,6 +42,15 @@ const Projects: React.FC = () => {
                     desc={t("projects.bakeryApp.desc")}
                     myImg={imgBakery}
                     myImgAlt={"projects.bakeryApp.imgAlts.home"}
+                />
+                <ProjectCard 
+                    url="/project-baltic"
+                    title={t("projects.projectBaltic.title")}
+                    dateRole={t("projects.projectBaltic.dateRole")}
+                    techs={[TechTags.KRITA]}
+                    desc={t("projects.projectBaltic.desc")}
+                    myImg={imgBaltic}
+                    myImgAlt={"projects.projectBaltic.imgAlts.home"}
                 />
             </div>
         </div>
