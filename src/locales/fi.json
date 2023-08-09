@@ -227,7 +227,7 @@
                 }
             },
             "takeaways": {
-                "heading": "Takeaways",
+                "heading": "Loppusanat",
                 "impact": "Merkitys: ",
                 "impactText": "Opinnäytetyön tuloksena syntyi interaktiivinen prototyyppi, joka mallintaa lopullisen sovelluksen ulkonäköä ja toiminnallisuutta. Käyttäjä voi osallistua äänestykseen, tarkastella äänestystuloksia tai luoda ja hallinnoida omia äänestyksiään.",
                 "whatLearned": "Mitä opin: ",
@@ -243,16 +243,19 @@
         "farmersApp": {
             "imgAlt": "Kuva My boxes -sivusta.",
             "title": "Verkkosovellus maanviljelijöille",
-            "dateRole": "Kevät 2020 | Web-ohjelmointi",
+            "dateRole": "Kevät 2021 | Web-ohjelmointi",
             "team": "Tiimin jäseniä: 10",
             "role": "Roolini: yksi kolmesta ohjelmoijasta",
             "desc": "Kansainvälinen asiakasprojekti, jossa suunniteltiin ja toteutettiin verkkosovelluksen prototyyppi, jonka avulla maanviljelijät voivat nähdä reaaliaikaista dataa myyntilaatikoidensa täyttöasteista. Sovellus mahdollistaa tuotteiden lisäämisen, poistamisen ja muokkaamisen."
         },
-        "mobileGame": {
-            "title": "Project Baltic: Pelasta Itämeri mobiilipelillä",
-            "date": "Kevät 2020",
-            "role": "Peligraafikko",
-            "desc": "Tässä on kuvaus."
+
+        "projectBaltic": {
+            "title": "Project Baltic: Itämeren pelastusmobiilipeli",
+            "dateRole": "Kevät 2020 | Mobiilipeli",
+            "team": "Tiimin jäseniä: 4",
+            "role": "Roolini: grafiikat",
+            "desc": "Project Balticissa pelaaja ostaa ja ylläpitää maatiloja Itämeren alueella. Pelin tavoitteena on pelastaa Itämeri päivittämällä maatiloja ympäristöystävällisesti sekä samalla oppia ravinteiden kierrosta. Peli toteutettiin Tampereen ammattikorkeakoulun tietojenkäsittelyn ensimmäisen vuoden opiskelijoiden toimesta yhteistyössä Oras-hankkeen kanssa.",
+            "link": "Project Balticin kotisivu"
         }
 
     }

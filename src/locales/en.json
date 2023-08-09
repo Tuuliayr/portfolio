@@ -251,11 +251,14 @@
             "linkText": "View ",
             "link": "Github repository"
         },
-        "mobileGame": {
-            "title": "Project Baltic: Save Baltic Sea the mobile game",
-            "date": "Spring 2020",
-            "role": "Graphics",
-            "desc": "Here is description."
+
+        "projectBaltic": {
+            "title": "Project Baltic: Save the Baltic Sea the mobile game",
+            "dateRole": "Spring 2020 | Mobile game",
+            "team": "Team members: 4",
+            "role": "My role: graphics",
+            "desc": "In Project Baltic the player buys and maintains farms in the Baltic Sea region. The goal the game is to save the Baltic sea by updating the farms in an environmentally friendly way and at the same time learn about the nutrient cycle. The game was implemented by first-year students of Tampere University of Applied Sciences in cooperation with the Oras project.",
+            "link": "Project Baltic's home page"
         }
     }
 }
