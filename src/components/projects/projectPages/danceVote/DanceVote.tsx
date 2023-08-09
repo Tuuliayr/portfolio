@@ -148,7 +148,7 @@ const DanceVote: React.FC = () => {
                     <img 
                         src={imgWireframes} 
                         alt="Wireframes of the log in flow." 
-                        className="design-start__img-small"
+                        className="design-start__img-large"
                     />
                     <p>{t("projects.danceVote.wireframes.voter")}</p>
                     <img 

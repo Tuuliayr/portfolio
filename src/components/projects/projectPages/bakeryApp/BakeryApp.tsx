@@ -162,13 +162,13 @@ const BakeryApp: React.FC = () => {
                     <img 
                         src={imgPaperWireframe} 
                         alt="Five different paper wireframe versions of the home page." 
-                        className="design-start__img-small"
+                        className="design-start__img-large"
                     />
                     <p>{t("projects.bakeryApp.designStart.paperWireframes.refinedVersion")}</p>
                     <img 
                         src={imgPaperWireframeRefined} 
                         alt="Refined version of the home page." 
-                        className="design-start__img-large"
+                        className="design-start__img-small"
                     />
                     <h3>{t("projects.bakeryApp.designStart.digitalWireframes.heading")}</h3>
                     <p>{t("projects.bakeryApp.designStart.digitalWireframes.designs")}</p>
