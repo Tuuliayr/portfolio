@@ -30,7 +30,7 @@ const DanceVote: React.FC = () => {
     }, []);
 
     return (
-        <div className="bakery-app">
+        <div className="project-page">
             <BackNavbar/>
             <MediaQuery minWidth={768}>
                 <SidebarNav

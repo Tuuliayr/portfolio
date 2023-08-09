@@ -15,7 +15,7 @@ const FarmersApp: React.FC = () => {
     }, []);
 
     return (
-        <div className="bakery-app">
+        <div className="project-page">
             <BackNavbar/>
             <div className="cover" id="coverDance">
                 <img
