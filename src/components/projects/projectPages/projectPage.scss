@@ -1,0 +1,360 @@
+.project-page {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: $color-highlight;
+    }
+        
+    a:hover {
+        color: $font-color-primary;
+    }
+
+    .left-aligned {
+        h2, h3, p {
+            text-align: left;
+        }
+    }
+
+    .center-aligned {
+        h2, h3, p {
+            text-align: center;
+        }
+    }
+
+    .highlighted-text {
+        color: $color-highlight;
+        font-weight: $font-weight-bold;
+    }
+
+    .cover {
+        &__text {
+            h1, p {
+                text-align: left;
+            }
+
+            p {
+                font-size: $font-20;
+                opacity: 0.85;
+            }
+
+            .p-small {
+                font-size: $font-17;
+            }
+
+            .project-link {
+                font-size: $font-18;
+            }
+
+            .tags {
+                display: flex;
+                flex-flow: row nowrap;
+                padding-top: 16px;
+            }
+        }
+    }
+
+    .overview, .takeaways {
+        width: 100%;
+        padding: 48px 0px 56px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        background-color: $color-section-bg;
+    }
+
+    .understanding, .design-refine {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        background-color: $color-black;
+
+        .comparison {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+        }
+    }
+
+    .design-start {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        background-color: $color-section-bg;
+    }
+}
+
+@media (min-width: $xs) {
+    .project-page {
+        .text-wrapper {
+            width: 90%;
+
+            h2, p {
+                padding: 24px 0px 0px;
+            }
+
+            h3 {
+                padding: 56px 0px 24px;
+            }
+
+            &__list {
+                p {
+                    text-align: left;
+                }
+            }
+
+            &__space {
+                padding: 0px 16px 24px;
+            }
+        }
+
+        .icon {
+            padding: 40px;
+            color: $color-secondary;
+            font-size: $font-60;
+        }
+        
+        .cover{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            background-color: $color-black;
+            padding: 80px 16px 40px;
+    
+            &__text {
+                .project-link {
+                    padding-top: 24px;
+                }
+            }
+
+            .cover__img {
+                height: 350px;
+                padding: 16px;
+            }
+        }
+    
+        .understanding, .design-refine {
+            padding: 48px 0px 56px;
+    
+            .comparison {
+                padding: 24px 0px 24px;
+    
+                .arrow-right {
+                    padding: 16px;
+                    color: $color-secondary;
+                    font-size: $font-24;
+                }
+
+                &__img {
+                    width: 40%;
+                    padding: 16px 0px;
+                }
+            }
+    
+            &__img-small {
+                width: 100%;
+                padding: 16px 0px;
+            }
+
+            &__img-medium {
+                width: 70%;
+                padding: 16px 0px;
+            }
+
+            &__img-large {
+                width: 50%;
+                padding: 16px 0px;
+            }
+
+            .key-mockups {
+                display: flex;
+                flex-flow: column nowrap;
+
+                &__img {
+                    height: 400px;
+                    padding: 16px 0px;
+                }
+            }
+        }
+
+        .design-start {
+            padding: 48px 0px 56px;
+                    
+            &__img-small {
+                width: 100%;
+                padding: 16px 0px;
+            }
+
+            &__img-medium {
+                width: 80%;
+                padding: 16px 0px;
+            }
+
+            &__img-large {
+                width: 50%;
+                padding: 16px 0px;
+            }
+        }
+    }
+}
+
+@media (min-width: $small) {
+    .project-page {
+        .design-refine {
+            .comparison {
+                &__img {
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $medium) {
+    .project-page {
+        .text-wrapper {
+            width: 60%;
+        }
+
+        .design-refine {
+            .comparison {
+                &__img {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $large) {
+    .project-page {
+        .text-wrapper {
+            width: 60%;
+
+            h2, p {
+                padding: 24px 0px 0px;
+            }
+
+            h3 {
+                padding: 56px 0px 24px;
+            }
+
+            &__list {
+                width: 30%;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+            &__space {
+                padding: 0px 16px 24px;
+            }
+        }
+
+        .icon {
+            padding: 32px;
+            color: $color-secondary;
+            font-size: $font-60;
+        }
+        
+        .cover{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            background-color: $color-black;
+            padding: 80px 16px 40px;
+    
+            &__text {
+                width: 36%;
+                padding-left: 80px;
+    
+                .project-link {
+                    padding-top: 24px;
+                }
+            }
+
+            .cover__img {
+                height: 560px;
+                padding: 24px;
+            }
+        }
+    
+        .understanding, .design-refine {
+            padding: 80px 0px 144px;
+    
+            .comparison {
+                padding: 24px 0px 24px;
+    
+                .arrow-right {
+                    padding: 56px;
+                    color: $color-secondary;
+                    font-size: $font-48;
+                }
+
+                &__img {
+                    width: 25%;
+                    padding: 16px 0px;
+                }
+            }
+    
+            &__img-small {
+                width: 70%;
+                padding: 16px 0px;
+            }
+
+            &__img-medium {
+                width: 60%;
+                padding: 16px 0px;
+            }
+
+            &__img-large {
+                width: 25%;
+                padding: 16px 0px;
+            }
+
+            .key-mockups {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 40px;
+
+                &__img {
+                    height: 400px;
+                    padding: 24px 0px;
+                }
+            }
+        }
+
+        .takeaways {
+            padding-bottom: 104px;
+        }
+
+        .design-start {
+            padding: 48px 16px 56px;
+                    
+            &__img-large {
+                width: 70%;
+                padding: 16px 0px;
+            }
+
+            &__img-medium {
+                width: 50%;
+                padding: 16px 0px;
+            }
+
+            &__img-small {
+                width: 25%;
+                padding: 16px 0px;
+            }
+        }
+    }
+}
