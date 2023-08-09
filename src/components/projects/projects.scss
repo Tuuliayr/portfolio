@@ -1,5 +1,5 @@
 .projects {
-    width: 100%;
+    // width: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -36,7 +36,7 @@
 
 @media (min-width: $medium) {
     .projects {
-        margin: 120px 0px 136px 0px;
+        margin: 120px 32px 136px 32px;
 
         &__p {
             width: 50%;
