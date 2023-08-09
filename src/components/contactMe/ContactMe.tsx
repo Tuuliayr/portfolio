@@ -1,9 +1,10 @@
 import React, { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import MyTextfield from '../base/myTextField/MyTextField';
-import MyToast from '../base/myToast/MyToast';
+import MyButton from '../base/myButton/MyButton';
 
 const ContactMe: React.FC = () => {
     
@@ -91,7 +92,13 @@ const ContactMe: React.FC = () => {
                     />
                 </div>
                 <div className="btn-align btn-align__center">
-                    <MyToast/>
+                    <MyButton
+                        submit
+                        variant="contained"
+                        label="buttons.submit"
+                        size="large"
+                    />
+                    <ToastContainer toastStyle={{backgroundColor: "whitesmoke"}}/>
                 </div>
             </form>
         </div>
