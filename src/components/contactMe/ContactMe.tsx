@@ -19,13 +19,15 @@ const ContactMe: React.FC = () => {
             form.current || "",
             process.env.REACT_APP_PUBLIC_KEY
             )
-            .then((result) => {
+            .then(() => {
                 toast.success(t("toast.messageSent"), {
                     position: toast.POSITION.TOP_CENTER
                 });
-                console.log(result.text);
             }, (error) => {
-                console.log(error.text);
+                toast.error(t("toast.error"), {
+                    position: toast.POSITION.TOP_CENTER
+                });
+                console.error(error.text);
             }
         );
     };
