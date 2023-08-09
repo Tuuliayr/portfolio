@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import imgFarmerApp from '../../../../static/images/farmer-app-myboxes.png';
-import MyTag from '../../../base/myTag/MyTag';
-import BackNavbar from '../../../navbar/BackNavbar';
-import Footer from '../../../footer/Footer';
+import imgFarmerApp from '../../../static/images/farmer-app-myboxes.png';
+import MyTag from '../../base/myTag/MyTag';
+import BackNavbar from '../../navbar/BackNavbar';
+import Footer from '../../footer/Footer';
 
 const FarmersApp: React.FC = () => {
 

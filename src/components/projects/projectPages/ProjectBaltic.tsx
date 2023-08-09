@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import MyTag from '../../../base/myTag/MyTag';
-import BackNavbar from '../../../navbar/BackNavbar';
-import Footer from '../../../footer/Footer';
-import imgProjectBaltiLogo from '../../../../static/images/baltic-logo.png';
-import imgProjectBalticMap from '../../../../static/images/baltic-map.jpg';
-import imgProjectBalticFarm from '../../../../static/images/baltic-farm.jpg';
-import imgProjectBalticResearch from '../../../../static/images/baltic-research.jpg';
+import MyTag from '../../base/myTag/MyTag';
+import BackNavbar from '../../navbar/BackNavbar';
+import Footer from '../../footer/Footer';
+import imgProjectBaltiLogo from '../../../static/images/baltic-logo.png';
+import imgProjectBalticMap from '../../../static/images/baltic-map.jpg';
+import imgProjectBalticFarm from '../../../static/images/baltic-farm.jpg';
+import imgProjectBalticResearch from '../../../static/images/baltic-research.jpg';
 
 const ProjectBaltic: React.FC = () => {
 
