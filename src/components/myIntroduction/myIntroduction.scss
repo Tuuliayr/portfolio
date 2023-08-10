@@ -19,12 +19,7 @@
     background-repeat: no-repeat;
 }
 
-.my-pic {
-    order: 1;
-}
-
 .about-me {
-    order: 3;
     height: 100%;
     z-index: 99;
 
@@ -45,7 +40,6 @@
 }
 
 .my-links {
-    order: 3;
     display: flex;
 }
 
@@ -84,7 +78,8 @@
 @media (min-width: $large) {
     .my-intro-container {
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 96px;
         min-height: 832px;
         padding-top: 24px;
     }
