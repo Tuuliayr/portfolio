@@ -1,22 +1,23 @@
 import React from 'react';
-import "./Styles.scss";
-import NavbarSelector from './components/navbar/NavbarSelector';
-import MyIntroduction from './components/myIntroduction/MyIntroduction';
-import Projects from './components/projects/Projects';
-import ContactMe from './components/contactMe/ContactMe';
-import Footer from './components/footer/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from './pages/mainPage/Main';
+import BakeryApp from './pages/projectPages/BakeryApp';
+import DanceVote from './pages/projectPages/DanceVote';
+import FarmersApp from './pages/projectPages/FarmersApp';
+import ProjectBaltic from './pages/projectPages/ProjectBaltic';
 
 function App() {
     return (
-        <div>
-            <NavbarSelector/>
-            <div className="app">
-                <MyIntroduction/>
-                <Projects/>
-                <ContactMe/>
-                <Footer/>
-            </div>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Main/>}/>
+                <Route path="/bakery-app" element={<BakeryApp/>}/>
+                <Route path="/dance-vote" element={<DanceVote/>}/>
+                <Route path="/farmers-app" element={<FarmersApp/>}/>
+                <Route path="/project-baltic" element={<ProjectBaltic/>}/>
+                {/* <Route path="/*" element={<NoPage/>}/> */}
+            </Routes>
+        </BrowserRouter>
     );
 }
 
