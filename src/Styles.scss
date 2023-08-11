@@ -18,6 +18,9 @@
 // Languages
 @import "components/languageSelector/languageSelector.scss";
 
+// Main
+@import "pages/mainPage/main.scss";
+
 // About
 @import "components/myIntroduction/myIntroduction.scss";
 @import "components/myIntroduction/myLinks.scss";
@@ -25,17 +28,18 @@
 
 // Projects
 @import "components/projects/projects.scss";
-@import "components/projects/projectPages/projectPage.scss";
 @import "components/projects/projectCard.scss";
 
 // Contact me
 @import "components/contactMe/contactMe.scss";
 
+// Project pages
+@import "pages/projectPages/projectPage.scss";
+
 // Footer
 @import "components/footer/footer.scss";
 
 // Root styles
-@import "App.scss";
 @import "index.scss";
 
 
