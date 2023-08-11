@@ -161,7 +161,7 @@ const DanceVote: React.FC = () => {
                     <img 
                         src={imgWireframesAccessibility} 
                         alt="Wireframe of the voting room page with better accessibility." 
-                        className="design-start__img-large"
+                        className="design-start__img-small"
                     />
                     </div>
                 </div>
