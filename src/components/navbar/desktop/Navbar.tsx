@@ -5,6 +5,7 @@ import { useLocation } from 'react-router-dom';
 import { useMediaQuery } from '@mui/material';
 import LanguageSelector from '../../languageSelector/LanguageSelector';
 import MyBackButton from '../../base/myBackButton/MyBackButton';
+import NavbarMobile from '../mobile/NavbarMobile';
 
 const Navbar: React.FC = () => {
     const {t} = useTranslation();
@@ -64,6 +65,7 @@ const Navbar: React.FC = () => {
                         <LanguageSelector/>
                     </div>
                 </div>
+                {isMainPage && smallScreen && <NavbarMobile/>}
             </div>
     );
 }
