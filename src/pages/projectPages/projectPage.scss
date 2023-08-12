@@ -55,6 +55,10 @@
                 padding-top: 16px;
             }
         }
+
+        &__img {
+            border-radius: 10%;
+        }
     }
 
     .overview, .takeaways {
@@ -119,7 +123,7 @@
             font-size: $font-60;
         }
         
-        .cover{
+        .cover {
             display: flex;
             flex-flow: column nowrap;
             justify-content: center;
@@ -133,7 +137,7 @@
                 }
             }
 
-            .cover__img {
+            &__img {
                 height: 350px;
                 padding: 16px;
             }
@@ -199,6 +203,12 @@
             &__img-small {
                 width: 50%;
                 padding: 16px 0px;
+            }
+
+            &__img-gallery {
+                img {
+                    padding: 24px 0px;
+                }
             }
         }
     }
@@ -281,7 +291,7 @@
                 }
             }
 
-            .cover__img {
+            &__img {
                 height: 560px;
                 padding: 24px;
             }
@@ -354,6 +364,12 @@
             &__img-small {
                 width: 25%;
                 padding: 16px 0px;
+            }
+
+            &__img-gallery {
+                img {
+                    padding: 48px 0px;
+                }
             }
         }
     }
