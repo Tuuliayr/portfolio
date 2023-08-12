@@ -2,32 +2,31 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
+import { useMediaQuery } from '@mui/material';
 import LanguageSelector from '../../languageSelector/LanguageSelector';
 import MyBackButton from '../../base/myBackButton/MyBackButton';
 
 const Navbar: React.FC = () => {
     const {t} = useTranslation();
-    const [buttonIsVisible, setButtonIsVisible] = useState(false);
-    const [menuIsVisible, setMenuIsVisible] = useState(true);
+    const [isMainPage, setIsMainPage] = useState(true);
     const location = useLocation();
+    const smallScreen = useMediaQuery('(max-width: 768px)');
 
     useEffect(() => {
         if ( location.pathname === "/") {
-            setButtonIsVisible(false);
-            setMenuIsVisible(true);
+            setIsMainPage(true);
         } else {
-            setButtonIsVisible(true);
-            setMenuIsVisible(false);
+            setIsMainPage(false);
         }
     }, [location.pathname]);
 
     return (
             <div className="navbar">
                 <div className="nav-left">
-                    {buttonIsVisible && <MyBackButton/>}
+                    {!isMainPage && <MyBackButton/>}
                 </div>
                 <div className="nav-right">
-                    {menuIsVisible &&
+                    {isMainPage && !smallScreen &&
                         <div className="nav-links">
                             <Link
                                 activeClass="active"
