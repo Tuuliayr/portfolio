@@ -242,7 +242,7 @@
         },
         
         "farmersApp": {
-            "imgAlt": "Picture of the 'My boxes' page.",
+            "imgAlt": "'My boxes' page.",
             "title": "Web App for Farmers",
             "dateRole": "Spring 2021 | Web Development",
             "team": "Team members: 10",
@@ -258,7 +258,8 @@
             "team": "Team members: 4",
             "role": "My role: graphics",
             "desc": "In Project Baltic the player buys and maintains farms in the Baltic Sea region. The goal the game is to save the Baltic sea by updating the farms in an environmentally friendly way and at the same time learn about the nutrient cycle. The game was implemented by first-year students of Tampere University of Applied Sciences in cooperation with the Oras project.",
-            "link": "Project Baltic's home page"
+            "link": "Project Baltic's home page",
+            "gallery": "Gallery"
         }
     }
 }

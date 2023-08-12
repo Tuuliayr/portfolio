@@ -241,7 +241,7 @@
         },
 
         "farmersApp": {
-            "imgAlt": "Kuva My boxes -sivusta.",
+            "imgAlt": "My boxes -sivu.",
             "title": "Verkkosovellus maanviljelijöille",
             "dateRole": "Kevät 2021 | Web-ohjelmointi",
             "team": "Tiimin jäseniä: 10",
@@ -255,7 +255,8 @@
             "team": "Tiimin jäseniä: 4",
             "role": "Roolini: grafiikat",
             "desc": "Project Balticissa pelaaja ostaa ja ylläpitää maatiloja Itämeren alueella. Pelin tavoitteena on pelastaa Itämeri päivittämällä maatiloja ympäristöystävällisesti sekä samalla oppia ravinteiden kierrosta. Peli toteutettiin Tampereen ammattikorkeakoulun tietojenkäsittelyn ensimmäisen vuoden opiskelijoiden toimesta yhteistyössä Oras-hankkeen kanssa.",
-            "link": "Project Balticin kotisivu"
+            "link": "Project Balticin kotisivu",
+            "gallery": "Galleria"
         }
 
     }
