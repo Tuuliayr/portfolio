@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from './components/navbar/desktop/Navbar';
 import Main from './pages/mainPage/Main';
 import BakeryApp from './pages/projectPages/BakeryApp';
 import DanceVote from './pages/projectPages/DanceVote';
@@ -9,6 +10,7 @@ import ProjectBaltic from './pages/projectPages/ProjectBaltic';
 function App() {
     return (
         <BrowserRouter>
+            <Navbar/>
             <Routes>
                 <Route path="/" element={<Main/>}/>
                 <Route path="/bakery-app" element={<BakeryApp/>}/>
