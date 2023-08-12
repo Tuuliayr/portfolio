@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import imgFarmerApp from '../../static/images/farmer-app-myboxes.png';
 import MyTag from '../../components/base/myTag/MyTag';
-import BackNavbar from '../../components/navbar/BackNavbar';
 import Footer from '../../components/footer/Footer';
 
 const FarmersApp: React.FC = () => {
@@ -16,7 +15,6 @@ const FarmersApp: React.FC = () => {
 
     return (
         <div className="project-page">
-            <BackNavbar/>
             <div className="cover" id="coverDance">
                 <img
                     src={imgFarmerApp} 

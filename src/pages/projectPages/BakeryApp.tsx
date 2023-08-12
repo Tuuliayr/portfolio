@@ -19,7 +19,6 @@ import imgMockupBeforeProfile from '../../static/images/mockup-before2.jpg';
 import imgMockupAfterProfile from '../../static/images/mockup-after2.jpg';
 import imgMockupBrowse from '../../static/images/mockup-browse.jpg';
 import imgMockupCheckout from '../../static/images/mockup-checkout.jpg';
-import BackNavbar from '../../components/navbar/BackNavbar';
 import SidebarNav from '../../components/navbar/desktop/SidebarNav';
 import MyTag from '../../components/base/myTag/MyTag';
 import Footer from '../../components/footer/Footer';
@@ -33,7 +32,6 @@ const BakeryApp: React.FC = () => {
 
     return (
         <div className="project-page">
-            <BackNavbar/>
             <MediaQuery minWidth={768}>
                 <SidebarNav
                     destinations={["coverBakery", "overview", "understanding", "designStart", "designRefine", "takeaways"]}

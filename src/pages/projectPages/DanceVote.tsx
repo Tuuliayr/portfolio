@@ -18,7 +18,6 @@ import imgWireframes from '../../static/images/voting-app-wireframes.png';
 import imgWireframesConfirmation from '../../static/images/votingroom-confimation.png';
 import imgWireframesAccessibility from '../../static/images/votingroom-accessibility.png';
 import MyTag from '../../components/base/myTag/MyTag';
-import BackNavbar from '../../components/navbar/BackNavbar';
 import SidebarNav from '../../components/navbar/desktop/SidebarNav';
 import Footer from '../../components/footer/Footer';
 
@@ -31,7 +30,6 @@ const DanceVote: React.FC = () => {
 
     return (
         <div className="project-page">
-            <BackNavbar/>
             <MediaQuery minWidth={768}>
                 <SidebarNav
                     destinations={["coverDance", "overviewDance", "understanding", "wireframes", "prototype", "takeaways"]}

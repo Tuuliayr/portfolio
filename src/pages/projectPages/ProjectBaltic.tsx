@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import MyTag from '../../components/base/myTag/MyTag';
-import BackNavbar from '../../components/navbar/BackNavbar';
 import Footer from '../../components/footer/Footer';
 import imgProjectBaltiLogo from '../../static/images/baltic-logo.png';
 import imgProjectBalticMap from '../../static/images/baltic-map.jpg';
@@ -19,7 +18,6 @@ const ProjectBaltic: React.FC = () => {
 
     return (
         <div className="project-page">
-            <BackNavbar/>
             <div className="cover" id="coverDance">
                 <img
                     src={imgProjectBaltiLogo} 
