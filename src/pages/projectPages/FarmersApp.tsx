@@ -15,10 +15,10 @@ const FarmersApp: React.FC = () => {
 
     return (
         <div className="project-page">
-            <div className="cover" id="coverDance">
+            <div className="cover">
                 <img
                     src={imgFarmerApp} 
-                    alt="DanceVote app's voting page." 
+                    alt="'My boxes' page." 
                     className="cover__img"
                 />
                 <div className="text-wrapper cover__text">
