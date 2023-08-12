@@ -62,3 +62,15 @@
         align-items: center;
     }
 }
+
+@media (min-width: $xs) {
+    .navbar {
+        height: 64px;
+    }
+}
+
+@media (min-width: $medium) {
+    .navbar {
+        height: 80px;
+    }
+}
