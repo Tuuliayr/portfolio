@@ -5,8 +5,9 @@ import MyTag from '../../components/base/myTag/MyTag';
 import Footer from '../../components/footer/Footer';
 import imgProjectBaltiLogo from '../../static/images/baltic-logo.png';
 import imgProjectBalticMap from '../../static/images/baltic-map.jpg';
+import imgProjectBalticMapProgress from '../../static/images/baltic-map-progress.jpg';
 import imgProjectBalticFarm from '../../static/images/baltic-farm.jpg';
-import imgProjectBalticResearch from '../../static/images/baltic-research.jpg';
+import imgProjectBalticFarmFin from '../../static/images/baltic-farm-fin.jpg';
 
 const ProjectBaltic: React.FC = () => {
 
@@ -18,7 +19,7 @@ const ProjectBaltic: React.FC = () => {
 
     return (
         <div className="project-page">
-            <div className="cover" id="coverDance">
+            <div className="cover">
                 <img
                     src={imgProjectBaltiLogo} 
                     alt="Project Baltic logo." 
@@ -45,20 +46,26 @@ const ProjectBaltic: React.FC = () => {
                     </p>
                 </div>
             </div>
-            <div className="design-start">
+            <div className="design-start design-start__img-gallery">
+                <h2>{t("projects.projectBaltic.gallery")}</h2>
                 <img
-                        src={imgProjectBalticMap} 
-                        alt="Prject Baltic map." 
-                        className="design-start__img-medium"
-                    />
-                <img
-                    src={imgProjectBalticFarm} 
-                    alt="Prject Baltic farm." 
+                    src={imgProjectBalticMap} 
+                    alt="Project Baltic map." 
                     className="design-start__img-medium"
                 />
                 <img
-                    src={imgProjectBalticResearch} 
-                    alt="Prject Baltic farm." 
+                    src={imgProjectBalticMapProgress} 
+                    alt="Project Baltic map progress." 
+                    className="design-start__img-medium"
+                    />
+                <img
+                    src={imgProjectBalticFarm} 
+                    alt="Project Baltic farm start." 
+                    className="design-start__img-medium"
+                />
+                <img
+                    src={imgProjectBalticFarmFin} 
+                    alt="Project Baltic farm finished." 
                     className="design-start__img-medium"
                 />
             </div>
