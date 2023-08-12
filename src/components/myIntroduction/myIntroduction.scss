@@ -75,11 +75,17 @@
     }
 }
 
+@media (min-width: $medium) {
+    .my-intro-container {
+        padding-top: 124px;
+    }
+}
+
 @media (min-width: $large) {
     .my-intro-container {
         flex-flow: row wrap;
         justify-content: center;
-        gap: 96px;
+        gap: 72px;
         min-height: 832px;
         padding-top: 24px;
     }
@@ -96,5 +102,11 @@
             font-size: $font-24;
             text-align: left;
         }
+    }
+}
+
+@media (min-width: $xl) {
+    .my-intro-container {
+        gap: 96px;
     }
 }
