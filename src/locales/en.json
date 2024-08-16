@@ -11,19 +11,19 @@
     },
 
     "navigation": {
-        "about": "About",
+        "about": "Me",
         "work": "Projects",
         "contact": "Contact"
     },
     
     "myIntroduction": {
         "greeting": "Hi! I'm Tuuli.",
-        "aboutMe": "I started my studies in Business Information Systems in 2019 and have since gained valuable experience in various projects and roles. I have passion for web development and enjoy working with TypeScript, React and CSS and designing user experiences and interfaces. I take on new challenges with heart and sisu and hold myself to high standards in my work. I am looking for an internship position where I can be part of building usable products that meet user needs."
+        "aboutMe": "I'm getting my degree on Business Information Systems in September. During my studies I've gained valuable experience in various projects and roles. I'm enthusiastic about UX design and web development and enjoy working with TypeScript, React and CSS. I also learned WordPress during my internship. On my spare time I'm working on a 2D pixel art game project. I'm looking for a job where I can develop digital products in a customer-oriented way."
     },
 
     "contactMe": {
         "title": "Contact me",
-        "desc": "Thanks for stopping by! If you want to get in touch with me about work related things or in the spirit of networking, then please fill out the form below or send me a message on ",
+        "desc": "Thanks for stopping by! If you want to get in touch with me about work related things or in the spirit of networking, then please fill out the form below, email me or send me a message on ",
         "linkedin": "LinkedIn.",
         "name": "Your name",
         "email": "Your email",
@@ -33,7 +33,7 @@
 
     "projects": {
         "title": "Projects",
-        "desc": "Here you can read about some of the projects that I have worked on.",
+        "desc": "",
         "techs": {
             "FIGMA": "Figma",
             "REACT": "React",
