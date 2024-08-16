@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     background-color: $color-section-bg;
+    padding: 80px 0px 80px 0px;
 
     &__p {
         line-height: $line-height;
@@ -34,8 +35,6 @@
 
 @media (min-width: $xs) {
     .contact-me {
-        padding: 32px 0px 72px 0px;
-
         &__p {
             font-size: $font-18;
         }
@@ -56,7 +55,6 @@
     .contact-me {
         min-height: 872px;
         margin: 0px 32px;
-        padding: 32px 0px 64px 0px;
 
         &__p {
             width: 40%;
