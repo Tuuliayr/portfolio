@@ -33,7 +33,7 @@
 
     "projects": {
         "title": "Projektit",
-        "desc": "Projekteja opinnoista.",
+        "desc": "Projekteja opinnoistani.",
         "techs": {
             "FIGMA": "Figma",
             "REACT": "React",
