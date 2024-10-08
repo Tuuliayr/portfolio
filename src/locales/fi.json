@@ -18,7 +18,7 @@
 
     "myIntroduction": {
         "greeting": "Moikka! Mä oon Tuuli.",
-        "aboutMe": "Saan syyskuussa päätökseen tietojenkäsittelyn tradenomin opintoni, joiden aikana minulle on kerääntynyt arvokasta kokemusta erilaisista projekteista ja rooleista. Olen innostunut UX-suunnittelusta ja web-kehityksestä ja pidän TypeScriptin, Reactin ja CSS:n parissa työskentelystä. Työharjoitteluni aikana myös WordPressistä tuli tutumpi. Vapaa-ajan projektina teen 2D-pikseligrafiikka peliä. Haen työpaikkaa, jossa pääsen kehittämään digitaalisia tuotteita asiakaslähtöisesti."
+        "aboutMe": "Valmistuin elokuussa tietojenkäsittelyn tradenomiksi ja etsin työpaikkaa, jossa pääsen kehittämään digitaalisia tuotteita käyttäjälähtöisesti. Opintojeni aikana innostuin erityisesti UX- ja UI-suunnittelusta ja frontend-kehityksestä Reactilla ja TypeScriptilla. Työharjoittelun myötä myös WordPressistä tuli tutumpi, kun suunnittelin ja toteutin yritykselle verkkosivut. Hauskana vapaa-ajan projektina teen kumppanin kanssa peliä 2D-pikseligrafiikoilla."
     },
 
     "contactMe": {
@@ -33,7 +33,7 @@
 
     "projects": {
         "title": "Projektit",
-        "desc": "",
+        "desc": "Projekteja opinnoista.",
         "techs": {
             "FIGMA": "Figma",
             "REACT": "React",
